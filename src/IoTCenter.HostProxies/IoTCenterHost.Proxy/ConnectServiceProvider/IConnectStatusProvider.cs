@@ -1,0 +1,12 @@
+using IoTCenterHost.Core.Abstraction;
+
+namespace IoTCenterHost.Proxy.Core
+{
+    public interface IConnectStatusProvider
+    {
+        const string ServerTag = "ServerTag";
+
+        ConnectionStatus ConnectionStatus { get; set; }
+        string Token { get; }
+    }
+}

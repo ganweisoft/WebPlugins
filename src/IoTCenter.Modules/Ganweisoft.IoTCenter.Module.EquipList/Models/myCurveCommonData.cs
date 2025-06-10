@@ -1,0 +1,15 @@
+﻿using System;
+
+namespace Ganweisoft.IoTCenter.Module.EquipList;
+
+public class MyCurveCommonData
+{
+    public DateTime Datetime { get; set; }
+    public double Value { get; set; }
+}
+
+public class MyHistoryCommonData
+{
+    public DateTime Datetime { get; set; }
+    public string Value { get; set; }
+}
