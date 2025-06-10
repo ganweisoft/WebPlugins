@@ -5,7 +5,7 @@
 IoTCenterWebAPi  是一个完全开源、体系化、插件化、高性能、开箱即用、可用于生产环境，是物联网行业应用的一站式开发框架。IoTCenterWebAPi 核心代码采用C#编写，基于最新版本的.Net 9.0构建，其扩展出来的插件可以采用Java、 Python 、C++、Go、Rust等主流语言编写。IoTCenterWebAPi 支持容器部署、本地部署（Windows、Linux、MAC）、端侧低功耗设备部署（ARM、RISC-V）。
 
 ### 平台支持
-IoTCenterWebAPi  当前支持 Windows、Linux、MAC平台。
+IoTCenterWebAPi  当前支持 Windows、Linux、MacOS平台。
 
 
 ### 源码构建说明

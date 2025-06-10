@@ -6,7 +6,7 @@ IoTCenterWebAPi is a fully open-source, systematic, plugin-based, high-performan
 
 
 ### Platform Support  
-IoTCenterWebAPi currently supports Windows, Linux, and macOS platforms.
+IoTCenterWebAPi currently supports Windows, Linux, and MacOS platforms.
 
 
 ### Source Code Build Instructions  
