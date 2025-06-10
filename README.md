@@ -1,22 +1,23 @@
-# IoTCenterWebAPi                                                                                        [English](https://github.com/ganweisoft/IoTCenterWebAPi/blob/main/README.en.md)
+## **IoTCenterWebAPi**                                                                                                    [中文](https://github.com/ganweisoft/IoTCenterWebAPi/blob/main/README.md)
 
-IoTCenterWebAPi  是一个完全开源、体系化、插件化、高性能、开箱即用、可用于生产环境，是物联网行业应用的一站式开发框架。IoTCenterWebAPi 核心代码采用C#编写，基于最新版本的.Net 9.0构建，其扩展出来的插件可以采用Java、 Python 、C++、Go、Rust等主流语言编写。IoTCenterWebAPi 支持容器部署、本地部署（Windows、Linux、MAC）、端侧低功耗设备部署（ARM、RISC-V）。
-
-### 平台支持
-IoTCenterWebAPi  当前支持 Windows、Linux、MAC平台。
+OpenTOMs is a fully open-source, systematic, plugin-based, high-performance, out-of-the-box, and production-ready development framework for IoT industry applications. The core code of IoTCenterWebAPi  is written in C# and built on the latest .NET 9.0. Plugins can be developed using popular programming languages such as Java, Python, C++, Go, and Rust. IoTCenterWebAPi  supports container deployment, local deployment (Windows, Linux, macOS), and low-power edge device deployment (ARM, RISC-V).
 
 
-### 源码构建说明
+### Platform Support  
+IoTCenterWebAPi currently supports Windows, Linux, and macOS platforms.
 
-IoTCenterWebAPi 源码构建说明，请见[wiki](https://github.com/ganweisoft/IoTCenterWebAPi/wiki)
 
-### License
+### Source Code Build Instructions  
+For information on how to build IoTCenterWebAPi from source, please refer to the [Wiki](https://github.com/ganweisoft/IoTCenterWebAPi/wiki).
 
-IoTCenterWebAPi 使用非常宽松的MIT协议，请见 [License](https://github.com/ganweisoft/IoTCenterWebAPi/blob/main/LICENSE)。
 
-### 安装指导
-请见 [安装指南](https://github.com/ganweisoft/IoTCenterWebAPi/wiki)。
+### License  
+IoTCenterWebAPi is licensed under the very permissive MIT License. For details, see [License](https://github.com/ganweisoft/IoTCenterWebAPi/blob/main/LICENSE).
 
-### 如何提交贡献
 
-我们非常欢迎开发者提交贡献, 如果您发现了一个bug或者有一些想法想要交流，欢迎提交一个[issue](https://github.com/ganweisoft/IoTCenterWebAPi/blob/main/CONTRIBUTING.md).
+### Installation Guide  
+Please refer to the [Installation Guide](https://github.com/ganweisoft/IoTCenterWebAPi/wiki).
+
+
+### How to Contribute  
+We warmly welcome contributions from developers. If you find a bug or have any ideas you'd like to share, feel free to submit an [issue](https://github.com/ganweisoft/IoTCenterWebAPi/blob/main/CONTRIBUTING.md).
