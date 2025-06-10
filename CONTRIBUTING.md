@@ -4,7 +4,7 @@ One of the easiest ways to contribute is to participate in discussions on OpenTO
 
 ## General feedback and discussions?
 
-Start a discussion on the [repository issue tracker](https://gitee.com/shend/OpenTOMs/issues)).
+Start a discussion on the [repository issue tracker](https://github.com/ganweisoft/IoTCenterWebAPi/issues)).
 
 ## Bugs and feature requests?
 
@@ -15,7 +15,7 @@ Before reporting a new issue, try to find an existing issue if one already exist
 
 If you can't find an existing issue, log a new issue in the appropriate GitHub repository. Here are some of the most common repositories:
 
-* [Issues](https://gitee.com/shend/OpenTOMs/issues)
+* [Issues](https://github.com/ganweisoft/IoTCenterWebAPi/issues)
 
 ## Reporting security issues and bugs
 
@@ -30,7 +30,7 @@ To help you be successful we've put together a few simple rules to follow when y
 
   We've seen PRs, where customers would solve an issue in a way, which either wouldn't fit into the framework because of how it's designed or it would change the framework in a way, which is not something we'd like to do. To avoid these situations and potentially save you a lot of time, we encourage customers to discuss the preferred design with the team first. To do so, file a new `design proposal` issue, link to the issue you'd like to address, and provide detailed information about how you'd like to solve a specific problem. We triage issues periodically and it will not take long for a team member to engage with you on that proposal.
   When you get an agreement from our team members that the design proposal you have is solid, then go ahead and prepare the PR.
-  To file a design proposal, look for the relevant issue in the `New issue` page or simply click [this link](https://gitee.com/shend/OpenTOMs/issues/new?issue[assignee_id]=0&issue[milestone_id]=0)):
+  To file a design proposal, look for the relevant issue in the `New issue` page or simply click [this link](https://github.com/ganweisoft/IoTCenterWebAPi/issues)):
   ![image](https://user-images.githubusercontent.com/34246760/107969904-41b9ae80-6f65-11eb-8b84-d15e7d94753b.png)
 
 ### Before submitting the pull request
@@ -61,7 +61,7 @@ If you would like to contribute to one of our repositories, first identify the s
 
 ### Submitting a pull request
 
-If you don't know what a pull request is read this article: <[使用 Pull Request 功能进行代码审查 - Gitee.com](https://gitee.com/help/articles/4304#article-header0)>. Make sure the repository can build and all tests pass. Familiarize yourself with the project workflow and our coding conventions. The coding, style, and general engineering guidelines are published on the [Engineering guidelines](https://gitee.com/shend/OpenTOMs/wikis/Engineering-guidelines)) page.
+If you don't know what a pull request is read this article: <[pull-requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)>. Make sure the repository can build and all tests pass. Familiarize yourself with the project workflow and our coding conventions. The coding, style, and general engineering guidelines are published on the [Engineering guidelines](https://github.com/ganweisoft/IoTCenterWebAPi/wikis/Engineering-guidelines)) page.
 
 ### Tests
 
