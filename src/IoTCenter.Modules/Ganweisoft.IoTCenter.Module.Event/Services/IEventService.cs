@@ -1,0 +1,15 @@
+﻿using IoTCenter.Utilities;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace Ganweisoft.IoTCenter.Module.Event;
+
+public interface IEventService
+{
+    Task<OperateResult> RecordLoginEvent();
+    OperateResult<PagedResult<string>> GetEquipEvtByPage(EquipEvtModel equipEvtModel);
+
+    Task<OperateResult<PagedResult<SysEventResonse>>> GetSysEvtByPage(SysEvtModel sysEvtModel);
+
+    Task<OperateResult> GetSysEvtCollection(SysEvtType sysEvtType, DateType dateType);
+}
