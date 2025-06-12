@@ -2,23 +2,23 @@
 
 简体中文 | [English](README.md)
 
-IoTCenterWebAPi是一个基于ASP.NET Core的模块化和插件化应用程序框架，基于松耦合、高内聚的设计理念，构建了一个可扩展、易维护的应用框架，通过将核心逻辑与功能组件完全解耦，可进行二次开发
+WebPlugins 是一个基于ASP.NET Core和VUE的模块化和插件化应用程序框架，基于松耦合、高内聚的设计理念，构建了一个可扩展、易维护的应用框架，通过将核心逻辑与功能组件完全解耦，可进行二次开发
 
 ### 平台支持
-IoTCenterWebAPi  当前支持 Windows、Linux、MacOS平台。
+WebPlugins 当前支持 Windows、Linux、MacOS平台。
 
 
 ### 源码构建说明
 
-IoTCenterWebAPi 源码构建说明，请见[wiki](https://github.com/ganweisoft/IoTCenterWebAPi/wiki)
+WebPlugins 源码构建说明，请见[wiki](https://github.com/ganweisoft/WebPlugins/wiki)
 
 ### License
 
-IoTCenterWebAPi 使用非常宽松的MIT协议，请见 [License](https://github.com/ganweisoft/IoTCenterWebAPi/blob/main/LICENSE)。
+WebPlugins 使用非常宽松的MIT协议，请见 [License](https://github.com/ganweisoft/WebPlugins/blob/main/LICENSE)。
 
 ### 版本发布  
-IoTCenterWebAPi 发布版本的完整列表，请参考 [版本列表](https://github.com/ganweisoft/IoTCenterWebAPi/releases)。
+WebPlugins 发布版本的完整列表，请参考 [版本列表](https://github.com/ganweisoft/WebPlugins/releases)。
 
 ### 如何提交贡献
 
-我们非常欢迎开发者提交贡献, 如果您发现了一个bug或者有一些想法想要交流，欢迎提交一个[issue](https://github.com/ganweisoft/IoTCenterWebAPi/blob/main/CONTRIBUTING.md).
+我们非常欢迎开发者提交贡献, 如果您发现了一个bug或者有一些想法想要交流，欢迎提交一个[issue](https://github.com/ganweisoft/WebPlugins/blob/main/CONTRIBUTING.md).
