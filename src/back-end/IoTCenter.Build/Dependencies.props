@@ -3,7 +3,7 @@
 	<Import Project="Dependencies.AspNetCore.props" />
 
 	<ItemGroup>
-		<PackageManagement Include="IoTCenterHost.Core.Abstraction" Version="9.0.0.1" />
+		<PackageManagement Include="IoTCenterHost.Core.Abstraction" Version="9.0.0.2" />
 		<PackageManagement Include="NodaTime" Version="3.2.2" />
 		<PackageManagement Include="ncrontab" Version="3.3.3" />
 		<PackageManagement Include="Dapper" Version="2.1.66" />
