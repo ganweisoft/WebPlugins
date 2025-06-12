@@ -9,14 +9,14 @@ WebPlugins currently supports Windows, Linux, and MacOS platforms.
 
 
 ### Source Code Build Instructions  
-For information on how to build IoTCenterWebAPi from source, please refer to the [Wiki](https://github.com/ganweisoft/IoTCenterWebAPi/wiki).
+For information on how to build WebPlugins from source, please refer to the [Wiki](https://github.com/ganweisoft/WebPlugins/wiki).
 
 
 ### License  
-WebPlugins is licensed under the very permissive MIT License. For details, see [License](https://github.com/ganweisoft/IoTCenterWebAPi/blob/main/LICENSE).
+WebPlugins is licensed under the very permissive MIT License. For details, see [License](https://github.com/ganweisoft/WebPlugins/blob/main/LICENSE).
 
 ### Releasing  
-For the complete list of IoTCenterWebApi Releases, please see [Releases](https://github.com/ganweisoft/IoTCenterWebAPi/releases).
+For the complete list of WebPlugins Releases, please see [Releases](https://github.com/ganweisoft/IoTCenterWebAPi/releases).
 
 ### How to Contribute  
-We warmly welcome contributions from developers. If you find a bug or have any ideas you'd like to share, feel free to submit an [issue](https://github.com/ganweisoft/IoTCenterWebAPi/blob/main/CONTRIBUTING.md).
+We warmly welcome contributions from developers. If you find a bug or have any ideas you'd like to share, feel free to submit an [issue](https://github.com/ganweisoft/WebPlugins/blob/main/CONTRIBUTING.md).
