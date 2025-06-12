@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 122 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>菜单栏_遥测（选中）</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#3D7BFF" offset="0%"></stop>
+            <stop stop-color="#134FD8" offset="100%"></stop>
+        </linearGradient>
+        <path d="M4,0 L97.6720978,0 C99.1319419,-6.48541795e-15 100.475849,0.795296722 101.178412,2.07496475 L122,40 L122,40 L0,40 L0,4 C-2.705415e-16,1.790861 1.790861,-3.82769592e-17 4,0 Z" id="path-2"></path>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#1653DB" offset="0%"></stop>
+            <stop stop-color="#91B4FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="黑" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-43">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="BG备份-6" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            <path d="M97.6720978,0 C99.1319419,0 100.475849,0.795296722 101.178412,2.07496475 L122,40 L0,40 L0,4 C0,1.790861 1.790861,0 4,0 L97.6720978,0 Z M97.6720978,1 L4,1 C2.40231912,1 1.09633912,2.24891996 1.00509269,3.82372721 L1,4 L1,39 L120.311,39 L100.301833,2.55622356 C99.807844,1.65645698 98.8910933,1.07597812 97.8762732,1.00693298 L97.6720978,1 Z" id="BG备份-6" fill="url(#linearGradient-4)" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
