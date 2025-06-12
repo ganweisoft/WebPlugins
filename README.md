@@ -14,6 +14,7 @@
  <a href="https://element.eleme.io/#/zh-CN" target="__blank" style="margin-right:10px;">
  <img src='https://img.shields.io/badge/ElementUI-2.9.1-%23097abb?labelColor=#5a5a5a' />
  </a>
+
 English | [简体中文](README-CN.md)
 
 WebPlugins is a modular and pluggable application framework based on ASP.NET Core and VUE. Built on the design principles of loose coupling and high cohesion, it provides an extensible and maintainable application framework. By completely decoupling core logic from functional components, it enables secondary development.
