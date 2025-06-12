@@ -2,10 +2,10 @@
 
 English | [简体中文](README-CN.md)
 
-IoTCenterWebAPi is a modular and pluggable application framework based on ASP.NET Core. Built on the design principles of loose coupling and high cohesion, it provides an extensible and maintainable application framework. By completely decoupling core logic from functional components, it enables secondary development.
+WebPlugins is a modular and pluggable application framework based on ASP.NET Core and VUE. Built on the design principles of loose coupling and high cohesion, it provides an extensible and maintainable application framework. By completely decoupling core logic from functional components, it enables secondary development.
 
 ### Platform Support  
-IoTCenterWebAPi currently supports Windows, Linux, and MacOS platforms.
+WebPlugins currently supports Windows, Linux, and MacOS platforms.
 
 
 ### Source Code Build Instructions  
@@ -13,7 +13,7 @@ For information on how to build IoTCenterWebAPi from source, please refer to the
 
 
 ### License  
-IoTCenterWebAPi is licensed under the very permissive MIT License. For details, see [License](https://github.com/ganweisoft/IoTCenterWebAPi/blob/main/LICENSE).
+WebPlugins is licensed under the very permissive MIT License. For details, see [License](https://github.com/ganweisoft/IoTCenterWebAPi/blob/main/LICENSE).
 
 ### Releasing  
 For the complete list of IoTCenterWebApi Releases, please see [Releases](https://github.com/ganweisoft/IoTCenterWebAPi/releases).
