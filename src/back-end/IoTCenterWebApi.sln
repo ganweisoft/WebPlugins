@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoTCenter.Build", "IoTCente
 		IoTCenter.Build\IoTCenterCore.Commons.props = IoTCenter.Build\IoTCenterCore.Commons.props
 		IoTCenter.Build\IoTCenterCore.Commons.targets = IoTCenter.Build\IoTCenterCore.Commons.targets
 		IoTCenter.Build\IoTCenterCore.Task.props = IoTCenter.Build\IoTCenterCore.Task.props
-		..\NuGet.config = ..\NuGet.config
+		NuGet.config = NuGet.config
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoTCenter.Infrastructure", "IoTCenter.Infrastructure", "{98F316C3-DC00-44E5-A03E-C494ECB9DC3B}"
