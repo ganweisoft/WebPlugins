@@ -1,6 +1,6 @@
 <p align="center" dir="auto">
   <a href="https://opensource.ganweicloud.com" rel="nofollow">
-    <img style="max-width:100%;" src="[https://github.com/ganweisoft/Gateway/blob/main/GWDataCenter/logo.jpg](https://github.com/ganweisoft/WebPlugins/blob/main/src/logo.jpg)">
+    <img style="max-width:100%;" src="https://github.com/ganweisoft/WebPlugins/blob/main/src/logo.jpg">
   </a>
 </p>
 
