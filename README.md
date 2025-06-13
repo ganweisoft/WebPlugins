@@ -15,7 +15,7 @@ WebPlugins is a modular and pluggable application framework based on ASP.NET Cor
 ## Frontend Development Guide [Frontend Wiki Documentation](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn)
 
 ### Chapter 1: Environment Configuration & Project Initialization
-#### 1.1 Development Environment Setup
+#### [1.1 Development Environment Setup](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end#1-install-using-nvm)
 - 1.1.1 Node Version Management with NVM
 - 1.1.2 Project Initialization Workflow
 
