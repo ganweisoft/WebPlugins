@@ -10,19 +10,94 @@ English | [简体中文](README-CN.md)
 
 WebPlugins is a modular and pluggable application framework based on ASP.NET Core and VUE. Built on the design principles of loose coupling and high cohesion, it provides an extensible and maintainable application framework. By completely decoupling core logic from functional components, it enables secondary development.
 
-### Platform Support  
-WebPlugins currently supports Windows, Linux, and MacOS platforms.
+# Plugin Development Technical White Paper
 
+## Frontend Development Guide [Frontend Wiki Documentation](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn)
 
-### Source Code Build Instructions  
-For information on how to build WebPlugins from source, please refer to the [Wiki](https://github.com/ganweisoft/WebPlugins/wiki).
+### Chapter 1: Environment Configuration & Project Initialization
+#### 1.1 Development Environment Setup
+- 1.1.1 Node Version Management with NVM
+- 1.1.2 Project Initialization Workflow
 
+#### 1.2 Project Architecture Analysis
+- 1.2.1 Standardized Directory Structure
+- 1.2.2 Modular Design Principles
 
-### License  
-WebPlugins is licensed under the very permissive MIT License. For details, see [License](https://github.com/ganweisoft/WebPlugins/blob/main/LICENSE).
+### Chapter 2: Sub-application Development Standards
+#### 2.1 Template Engineering System
+- 2.1.1 Device Interaction Scene Template Structure
+- 2.1.2 Common Component Development Paradigm
 
-### Releasing  
-For the complete list of WebPlugins Releases, please see [Releases](https://github.com/ganweisoft/IoTCenterWebAPi/releases).
+#### 2.2 Feature Implementation Guide
+- 2.2.1 Menu System Configuration
+- 2.2.2 Business Code Development Standards
+- 2.2.3 Startup Process Documentation (pnpm install Optimization Practices)
 
-### How to Contribute  
-We warmly welcome contributions from developers. If you find a bug or have any ideas you'd like to share, feel free to submit an [issue](https://github.com/ganweisoft/WebPlugins/blob/main/CONTRIBUTING.md).
+#### 2.3 UI Theme System
+- 2.3.1 Theme Resource Reference Mechanism
+- 2.3.2 Dynamic Theme Switching Implementation
+
+### Chapter 3: Build & Deployment
+#### 3.1 Packaging Optimization Strategies
+- 3.1.1 Production Build Configuration
+- 3.1.2 Release Versioning Standards
+
+## Backend Development Guide [Backend Wiki Documentation](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end.README.zh%E2%80%90cn)
+
+### Chapter 1: Plugin Engineering Architecture
+#### 1.1 Engineering Solutions
+- 1.1.1 Template Engine Integration
+- 1.1.2 Command-Line Toolchain Configuration
+- 1.1.3 Visual Studio IDE Configuration
+
+#### 1.2 Solution Structure
+- 1.2.1 Documentation System (docs Directory Standards)
+- 1.2.2 Build System (build Directory Overview)
+- 1.2.3 Plugin Project Structure Standards
+
+### Chapter 2: Core Development Standards
+#### 2.1 Context Management Standards
+- 2.1.1 Model Mapping Specifications
+- 2.1.2 Context Naming Conventions
+- 2.1.3 Cross-Plugin Interaction Mechanisms
+- 2.1.4 Lifecycle Management
+- 2.1.5 Cross-Domain Data Sharing Strategies
+
+#### 2.2 API Development Standards
+- 2.2.1 Service Interface Definitions
+- 2.2.2 Implementation Class Guidelines
+- 2.2.3 Controller Inheritance Patterns
+- 2.2.4 Debugging System
+  - Local Debug Configuration
+  - API Testing Toolchain
+  - Log Tracing Standards
+
+### Chapter 3: Operational Support Systems
+#### 3.1 Logging Management System
+- 3.1.1 Platform-Level Logging Standards
+- 3.1.2 Plugin Logging Classification
+  - Business Critical Logs
+  - Debug Auxiliary Logs
+
+#### 3.2 Developer Toolkit
+- 3.2.1 Type Extension Utilities
+  - String Processing
+  - Date/Time Operations
+  - Serialization Solutions
+  - Enum Enhancements
+- 3.2.2 Data Structure Support
+  - Key-Value Container
+  - DTO Mapping Solutions
+
+### Chapter 4: Advanced Feature Modules
+#### 4.1 Configuration Management
+- 4.1.1 Configuration Retrieval Mechanism
+- 4.1.2 Dynamic Configuration Updates
+
+#### 4.2 Task Scheduling
+- 4.2.1 Basic Usage Examples
+- 4.2.2 Cluster Deployment Considerations
+
+#### 4.3 Session Management
+- 4.3.1 Context Session Mechanism
+- 4.3.2 Distributed Session Solutions
