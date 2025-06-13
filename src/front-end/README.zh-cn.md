@@ -1,7 +1,5 @@
 
-<h3 align="center" style="font-weight:bold;font-size:30px;">IoTCenterWebFront</h3>
-
-<p align="center">
+<p align="left">
  <a href="https://v2.vuejs.org/" target="__blank" style="margin-right:10px;">
    <img src='https://img.shields.io/badge/Vue-3.5.13-%2394c20c?labelColor=#94c20c' />
  </a>
@@ -19,8 +17,10 @@
  </a>
 </p>
 
+简体中文 | [English](README.md)
 
-## 目录                                                                                                                                     [English](https://github.com/ganweisoft/IoTCenterWebFront/blob/main/README.md)
+
+## 目录                                                                                                                                  
 
 1. [使用nvm安装](#使用nvm安装)  
 2. [项目结构说明](#项目结构说明)  
