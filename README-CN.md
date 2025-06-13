@@ -31,56 +31,44 @@ WebPlugins 是一个基于ASP.NET Core和VUE的模块化和插件化应用程序
 ### [第三章 构建与部署](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#4-%E5%AD%90%E5%BA%94%E7%94%A8%E6%89%93%E5%8C%85)
 
 
-## [后端开发指南](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end.README.zh%E2%80%90cn)
-### [第一章 插件工程架构](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%8F%92%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%9E%B6%E6%9E%84)
-#### [1.1 工程化解决方案](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E5%B7%A5%E7%A8%8B%E5%8C%96%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88)
-- [1.1.1 模板引擎集成方案](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%B8%8B%E8%BD%BD%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E)
-- [1.1.2 命令行工具链配置](#subsection-1-1-2-command-line-toolchain-configuration)
-- [1.1.3 Visual Studio开发环境配置](#subsection-1-1-3-visual-studio-development-environment-setup)
-
-#### [1.2 解决方案结构](#section-1-2-solution-structure)
-- [1.2.1 文档体系（docs目录规范）](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#docs%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%96%87%E4%BB%B6%E5%A4%B9)
-- [1.2.2 构建系统（build目录说明）](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#build%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%96%87%E4%BB%B6%E5%A4%B9)
-- [1.2.3 插件项目结构标准](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%8F%92%E4%BB%B6%E9%A1%B9%E7%9B%AE)
-
-### [第二章 核心开发规范](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AE%A1%E7%90%86%E8%A7%84%E8%8C%83)
-#### [2.1 上下文管理规范](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AE%A1%E7%90%86%E8%A7%84%E8%8C%83)
-- [2.1.1 模型映射规范](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%A8%A1%E5%9E%8B%E6%98%A0%E5%B0%84%E8%A7%84%E8%8C%83)
-- [2.1.2 上下文命名规则](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%B8%8A%E4%B8%8B%E6%96%87%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83)
-- [2.1.3 跨插件模型操作说明](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E8%B7%A8%E6%8F%92%E4%BB%B6%E6%A8%A1%E5%9E%8B%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8E)
-
-
-#### [2.2 接口开发规范](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%8E%A5%E5%8F%A3%E5%AE%9A%E4%B9%89%E5%8F%8A%E8%B0%83%E7%94%A8)
-- [2.2.1 服务接口定义标准](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%9C%8D%E5%8A%A1%E6%8E%A5%E5%8F%A3%E5%AE%9A%E4%B9%89)
-- [2.2.2 服务接口实现](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%9C%8D%E5%8A%A1%E6%8E%A5%E5%8F%A3%E5%AE%9E%E7%8E%B0)
-- [2.2.3 控制器继承](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%8E%A7%E5%88%B6%E5%99%A8%E7%BB%A7%E6%89%BF)
-- [2.2.4 调试](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95%E6%8E%A5%E5%8F%A3)
-
-
-### [第三章 运维支持系统](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86)
-#### [3.1 日志管理](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86)
-- [3.1.1 平台级日志规范](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E5%B9%B3%E5%8F%B0%E6%97%A5%E5%BF%97%E8%BE%93%E5%87%BA)
-- [3.1.2 插件日志分级](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%8F%92%E4%BB%B6%E6%97%A5%E5%BF%97%E8%BE%93%E5%87%BA)
-  - [3.1.2.1 插件独享日志](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%8F%92%E4%BB%B6%E7%8B%AC%E4%BA%AB%E6%97%A5%E5%BF%97)
-  - [3.1.2.2 关键日志](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E5%85%B3%E9%94%AE%E6%93%8D%E4%BD%9C%E6%97%A5%E5%BF%97)
-
-#### [3.2 常用工具扩展](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E5%B8%B8%E7%94%A8%E5%B8%AE%E5%8A%A9%E6%89%A9%E5%B1%95)
-- [3.2.1 字符串处理](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%89%A9%E5%B1%95)
-- [3.2.2 日期时间操作](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%97%A5%E6%9C%9F%E6%89%A9%E5%B1%95)
-- [3.2.3 序列化方案](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E5%BA%8F%E5%88%97%E5%8C%96%E6%89%A9%E5%B1%95)
-- [3.2.4 枚举扩展](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%9E%9A%E4%B8%BE%E6%89%A9%E5%B1%95)
-- [3.2.5 键值对对象](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E9%94%AE%E5%80%BC%E5%AF%B9%E5%AF%B9%E8%B1%A1)
-
-#### [3.3 会话管理](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%BC%9A%E8%AF%9D%E4%BF%A1%E6%81%AF)
-- [3.3.1 读取配置](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E8%AF%BB%E5%8F%96%E9%85%8D%E7%BD%AE)
-
-
-#### [3.4 定时作业](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E5%AE%9A%E6%97%B6%E4%BD%9C%E4%B8%9A)
-- [3.4.1 使用示例](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B)
-- [3.4.2 使用注意](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F)
-
-#### [3.5 数据转换对象(DTO)](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2%E5%AF%B9%E8%B1%A1dto)
-- [3.5.1 映射配置](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%98%A0%E5%B0%84%E9%85%8D%E7%BD%AE)
-- [3.5.2 映射方式](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%98%A0%E5%B0%84%E6%96%B9%E5%BC%8F%E4%B8%80)
-  - [3.5.2.1 自动映射](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%98%A0%E5%B0%84%E6%96%B9%E5%BC%8F%E4%B8%80)
-  - [3.5.2.2 显式配置](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%98%A0%E5%B0%84%E6%96%B9%E5%BC%8F%E4%BA%8C)
+# [后端开发指南](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end.README.zh%E2%80%90cn)
+## [1. 插件工程架构](#%E6%8F%92%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%9E%B6%E6%9E%84) 
+### 1.1 工程化解决方案
+#### 1.1.1 下载模板引擎
+#### 1.1.2 命令行创建插件模板解决方案
+#### 1.1.3 VisualStudio创建插件模板解决方案
+### 1.2 解决方案结构
+#### 1.2.1 Solution Items解决方案文件夹
+#### 1.2.2 docs解决方案文件夹
+#### 1.2.3 build解决方案文件夹
+#### 1.2.4 插件项目
+## 2. 上下文管理规范
+### 2.1 模型映射规范
+### 2.2 上下文命名规范
+### 2.3 上下文基本说明
+### 2.4 跨插件模型操作说明
+## 3. 接口定义及调用
+### 3.1 服务接口定义
+### 3.2 服务接口实现
+### 3.3 服务接口注册
+### 3.4 控制器继承
+### 3.5 本地调试接口
+### 3.6 接口调试工具
+## 4. 日志管理
+### 4.1 平台日志输出
+### 4.2 插件日志输出
+## 5. 常用帮助扩展
+### 5.1 字符串扩展
+### 5.2 日期扩展
+### 5.3 序列化扩展
+### 5.4 枚举扩展
+### 5.5 键值对对象
+## 6. 会话信息
+## 7. 读取配置
+## 8. 定时作业
+### 8.1 使用示例
+### 8.2 使用注意
+## 9. 数据转换对象(DTO)
+### 9.1 映射配置
+### 9.2 映射方式（一）
+### 9.3 映射方式（二）
