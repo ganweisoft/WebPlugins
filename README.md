@@ -41,63 +41,58 @@ WebPlugins is a modular and pluggable application framework based on ASP.NET Cor
 #### 3.1 Packaging Optimization Strategies
 - 3.1.1 Production Build Configuration
 - 3.1.2 Release Versioning Standards
+以下是文档中的前三级目录结构：
 
-## Backend Development Guide [Backend Wiki Documentation](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end.README.zh%E2%80%90cn)
+# 1. 后端开发指南
 
-### Chapter 1: Plugin Engineering Architecture
-#### 1.1 Engineering Solutions
-- 1.1.1 Template Engine Integration
-- 1.1.2 Command-Line Toolchain Configuration
-- 1.1.3 Visual Studio IDE Configuration
+- [1.1 Create a Plugin Template Solution](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#11-%E5%88%9B%E5%BB%BA%E6%8F%92%E4%BB%B6%E6%A8%A1%E6%9D%BF%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88)
+  - [1.1.1 Download the Template Engine](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#111-%E4%B8%8B%E8%BD%BD%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E)
+  - [1.1.2 Command Line to Create a Plugin Template Solution](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#112-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%88%9B%E5%BB%BA%E6%8F%92%E4%BB%B6%E6%A8%A1%E6%9D%BF%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88)
+  - [1.1.3 Visual Studio to Create a Plugin Template Solution](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#113-visualstudio%E5%88%9B%E5%BB%BA%E6%8F%92%E4%BB%B6%E6%A8%A1%E6%9D%BF%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88)
 
-#### 1.2 Solution Structure
-- 1.2.1 Documentation System (docs Directory Standards)
-- 1.2.2 Build System (build Directory Overview)
-- 1.2.3 Plugin Project Structure Standards
+- [1.2 Explanation of the Plugin Template Solution](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#12-%E6%8F%92%E4%BB%B6%E6%A8%A1%E6%9D%BF%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E8%AF%B4%E6%98%8E)
+  - [1.2.1 Solution Items Solution Folder](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#121-solution-items%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%96%87%E4%BB%B6%E5%A4%B9)
+  - [1.2.2 docs Solution Folder](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#122-docs%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%96%87%E4%BB%B6%E5%A4%B9)
+  - [1.2.3 build Solution Folder](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#123-build%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%96%87%E4%BB%B6%E5%A4%B9)
+  - [1.2.4 Plugin Project](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#124-%E6%8F%92%E4%BB%B6%E9%A1%B9%E7%9B%AE)
 
-### Chapter 2: Core Development Standards
-#### 2.1 Context Management Standards
-- 2.1.1 Model Mapping Specifications
-- 2.1.2 Context Naming Conventions
-- 2.1.3 Cross-Plugin Interaction Mechanisms
-- 2.1.4 Lifecycle Management
-- 2.1.5 Cross-Domain Data Sharing Strategies
+- [1.3 Context Operation Instructions](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#13-%E4%B8%8A%E4%B8%8B%E6%96%87%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8E)
+  - [1.3.1 Model Mapping Norms](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#131-%E6%A8%A1%E5%9E%8B%E6%98%A0%E5%B0%84%E8%A7%84%E8%8C%83)
+  - [1.3.2 Context Naming Conventions](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#132-%E4%B8%8A%E4%B8%8B%E6%96%87%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83)
+  - [1.3.3 Basic Explanation of Context](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#133-%E4%B8%8A%E4%B8%8B%E6%96%87%E5%9F%BA%E6%9C%AC%E8%AF%B4%E6%98%8E)
+  - [1.3.4 Cross-Plugin Model Operation Instructions](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#134-%E8%B7%A8%E6%8F%92%E4%BB%B6%E6%A8%A1%E5%9E%8B%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8E)
 
-#### 2.2 API Development Standards
-- 2.2.1 Service Interface Definitions
-- 2.2.2 Implementation Class Guidelines
-- 2.2.3 Controller Inheritance Patterns
-- 2.2.4 Debugging System
-  - Local Debug Configuration
-  - API Testing Toolchain
-  - Log Tracing Standards
+- [1.4 Interface Definition and Invocation](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#14-%E6%8E%A5%E5%8F%A3%E5%AE%9A%E4%B9%89%E5%8F%8A%E8%B0%83%E7%94%A8)
+  - [1.4.1 Service Interface Definition](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#141-%E6%9C%8D%E5%8A%A1%E6%8E%A5%E5%8F%A3%E5%AE%9A%E4%B9%89)
+  - [1.4.2 Service Interface Implementation](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#142-%E6%9C%8D%E5%8A%A1%E6%8E%A5%E5%8F%A3%E5%AE%9E%E7%8E%B0)
+  - [1.4.3 Service Interface Registration](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#143-%E6%9C%8D%E5%8A%A1%E6%8E%A5%E5%8F%A3%E6%B3%A8%E5%86%8C)
+  - [1.4.4 Controller Inheritance](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#144-%E6%8E%A7%E5%88%B6%E5%99%A8%E7%BB%A7%E6%89%BF)
+  - [1.4.5 Local Debugging Interface](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#145-%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95%E6%8E%A5%E5%8F%A3)
+  - [1.4.6 Interface Debugging Tools](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#146-%E6%8E%A5%E5%8F%A3%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7)
 
-### Chapter 3: Operational Support Systems
-#### 3.1 Logging Management System
-- 3.1.1 Platform-Level Logging Standards
-- 3.1.2 Plugin Logging Classification
-  - Business Critical Logs
-  - Debug Auxiliary Logs
+- [1.5 Log Management](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#15-%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86)
+  - [1.5.1 Platform Log Output](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#151-%E5%B9%B3%E5%8F%B0%E6%97%A5%E5%BF%97%E8%BE%93%E5%87%BA)
+  - [1.5.2 Plugin Log Output](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#152-%E6%8F%92%E4%BB%B6%E6%97%A5%E5%BF%97%E8%BE%93%E5%87%BA)
 
-#### 3.2 Developer Toolkit
-- 3.2.1 Type Extension Utilities
-  - String Processing
-  - Date/Time Operations
-  - Serialization Solutions
-  - Enum Enhancements
-- 3.2.2 Data Structure Support
-  - Key-Value Container
-  - DTO Mapping Solutions
+- [1.6 Common Helpful Extensions](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#16-%E5%B8%B8%E7%94%A8%E5%B8%AE%E5%8A%A9%E6%89%A9%E5%B1%95)
+  - [1.6.1 String Extensions](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#161-%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%89%A9%E5%B1%95)
+  - [1.6.2 Date Extensions](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#162-%E6%97%A5%E6%9C%9F%E6%89%A9%E5%B1%95)
+  - [1.6.3 Serialization Extensions](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#163-%E5%BA%8F%E5%88%97%E5%8C%96%E6%89%A9%E5%B1%95)
+  - [1.6.4 Enumeration Extensions](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#164-%E6%9E%9A%E4%B8%BE%E6%89%A9%E5%B1%95)
+  - [1.6.5 Key-Value Pair Objects](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#165-%E9%94%AE%E5%80%BC%E5%AF%B9%E5%AF%B9%E8%B1%A1)
 
-### Chapter 4: Advanced Feature Modules
-#### 4.1 Configuration Management
-- 4.1.1 Configuration Retrieval Mechanism
-- 4.1.2 Dynamic Configuration Updates
-
-#### 4.2 Task Scheduling
-- 4.2.1 Basic Usage Examples
-- 4.2.2 Cluster Deployment Considerations
-
-#### 4.3 Session Management
-- 4.3.1 Context Session Mechanism
-- 4.3.2 Distributed Session Solutions
+- [1.7 Session Information](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#17-%E4%BC%9A%E8%AF%9D%E4%BF%A1%E6%81%AF)
+- [1.8 Reading Configuration](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#18-%E8%AF%BB%E5%8F%96%E9%85%8D%E7%BD%AE)
+- [1.9 Event Bus](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#19-%E4%BA%8B%E4%BB%B6%E6%80%BB%E7%BA%BF)
+  - [1.9.1 Local Event Bus](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#191-%E6%9C%AC%E5%9C%B0%E4%BA%8B%E4%BB%B6%E6%80%BB%E7%BA%BF)
+  - [1.9.2 Fuzzy Subscription](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#192-%E6%A8%A1%E7%B3%8A%E8%AE%A2%E9%98%85)
+- [1.10 Kafka Distributed Event Bus](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#110-kafka%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E4%BB%B6%E6%80%BB%E7%BA%BF)
+  - [1.10.1 Configuration Instructions](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#1101-%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E)
+  - [1.10.2 Usage Instructions](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#1102-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
+- [1.11 Scheduled Tasks](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#111-%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1)
+  - [1.11.1 Example Usage](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#1111-%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B)
+  - [1.11.2 Usage Notes](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#1112-%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F)
+- [1.12 Data Transfer Object (DTO)](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#112-%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2%E5%AF%B9%E8%B1%A1dto)
+  - [1.12.1 Mapping Configuration](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#1121-%E6%98%A0%E5%B0%84%E9%85%8D%E7%BD%AE)
+  - [1.12.2 Mapping Method (One)](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#1122-%E6%98%A0%E5%B0%84%E6%96%B9%E5%BC%8F%E4%B8%80)
+  - [1.12.3 Mapping Method (Two)](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#1123-%E6%98%A0%E5%B0%84%E6%96%B9%E5%BC%8F%E4%BA%8C)
