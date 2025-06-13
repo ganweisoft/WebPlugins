@@ -27,10 +27,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Remove="ServiceImpl\GWExProcAppServiceImpl.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<ProjectReference Include="..\..\IoTCenter.Infrastructure\IoTCenter.Utilities\IoTCenter.Utilities.csproj" />
 		<ProjectReference Include="..\..\IoTCenter.Infrastructure\IoTCenterCore.AutoMapper\IoTCenterCore.AutoMapper.csproj" />
 	</ItemGroup>
