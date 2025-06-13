@@ -32,7 +32,7 @@ WebPlugins 是一个基于ASP.NET Core和VUE的模块化和插件化应用程序
 
 
 # [后端开发指南](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end.README.zh%E2%80%90cn)
-## [1. 插件工程架构](#%E6%8F%92%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%9E%B6%E6%9E%84) 
+## [1. 插件工程架构](https://github.com/ganweisoft/WebPlugins/wiki/bac#%E6%8F%92%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%9E%B6%E6%9E%84) 
 ### 1.1 工程化解决方案
 #### 1.1.1 下载模板引擎
 #### 1.1.2 命令行创建插件模板解决方案
