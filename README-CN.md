@@ -39,8 +39,8 @@ WebPlugins 是一个基于ASP.NET Core和VUE的模块化和插件化应用程序
 - [1.1.3 Visual Studio开发环境配置](#subsection-1-1-3-visual-studio-development-environment-setup)
 
 #### [1.2 解决方案结构](#section-1-2-solution-structure)
-- [1.2.1 文档体系](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#docs%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%96%87%E4%BB%B6%E5%A4%B9)（docs目录规范）
-- [1.2.2 构建系统](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#build%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%96%87%E4%BB%B6%E5%A4%B9)（build目录说明）
+- [1.2.1 文档体系（docs目录规范）](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#docs%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%96%87%E4%BB%B6%E5%A4%B9)
+- [1.2.2 构建系统（build目录说明）](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#build%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%96%87%E4%BB%B6%E5%A4%B9)
 - [1.2.3 插件项目结构标准](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%8F%92%E4%BB%B6%E9%A1%B9%E7%9B%AE)
 
 ### [第二章 核心开发规范](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AE%A1%E7%90%86%E8%A7%84%E8%8C%83)
