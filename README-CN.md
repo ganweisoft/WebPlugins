@@ -47,17 +47,15 @@ WebPlugins 是一个基于ASP.NET Core和VUE的模块化和插件化应用程序
 #### [2.1 上下文管理规范](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AE%A1%E7%90%86%E8%A7%84%E8%8C%83)
 - [2.1.1 模型映射规范](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%A8%A1%E5%9E%8B%E6%98%A0%E5%B0%84%E8%A7%84%E8%8C%83)
 - [2.1.2 上下文命名规则](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%B8%8A%E4%B8%8B%E6%96%87%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83)
-- [2.1.3 跨插件模型操作说明]([#subsection-2-1-3-cross-plugin-interaction-mechanism](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E8%B7%A8%E6%8F%92%E4%BB%B6%E6%A8%A1%E5%9E%8B%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8E))
+- [2.1.3 跨插件模型操作说明](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E8%B7%A8%E6%8F%92%E4%BB%B6%E6%A8%A1%E5%9E%8B%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8E)
 
 
 #### [2.2 接口开发规范](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%8E%A5%E5%8F%A3%E5%AE%9A%E4%B9%89%E5%8F%8A%E8%B0%83%E7%94%A8)
 - [2.2.1 服务接口定义标准](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%9C%8D%E5%8A%A1%E6%8E%A5%E5%8F%A3%E5%AE%9A%E4%B9%89)
 - [2.2.2 服务接口实现](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%9C%8D%E5%8A%A1%E6%8E%A5%E5%8F%A3%E5%AE%9E%E7%8E%B0)
 - [2.2.3 控制器继承](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%8E%A7%E5%88%B6%E5%99%A8%E7%BB%A7%E6%89%BF)
-- [2.2.4 调试体系](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95%E6%8E%A5%E5%8F%A3)
-  - 本地调试配置
-  - 接口测试工具链
-  - 日志追踪规范
+- [2.2.4 调试](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95%E6%8E%A5%E5%8F%A3)
+
 
 ### [第三章 运维支持系统](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86)
 #### [3.1 日志管理](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86)
@@ -73,19 +71,16 @@ WebPlugins 是一个基于ASP.NET Core和VUE的模块化和插件化应用程序
 - [3.2.4 枚举扩展](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%9E%9A%E4%B8%BE%E6%89%A9%E5%B1%95)
 - [3.2.5 键值对对象](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E9%94%AE%E5%80%BC%E5%AF%B9%E5%AF%B9%E8%B1%A1)
 
-#### [4.3 会话管理](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%BC%9A%E8%AF%9D%E4%BF%A1%E6%81%AF)
-- [4.3.1 读取配置](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E8%AF%BB%E5%8F%96%E9%85%8D%E7%BD%AE)
+#### [3.3 会话管理](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%BC%9A%E8%AF%9D%E4%BF%A1%E6%81%AF)
+- [3.3.1 读取配置](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E8%AF%BB%E5%8F%96%E9%85%8D%E7%BD%AE)
 
-#### [4.4 配置读取](#section-4-4-configuration-reading)
-- [4.4.1 读取机制](#subsection-4-4-1-reading-mechanism)
-- [4.4.2 动态更新](#subsection-4-4-2-dynamic-updates)
 
-#### [4.5 定时作业](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E5%AE%9A%E6%97%B6%E4%BD%9C%E4%B8%9A)
-- [4.5.1 使用示例](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B)
-- [4.5.2 使用注意](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F)
+#### [3.4 定时作业](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E5%AE%9A%E6%97%B6%E4%BD%9C%E4%B8%9A)
+- [3.4.1 使用示例](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B)
+- [3.4.2 使用注意](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F)
 
-#### [4.6 数据转换对象(DTO)](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2%E5%AF%B9%E8%B1%A1dto)
-- [4.6.1 映射配置](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%98%A0%E5%B0%84%E9%85%8D%E7%BD%AE)
-- [4.6.2 映射方式](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%98%A0%E5%B0%84%E6%96%B9%E5%BC%8F%E4%B8%80)
-  - [4.6.2.1 自动映射](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%98%A0%E5%B0%84%E6%96%B9%E5%BC%8F%E4%B8%80)
-  - [4.6.2.2 显式配置](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%98%A0%E5%B0%84%E6%96%B9%E5%BC%8F%E4%BA%8C)
+#### [3.5 数据转换对象(DTO)](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2%E5%AF%B9%E8%B1%A1dto)
+- [3.5.1 映射配置](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%98%A0%E5%B0%84%E9%85%8D%E7%BD%AE)
+- [3.5.2 映射方式](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%98%A0%E5%B0%84%E6%96%B9%E5%BC%8F%E4%B8%80)
+  - [3.5.2.1 自动映射](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%98%A0%E5%B0%84%E6%96%B9%E5%BC%8F%E4%B8%80)
+  - [3.5.2.2 显式配置](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%98%A0%E5%B0%84%E6%96%B9%E5%BC%8F%E4%BA%8C)
