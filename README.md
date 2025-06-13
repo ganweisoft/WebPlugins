@@ -23,12 +23,12 @@ WebPlugins is a modular and pluggable application framework based on ASP.NET Cor
 - 1.2.1 Standardized Directory Structure
 - 1.2.2 Modular Design Principles
 
-### Chapter 2: Sub-application Development Standards
+### [Chapter 2: Sub-application Development Standards](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README#3-sub-application-development)
 #### 2.1 Template Engineering System
 - 2.1.1 Device Interaction Scene Template Structure
 - 2.1.2 Common Component Development Paradigm
 
-#### 2.2 Feature Implementation Guide
+#### 2.2 Feature Implementation Guide()
 - 2.2.1 Menu System Configuration
 - 2.2.2 Business Code Development Standards
 - 2.2.3 Startup Process Documentation (pnpm install Optimization Practices)
