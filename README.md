@@ -19,7 +19,7 @@ WebPlugins is a modular and pluggable application framework based on ASP.NET Cor
 - 1.1.1 Node Version Management with NVM
 - 1.1.2 Project Initialization Workflow
 
-#### 1.2 Project Architecture Analysis
+#### [1.2 Project Architecture Analysis](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end#2-project-structure-description)
 - 1.2.1 Standardized Directory Structure
 - 1.2.2 Modular Design Principles
 
