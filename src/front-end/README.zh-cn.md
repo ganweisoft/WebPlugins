@@ -19,7 +19,7 @@
 
 ## Wiki地址  
 
-- [Wiki主页](https://github.com/ganweisoft/IoTCenterWebFront/wiki/README.zh%E2%80%90cn)
+- [Wiki主页](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn)
 
 
 
