@@ -21,7 +21,7 @@ WebPlugins 是一个基于ASP.NET Core和VUE的模块化和插件化应用程序
 - [2.2.2 业务代码开发规范](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#33-%E4%BB%A3%E7%A0%81%E5%BC%80%E5%8F%91)
 - [2.2.3 启动流程说明](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#34-%E5%90%AF%E5%8A%A8%E9%A1%B9%E7%9B%AE)
 
-#### [2.3 界面主题系统]([#section-2-3-interface-theme-system](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#35-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE)
+#### [2.3 界面主题系统](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#35-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE)
 - [2.3.1 主题资源引用机制](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#351-%E4%B8%BB%E9%A2%98%E5%BC%95%E7%94%A8)
 - [2.3.2 动态主题切换实现](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#352-%E4%B8%BB%E9%A2%98%E5%88%87%E6%8D%A2)
 
