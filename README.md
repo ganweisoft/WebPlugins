@@ -30,7 +30,7 @@ Here is the translated English version of your front-end development guide, main
 [Chapter 3: Build & Deployment](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end#4-sub-application-packaging)
 
 
-# 1. Backend Development Guide
+# Backend Development Guide
 - [1.1 Create a Plugin Template Solution](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end#11-create-a-plugin-template-solution)
   - [1.1.1 Download the Template Engine](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end#111-download-the-template-engine)
   - [1.1.2 Command Line to Create a Plugin Template Solution](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end#112-command-line-to-create-a-plugin-template-solution)
