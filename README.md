@@ -10,38 +10,26 @@ English | [简体中文](README-CN.md)
 
 WebPlugins is a modular and pluggable application framework based on ASP.NET Core and VUE. Built on the design principles of loose coupling and high cohesion, it provides an extensible and maintainable application framework. By completely decoupling core logic from functional components, it enables secondary development.
 
-# Plugin Development Technical White Paper
+Here is the translated English version of your front-end development guide, maintaining the original structure and technical terminology:
 
-## Frontend Development Guide
+## Front-End Development Guide
+- [1. Environment Configuration & Project Initialization](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end#1-install-using-nvm)
+  - [1.1 Development Environment Setup](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#1-%E4%BD%BF%E7%94%A8nvm%E5%AE%89%E8%A3%85)
+  - [1.2 Project Architecture Overview](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end#2-project-structure-description)
 
-### Chapter 1: Environment Configuration & Project Initialization
-#### [1.1 Development Environment Setup](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn#1-install-using-nvm)
-- 1.1.1 Node Version Management with NVM
-- 1.1.2 Project Initialization Workflow
+- [2. Sub-Application Development Standards](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end#3-sub-application-development)
+- [2.1 Template Engineering System](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#31-%E7%A4%BA%E4%BE%8B%E6%A8%A1%E6%9D%BF%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E8%AE%BE%E5%A4%87%E8%81%94%E5%8A%A8)
+  - [2.2.1 Menu System Configuration](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end#32-configuration-menu)
+  - [2.2.2 Business Code Development Standards](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end#33-code-development)
+  - [2.2.3 Startup Process Explanation](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end#34-startup-project)
 
-#### [1.2 Project Architecture Analysis](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn#2-project-structure-description)
-- 1.2.1 Standardized Directory Structure
-- 1.2.2 Modular Design Principles
+- [2.3 Interface Theme System](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#35-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE)
+  - [2.3.1 Theme Resource Referencing Mechanism](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#351-%E4%B8%BB%E9%A2%98%E5%BC%95%E7%94%A8)
+  - [2.3.2 Dynamic Theme Switching Implementation](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#352-%E4%B8%BB%E9%A2%98%E5%88%87%E6%8D%A2)
 
-### [Chapter 2: Sub-application Development Standards](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn#3-sub-application-development)
-#### 2.1 Template Engineering System
-- [2.1.1 Device Interaction Scene Template Structure](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn#3-1-device-interaction-scene-template-structure)
-- [2.1.2 Common Component Development Paradigm](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn#3-2-common-component-development-paradigm)
+[Chapter 3: Build & Deployment](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#4-%E5%AD%90%E5%BA%94%E7%94%A8%E6%89%93%E5%8C%85)
 
-#### [2.2 Feature Implementation Guide](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn#3-3-feature-implementation-guide)
-- [2.2.1 Menu System Configuration](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn#3-3-1-menu-system-configuration)
-- [2.2.2 Business Code Development Standards](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn#3-3-2-business-code-development-standards)
-- [2.2.3 Startup Process Documentation](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn#3-3-3-startup-process-documentation)
-  - (pnpm install Optimization Practices)
 
-#### 2.3 UI Theme System
-- [2.3.1 Theme Resource Reference Mechanism](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn#3-4-theme-resource-reference-mechanism)
-- [2.3.2 Dynamic Theme Switching Implementation](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn#3-5-dynamic-theme-switching-implementation)
-
-### Chapter 3: Build & Deployment
-#### 3.1 Packaging Optimization Strategies
-- [3.1.1 Production Build Configuration](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn#4-1-production-build-configuration)
-- [3.1.2 Release Versioning Standards](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn#4-2-release-versioning-standards)
 # 1. Backend Development Guide
 - [1.1 Create a Plugin Template Solution](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end#11-create-a-plugin-template-solution)
   - [1.1.1 Download the Template Engine](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end#111-download-the-template-engine)
