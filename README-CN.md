@@ -11,7 +11,7 @@
 WebPlugins 是一个基于ASP.NET Core和VUE的模块化和插件化应用程序框架，基于松耦合、高内聚的设计理念，构建了一个可扩展、易维护的应用框架，通过将核心逻辑与功能组件完全解耦，可进行二次开发
 
 
-**# 插件开发技术白皮书
+# 插件开发技术白皮书
 
 ## [前端开发指南](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn)
 ### [第一章 环境配置与项目初始化](#chapter-1-environment-configuration-and-project-initialization)
@@ -89,5 +89,3 @@ WebPlugins 是一个基于ASP.NET Core和VUE的模块化和插件化应用程序
 - [4.6.2 映射方式]([#subsection-4-6-2-mapping-methods](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%98%A0%E5%B0%84%E6%96%B9%E5%BC%8F%E4%B8%80))
   - [4.6.2.1 自动映射]([#subsubsection-4-6-2-1-automatic-mapping](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%98%A0%E5%B0%84%E6%96%B9%E5%BC%8F%E4%B8%80))
   - [4.6.2.2 显式配置]([#subsubsection-4-6-2-2-explicit-configuration](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%98%A0%E5%B0%84%E6%96%B9%E5%BC%8F%E4%BA%8C))
-
-**
