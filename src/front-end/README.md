@@ -19,4 +19,4 @@ English | [简体中文](README.zh-cn.md)
 
 ## Wiki Address
 
-- [Wiki Homepage](https://github.com/ganweisoft/IoTCenterWebFront/wiki/README)
+- [Wiki Homepage](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README)
