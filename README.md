@@ -41,9 +41,9 @@ WebPlugins is a modular and pluggable application framework based on ASP.NET Cor
 #### 3.1 Packaging Optimization Strategies
 - 3.1.1 Production Build Configuration
 - 3.1.2 Release Versioning Standards
-以下是文档中的前三级目录结构：
 
-# 1. 后端开发指南
+
+# 1. Backend Development Guide
 - [1.1 Create a Plugin Template Solution](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end#11-create-a-plugin-template-solution)
   - [1.1.1 Download the Template Engine](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end#111-download-the-template-engine)
   - [1.1.2 Command Line to Create a Plugin Template Solution](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end#112-command-line-to-create-a-plugin-template-solution)
