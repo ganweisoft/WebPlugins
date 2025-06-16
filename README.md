@@ -23,7 +23,7 @@ Here is the translated English version of your front-end development guide, main
   - [2.3 Business Code Development Standards](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#33-code-development)
   - [2.4 Startup Process Explanation](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#34-startup-project)
 
-- [3. Interface Theme System](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide-CN#35-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE)
+- [3. Interface Theme System](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#35-theme-configuration)
   - [3.1 Theme Resource Referencing Mechanism](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#351-topic-citation)
   - [3.2 Dynamic Theme Switching Implementation](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#352-theme-switching)
 
