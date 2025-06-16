@@ -14,7 +14,7 @@ Here is the translated English version of your front-end development guide, main
 
 # [Front‐End Development Guide](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide)
 - [1. Environment Configuration & Project Initialization](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#1-environment-configuration--project-initialization)
-  - [1.1 Development Environment Setup](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide-CN#1-%E4%BD%BF%E7%94%A8nvm%E5%AE%89%E8%A3%85)
+  - [1.1 Development Environment Setup](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide-CN#1-install-using-nvm)
   - [1.2 Project Architecture Overview](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#2-project-structure-description)
 
 - [2. Sub-Application Development Standards](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#3-sub-application-development)
