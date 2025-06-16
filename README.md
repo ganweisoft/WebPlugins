@@ -10,6 +10,9 @@ English | [简体中文](README-CN.md)
 
 WebPlugins is a modular and pluggable application framework based on ASP.NET Core and VUE. Built on the design principles of loose coupling and high cohesion, it provides an extensible and maintainable application framework. By completely decoupling core logic from functional components, it enables secondary development.
 
+# Source Code STRUCTURE
+<iframe src="/STRUCTURE.md" width="100%" height="300px"></iframe>
+
 Here is the translated English version of your front-end development guide, maintaining the original structure and technical terminology:
 
 # [Front‐End Development Guide](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide)
