@@ -40,9 +40,9 @@ WebPlugins is a modular and pluggable application framework based on ASP.NET Cor
 |   |-- Ganweisoft.IoTCenter.Module.LogManage # 日志管理
 |   |-- Ganweisoft.IoTCenter.Module.Login # 登录
 |   |-- Ganweisoft.IoTCenter.Module.RealTime # 实时快照
-|   |-- Ganweisoft.IoTCenter.Module.SignalR # SignalR推送
+|   |-- Ganweisoft.IoTCenter.Module.SignalR # SignalR实时推送
 |   |-- Ganweisoft.IoTCenter.Module.TimeTask # 定时任务
-|-- IoTCenter.WindowsServices # Windows服务注册
+|-- IoTCenter.WindowsServices # Windows服务注册解决方案
 |   |-- IoTCenterWeb.Daemon
 |   |-- IoTCenterWebApi.StartUp
 |-- IoTCenterWebApi # Web入口
