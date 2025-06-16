@@ -10,7 +10,7 @@ English | [简体中文](README-CN.md)
 
 WebPlugins is a modular and pluggable application framework based on ASP.NET Core and VUE. Built on the design principles of loose coupling and high cohesion, it provides an extensible and maintainable application framework. By completely decoupling core logic from functional components, it enables secondary development.
 
-# Source Code STRUCTURE
+# Source Code Structure
 ```bash
 |-- IoTCenter.Build # 核心源代码目录
 |-- IoTCenter.HostProxies # 代理服务库
