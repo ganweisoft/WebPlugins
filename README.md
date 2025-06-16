@@ -74,4 +74,3 @@ Here is the translated English version of your front-end development guide, main
   - [1.10.1 Mapping Configuration](https://github.com/ganweisoft/WebPlugins/wiki/Backend-Development-Guide#1101-mapping-configuration)
   - [1.10.2 Mapping Method (One)](https://github.com/ganweisoft/WebPlugins/wiki/Backend-Development-Guide#1102-mapping-method-one)
   - [1.10.3 Mapping Method (Two)](https://github.com/ganweisoft/WebPlugins/wiki/Backend-Development-Guide#1103-mapping-method-two)
-
