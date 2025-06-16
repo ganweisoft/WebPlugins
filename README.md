@@ -1,3 +1,39 @@
+|-- IoTCenter.Build <!--sss-->
+|-- IoTCenter.HostProxies
+|   |-- IoTCenterHost.Protos
+|   |-- IoTCenterHost.Proxy
+|-- IoTCenter.Infrastructure
+|   |-- IoTCenter.Data
+|   |-- IoTCenter.Utilities
+|   |-- IoTCenterCore
+|   |-- IoTCenterCore.Abstractions
+|   |-- IoTCenterCore.Abstractions.Application
+|   |-- IoTCenterCore.AutoMapper
+|   |-- IoTCenterCore.DeviceDetection
+|   |-- IoTCenterCore.DynamicCache
+|   |-- IoTCenterCore.DynamicCache.Abstractions
+|   |-- IoTCenterCore.ExcelHelper
+|   |-- IoTCenterCore.Hei.Captcha
+|   |-- IoTCenterCore.RsaEncrypt
+|   |-- IoTCenterCore.SelfSignedCertificate
+|   |-- IoTCenterCore.SlideVerificationCode
+|   |-- IoTCenterWebApi.BaseCore
+|-- IoTCenter.Modules
+|   |-- Ganweisoft.IoTCenter.Module.EquipConfig
+|   |-- Ganweisoft.IoTCenter.Module.EquipLink
+|   |-- Ganweisoft.IoTCenter.Module.EquipList
+|   |-- Ganweisoft.IoTCenter.Module.Event
+|   |-- Ganweisoft.IoTCenter.Module.LogManage
+|   |-- Ganweisoft.IoTCenter.Module.Login
+|   |-- Ganweisoft.IoTCenter.Module.RealTime
+|   |-- Ganweisoft.IoTCenter.Module.SignalR
+|   |-- Ganweisoft.IoTCenter.Module.TimeTask
+|-- IoTCenter.WindowsServices
+|   |-- IoTCenterWeb.Daemon
+|   |-- IoTCenterWebApi.StartUp
+|-- IoTCenterWebApi
+|-- Shared
+
 <p align="center" dir="auto">
   <a href="https://opensource.ganweicloud.com" rel="nofollow">
     <img style="max-width:100%;" src="https://github.com/ganweisoft/WebPlugins/blob/main/src/logo.jpg">
