@@ -47,6 +47,7 @@ WebPlugins is a modular and pluggable application framework based on ASP.NET Cor
 |   |-- IoTCenterWebApi.StartUp
 |-- IoTCenterWebApi # Web入口
 |-- Shared
+````
 
 Here is the translated English version of your front-end development guide, maintaining the original structure and technical terminology:
 
