@@ -12,11 +12,11 @@ WebPlugins is a modular and pluggable application framework based on ASP.NET Cor
 
 # Source Code Structure
 ```bash
-|-- IoTCenter.Build # 核心源代码目录
+|-- IoTCenter.Build # 统一包管理解决方案
 |-- IoTCenter.HostProxies # 代理服务库
 |   |-- IoTCenterHost.Protos # 代理服务接口定义库
 |   |-- IoTCenterHost.Proxy # 代理服务接口调用
-|-- IoTCenter.Infrastructure # 基础服务
+|-- IoTCenter.Infrastructure # 基础服务解决方案
 |   |-- IoTCenter.Data # 数据访问层
 |   |-- IoTCenter.Utilities # 基础帮助库
 |   |-- IoTCenterCore # 模块化基础服务库
@@ -32,7 +32,7 @@ WebPlugins is a modular and pluggable application framework based on ASP.NET Cor
 |   |-- IoTCenterCore.SelfSignedCertificate # Linux自签名库
 |   |-- IoTCenterCore.SlideVerificationCode # 滑动验证码库
 |   |-- IoTCenterWebApi.BaseCore
-|-- IoTCenter.Modules # 插件目录
+|-- IoTCenter.Modules # 插件解决方案
 |   |-- Ganweisoft.IoTCenter.Module.EquipConfig # 设备管理
 |   |-- Ganweisoft.IoTCenter.Module.EquipLink # 设备联动
 |   |-- Ganweisoft.IoTCenter.Module.EquipList # 设备列表
