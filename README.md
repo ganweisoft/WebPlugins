@@ -18,7 +18,7 @@ Here is the translated English version of your front-end development guide, main
   - [1.2 Project Architecture Overview](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#2-project-structure-description)
 
 - [2. Sub-Application Development Standards](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#3-sub-application-development)
-  - [2.1 Template Engineering System](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide-CN#31-%E7%A4%BA%E4%BE%8B%E6%A8%A1%E6%9D%BF%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E8%AE%BE%E5%A4%87%E8%81%94%E5%8A%A8)
+  - [2.1 Template Engineering System](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#31-example-template-file-structure-device-linkage)
   - [2.2 Menu System Configuration](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#32-configuration-menu)
   - [2.3 Business Code Development Standards](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#33-code-development)
   - [2.4 Startup Process Explanation](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#34-startup-project)
