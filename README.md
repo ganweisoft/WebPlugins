@@ -12,22 +12,22 @@ WebPlugins is a modular and pluggable application framework based on ASP.NET Cor
 
 Here is the translated English version of your front-end development guide, maintaining the original structure and technical terminology:
 
-# [Front-End Development Guide](https://github.com/ganweisoft/WebPlugins/wiki/Front-End-Development-Guide)
-- [1. Environment Configuration & Project Initialization](https://github.com/ganweisoft/WebPlugins/wiki/Front-End-Development-Guide#1-environment-configuration--project-initialization)
-  - [1.1 Development Environment Setup](https://github.com/ganweisoft/WebPlugins/wiki/Front-End-Development-Guide-CN#1-%E4%BD%BF%E7%94%A8nvm%E5%AE%89%E8%A3%85)
-  - [1.2 Project Architecture Overview](https://github.com/ganweisoft/WebPlugins/wiki/Front-End-Development-Guide#2-project-structure-description)
+# [Front‐End Development Guide](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide)
+- [1. Environment Configuration & Project Initialization](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#1-environment-configuration--project-initialization)
+  - [1.1 Development Environment Setup](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide-CN#1-%E4%BD%BF%E7%94%A8nvm%E5%AE%89%E8%A3%85)
+  - [1.2 Project Architecture Overview](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#2-project-structure-description)
 
-- [2. Sub-Application Development Standards](https://github.com/ganweisoft/WebPlugins/wiki/Front-End-Development-Guide#3-sub-application-development)
-  - [2.1 Template Engineering System](https://github.com/ganweisoft/WebPlugins/wiki/Front-End-Development-Guide-CN#31-%E7%A4%BA%E4%BE%8B%E6%A8%A1%E6%9D%BF%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E8%AE%BE%E5%A4%87%E8%81%94%E5%8A%A8)
-  - [2.2 Menu System Configuration](https://github.com/ganweisoft/WebPlugins/wiki/Front-End-Development-Guide#32-configuration-menu)
-  - [2.3 Business Code Development Standards](https://github.com/ganweisoft/WebPlugins/wiki/Front-End-Development-Guide#33-code-development)
-  - [2.4 Startup Process Explanation](https://github.com/ganweisoft/WebPlugins/wiki/Front-End-Development-Guide#34-startup-project)
+- [2. Sub-Application Development Standards](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#3-sub-application-development)
+  - [2.1 Template Engineering System](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide-CN#31-%E7%A4%BA%E4%BE%8B%E6%A8%A1%E6%9D%BF%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E8%AE%BE%E5%A4%87%E8%81%94%E5%8A%A8)
+  - [2.2 Menu System Configuration](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#32-configuration-menu)
+  - [2.3 Business Code Development Standards](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#33-code-development)
+  - [2.4 Startup Process Explanation](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#34-startup-project)
 
-- [3. Interface Theme System](https://github.com/ganweisoft/WebPlugins/wiki/Front-End-Development-Guide-CN#35-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE)
-  - [3.1 Theme Resource Referencing Mechanism](https://github.com/ganweisoft/WebPlugins/wiki/Front-End-Development-Guide#351-topic-citation)
-  - [3.2 Dynamic Theme Switching Implementation](https://github.com/ganweisoft/WebPlugins/wiki/Front-End-Development-Guide#352-theme-switching)
+- [3. Interface Theme System](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide-CN#35-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE)
+  - [3.1 Theme Resource Referencing Mechanism](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#351-topic-citation)
+  - [3.2 Dynamic Theme Switching Implementation](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#352-theme-switching)
 
-- [4. Build & Deployment](https://github.com/ganweisoft/WebPlugins/wiki/Front-End-Development-Guide#4-build--deployment)
+- [4. Build & Deployment](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide#4-build--deployment)
 
 # [Backend Development Guide](https://github.com/ganweisoft/WebPlugins/wiki/Backend-Development-Guide)
 - [1.1 Create a Plugin Template Solution](https://github.com/ganweisoft/WebPlugins/wiki/Backend-Development-Guide#11-create-a-plugin-template-solution)
