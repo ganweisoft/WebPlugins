@@ -10,22 +10,23 @@
 
 WebPlugins 是一个基于ASP.NET Core和VUE的模块化和插件化应用程序框架，基于松耦合、高内聚的设计理念，构建了一个可扩展、易维护的应用框架，通过将核心逻辑与功能组件完全解耦，可进行二次开发
 
-## [前端开发指南](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end.README.zh%E2%80%90cn)
-- [1.环境配置与项目初始化](#chapter-1-environment-configuration-and-project-initialization)
-  -  [1.1 开发环境搭建](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#1-%E4%BD%BF%E7%94%A8nvm%E5%AE%89%E8%A3%85)
-  - [1.2 项目架构解析](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#2-%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84%E8%AF%B4%E6%98%8E)
+## [前端开发指南](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN)
+- [1. 环境配置与项目初始化](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#1-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8E%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E5%8C%96)
+  - [1.1 开发环境搭建](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#11-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)
+  - [1.2 项目架构解析](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#12-%E9%A1%B9%E7%9B%AE%E6%9E%B6%E6%9E%84%E8%A7%A3%E6%9E%90)
 
-- [2.子应用开发规范](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#2-%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84%E8%AF%B4%E6%98%8E)
-- [2.1 模板工程体系](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#31-%E7%A4%BA%E4%BE%8B%E6%A8%A1%E6%9D%BF%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E8%AE%BE%E5%A4%87%E8%81%94%E5%8A%A8)
-  - [2.2.1 菜单系统配置](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#32-%E9%85%8D%E7%BD%AE%E8%8F%9C%E5%8D%95)
-  - [2.2.2 业务代码开发规范](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#33-%E4%BB%A3%E7%A0%81%E5%BC%80%E5%8F%91)
-  - [2.2.3 启动流程说明](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#34-%E5%90%AF%E5%8A%A8%E9%A1%B9%E7%9B%AE)
+- [2. 子应用开发规范](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#2-%E5%AD%90%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83)
+  - [2.1 模板工程体系](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#21-%E6%A8%A1%E6%9D%BF%E5%B7%A5%E7%A8%8B%E4%BD%93%E7%B3%BB)
+  - [2.2 菜单系统配置](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#22-%E8%8F%9C%E5%8D%95%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE)
+  - [2.3 业务代码开发规范](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#23-%E4%B8%9A%E5%8A%A1%E4%BB%A3%E7%A0%81%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83)
+  - [2.4 启动流程说明](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#24-%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B%E8%AF%B4%E6%98%8E)
 
--[2.3 界面主题系统](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#35-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE)
-  - [2.3.1 主题资源引用机制](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#351-%E4%B8%BB%E9%A2%98%E5%BC%95%E7%94%A8)
-  - [2.3.2 动态主题切换实现](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#352-%E4%B8%BB%E9%A2%98%E5%88%87%E6%8D%A2)
+- [3. 界面主题系统](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#3-%E7%95%8C%E9%9D%A2%E4%B8%BB%E9%A2%98%E7%B3%BB%E7%BB%9F)
+  - [3.1 主题资源引用机制](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#31-%E4%B8%BB%E9%A2%98%E8%B5%84%E6%BA%90%E5%BC%95%E7%94%A8%E6%9C%BA%E5%88%B6)
+  - [3.2 动态主题切换实现](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#32-%E5%8A%A8%E6%80%81%E4%B8%BB%E9%A2%98%E5%88%87%E6%8D%A2%E5%AE%9E%E7%8E%B0)
 
-[第三章 构建与部署](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#4-%E5%AD%90%E5%BA%94%E7%94%A8%E6%89%93%E5%8C%85)
+- [4. 构建与部署](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#4-%E6%9E%84%E5%BB%BA%E4%B8%8E%E9%83%A8%E7%BD%B2)
+
 
 ## [后端开发指南](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end.README.zh%E2%80%90cn)
 - [1. 插件工程架构](https://github.com/ganweisoft/WebPlugins/wiki/back%E2%80%90end%E2%80%90CN#%E6%8F%92%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%9E%B6%E6%9E%84)
