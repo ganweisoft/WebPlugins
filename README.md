@@ -13,9 +13,9 @@ WebPlugins is a modular and pluggable application framework based on ASP.NET Cor
 # Source Code STRUCTURE
 ```bash
 |-- IoTCenter.Build # 核心源代码目录
-|-- IoTCenter.HostProxies # 代理服务接口
-|   |-- IoTCenterHost.Protos
-|   |-- IoTCenterHost.Proxy
+|-- IoTCenter.HostProxies # 代理服务库
+|   |-- IoTCenterHost.Protos # 代理服务接口定义库
+|   |-- IoTCenterHost.Proxy # 代理服务接口调用
 |-- IoTCenter.Infrastructure # 基础服务
 |   |-- IoTCenter.Data # 数据访问层
 |   |-- IoTCenter.Utilities # 基础帮助库
