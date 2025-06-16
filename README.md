@@ -13,24 +13,24 @@ WebPlugins is a modular and pluggable application framework based on ASP.NET Cor
 # Source Code STRUCTURE
 ```bash
 |-- IoTCenter.Build # 核心源代码目录
-|-- IoTCenter.HostProxies 
+|-- IoTCenter.HostProxies # 代理服务接口
 |   |-- IoTCenterHost.Protos
 |   |-- IoTCenterHost.Proxy
-|-- IoTCenter.Infrastructure
-|   |-- IoTCenter.Data
-|   |-- IoTCenter.Utilities
-|   |-- IoTCenterCore
-|   |-- IoTCenterCore.Abstractions
-|   |-- IoTCenterCore.Abstractions.Application
-|   |-- IoTCenterCore.AutoMapper
-|   |-- IoTCenterCore.DeviceDetection
-|   |-- IoTCenterCore.DynamicCache
-|   |-- IoTCenterCore.DynamicCache.Abstractions
-|   |-- IoTCenterCore.ExcelHelper
-|   |-- IoTCenterCore.Hei.Captcha
-|   |-- IoTCenterCore.RsaEncrypt
-|   |-- IoTCenterCore.SelfSignedCertificate
-|   |-- IoTCenterCore.SlideVerificationCode
+|-- IoTCenter.Infrastructure # 基础服务
+|   |-- IoTCenter.Data # 数据访问层
+|   |-- IoTCenter.Utilities # 基础帮助库
+|   |-- IoTCenterCore # 模块化基础服务库
+|   |-- IoTCenterCore.Abstractions # 模块化基础服务库
+|   |-- IoTCenterCore.Abstractions.Application # 模块化基础服务库
+|   |-- IoTCenterCore.AutoMapper # AutoMapper封装库
+|   |-- IoTCenterCore.DeviceDetection # 登录设备检测库
+|   |-- IoTCenterCore.DynamicCache # 动态缓存服务
+|   |-- IoTCenterCore.DynamicCache.Abstractions # 动态缓存服务抽象
+|   |-- IoTCenterCore.ExcelHelper # Excel导入导出服务库
+|   |-- IoTCenterCore.Hei.Captcha # 图片验证码库
+|   |-- IoTCenterCore.RsaEncrypt # RSA加解密库
+|   |-- IoTCenterCore.SelfSignedCertificate # Linux自签名库
+|   |-- IoTCenterCore.SlideVerificationCode # 滑动验证码库
 |   |-- IoTCenterWebApi.BaseCore
 |-- IoTCenter.Modules # 插件目录
 |   |-- Ganweisoft.IoTCenter.Module.EquipConfig # 设备管理
@@ -46,7 +46,7 @@ WebPlugins is a modular and pluggable application framework based on ASP.NET Cor
 |   |-- IoTCenterWeb.Daemon
 |   |-- IoTCenterWebApi.StartUp
 |-- IoTCenterWebApi # Web入口
-|-- Shared
+|-- Shared # Web统一配置
 ````
 
 Here is the translated English version of your front-end development guide, maintaining the original structure and technical terminology:
