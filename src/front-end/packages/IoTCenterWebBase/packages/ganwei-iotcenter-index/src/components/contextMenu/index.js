@@ -2,7 +2,7 @@
 // import Vue from "vue";
 import { createApp } from "vue";
 
-import Main from "./Index.vue";
+import Main from "./index.vue";
 
 let instance;
 
