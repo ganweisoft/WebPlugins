@@ -10,6 +10,45 @@
 
 WebPlugins 是一个基于ASP.NET Core和VUE的模块化和插件化应用程序框架，基于松耦合、高内聚的设计理念，构建了一个可扩展、易维护的应用框架，通过将核心逻辑与功能组件完全解耦，可进行二次开发
 
+# 源码结构
+```bash
+|-- IoTCenter.Build # 统一包管理解决方案
+|-- IoTCenter.HostProxies # 代理服务库
+|   |-- IoTCenterHost.Protos # 代理服务接口定义库
+|   |-- IoTCenterHost.Proxy # 代理服务接口调用
+|-- IoTCenter.Infrastructure # 基础服务解决方案
+|   |-- IoTCenter.Data # 数据访问层
+|   |-- IoTCenter.Utilities # 基础帮助库
+|   |-- IoTCenterCore # 模块化基础服务库
+|   |-- IoTCenterCore.Abstractions # 模块化基础服务库
+|   |-- IoTCenterCore.Abstractions.Application # 模块化基础服务库
+|   |-- IoTCenterCore.AutoMapper # AutoMapper封装库
+|   |-- IoTCenterCore.DeviceDetection # 登录设备检测库
+|   |-- IoTCenterCore.DynamicCache # 动态缓存服务
+|   |-- IoTCenterCore.DynamicCache.Abstractions # 动态缓存服务抽象
+|   |-- IoTCenterCore.ExcelHelper # Excel导入导出服务库
+|   |-- IoTCenterCore.Hei.Captcha # 图片验证码库
+|   |-- IoTCenterCore.RsaEncrypt # RSA加解密库
+|   |-- IoTCenterCore.SelfSignedCertificate # Linux自签名库
+|   |-- IoTCenterCore.SlideVerificationCode # 滑动验证码库
+|   |-- IoTCenterWebApi.BaseCore
+|-- IoTCenter.Modules # 插件解决方案
+|   |-- Ganweisoft.IoTCenter.Module.EquipConfig # 设备管理
+|   |-- Ganweisoft.IoTCenter.Module.EquipLink # 设备联动
+|   |-- Ganweisoft.IoTCenter.Module.EquipList # 设备列表
+|   |-- Ganweisoft.IoTCenter.Module.Event # 事件查询
+|   |-- Ganweisoft.IoTCenter.Module.LogManage # 日志管理
+|   |-- Ganweisoft.IoTCenter.Module.Login # 登录
+|   |-- Ganweisoft.IoTCenter.Module.RealTime # 实时快照
+|   |-- Ganweisoft.IoTCenter.Module.SignalR # SignalR实时推送
+|   |-- Ganweisoft.IoTCenter.Module.TimeTask # 定时任务
+|-- IoTCenter.WindowsServices # Windows服务注册解决方案
+|   |-- IoTCenterWeb.Daemon
+|   |-- IoTCenterWebApi.StartUp
+|-- IoTCenterWebApi # Web入口
+|-- Shared # Web统一配置
+````
+
 ## [前端开发指南](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN)
 - [1. 环境配置与项目初始化](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#1-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8E%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E5%8C%96)
   - [1.1 开发环境搭建](https://github.com/ganweisoft/WebPlugins/wiki/front%E2%80%90end%E2%80%90CN#11-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)
