@@ -12,41 +12,41 @@ WebPlugins is a modular and pluggable application framework based on ASP.NET Cor
 
 # Source Code Structure
 ```bash
-|-- IoTCenter.Build # 统一包管理解决方案
-|-- IoTCenter.HostProxies # 代理服务库
-|   |-- IoTCenterHost.Protos # 代理服务接口定义库
-|   |-- IoTCenterHost.Proxy # 代理服务接口调用
-|-- IoTCenter.Infrastructure # 基础服务解决方案
-|   |-- IoTCenter.Data # 数据访问层
-|   |-- IoTCenter.Utilities # 基础帮助库
-|   |-- IoTCenterCore # 模块化基础服务库
-|   |-- IoTCenterCore.Abstractions # 模块化基础服务库
-|   |-- IoTCenterCore.Abstractions.Application # 模块化基础服务库
-|   |-- IoTCenterCore.AutoMapper # AutoMapper封装库
-|   |-- IoTCenterCore.DeviceDetection # 登录设备检测库
-|   |-- IoTCenterCore.DynamicCache # 动态缓存服务
-|   |-- IoTCenterCore.DynamicCache.Abstractions # 动态缓存服务抽象
-|   |-- IoTCenterCore.ExcelHelper # Excel导入导出服务库
-|   |-- IoTCenterCore.Hei.Captcha # 图片验证码库
-|   |-- IoTCenterCore.RsaEncrypt # RSA加解密库
-|   |-- IoTCenterCore.SelfSignedCertificate # Linux自签名库
-|   |-- IoTCenterCore.SlideVerificationCode # 滑动验证码库
-|   |-- IoTCenterWebApi.BaseCore
-|-- IoTCenter.Modules # 插件解决方案
-|   |-- Ganweisoft.IoTCenter.Module.EquipConfig # 设备管理
-|   |-- Ganweisoft.IoTCenter.Module.EquipLink # 设备联动
-|   |-- Ganweisoft.IoTCenter.Module.EquipList # 设备列表
-|   |-- Ganweisoft.IoTCenter.Module.Event # 事件查询
-|   |-- Ganweisoft.IoTCenter.Module.LogManage # 日志管理
-|   |-- Ganweisoft.IoTCenter.Module.Login # 登录
-|   |-- Ganweisoft.IoTCenter.Module.RealTime # 实时快照
-|   |-- Ganweisoft.IoTCenter.Module.SignalR # SignalR实时推送
-|   |-- Ganweisoft.IoTCenter.Module.TimeTask # 定时任务
-|-- IoTCenter.WindowsServices # Windows服务注册解决方案
-|   |-- IoTCenterWeb.Daemon
-|   |-- IoTCenterWebApi.StartUp
-|-- IoTCenterWebApi # Web入口
-|-- Shared # Web统一配置
+|-- IoTCenter.Build # Unified Package Management Solution  
+|-- IoTCenter.HostProxies # Proxy Service Library  
+|   |-- IoTCenterHost.Protos # Proxy Service Interface Definition Library  
+|   |-- IoTCenterHost.Proxy # Proxy Service Interface Invocation  
+|-- IoTCenter.Infrastructure # Infrastructure Service Solution  
+|   |-- IoTCenter.Data # Data Access Layer  
+|   |-- IoTCenter.Utilities # Basic Helper Library  
+|   |-- IoTCenterCore # Modular Core Service Library  
+|   |-- IoTCenterCore.Abstractions # Modular Core Service Abstraction Library  
+|   |-- IoTCenterCore.Abstractions.Application # Modular Core Application Abstraction Library  
+|   |-- IoTCenterCore.AutoMapper # AutoMapper Wrapper Library  
+|   |-- IoTCenterCore.DeviceDetection # Login Device Detection Library  
+|   |-- IoTCenterCore.DynamicCache # Dynamic Cache Service  
+|   |-- IoTCenterCore.DynamicCache.Abstractions # Dynamic Cache Service Abstraction  
+|   |-- IoTCenterCore.ExcelHelper # Excel Import/Export Service Library  
+|   |-- IoTCenterCore.Hei.Captcha # Image CAPTCHA Library  
+|   |-- IoTCenterCore.RsaEncrypt # RSA Encryption/Decryption Library  
+|   |-- IoTCenterCore.SelfSignedCertificate # Linux Self-Signed Certificate Library  
+|   |-- IoTCenterCore.SlideVerificationCode # Slide Verification Code Library  
+|   |-- IoTCenterWebApi.BaseCore  
+|-- IoTCenter.Modules # Plugin Solution  
+|   |-- Ganweisoft.IoTCenter.Module.EquipConfig # Equipment Management  
+|   |-- Ganweisoft.IoTCenter.Module.EquipLink # Equipment Linkage  
+|   |-- Ganweisoft.IoTCenter.Module.EquipList # Equipment List  
+|   |-- Ganweisoft.IoTCenter.Module.Event # Event Query  
+|   |-- Ganweisoft.IoTCenter.Module.LogManage # Log Management  
+|   |-- Ganweisoft.IoTCenter.Module.Login # Login  
+|   |-- Ganweisoft.IoTCenter.Module.RealTime # Real-time Snapshot  
+|   |-- Ganweisoft.IoTCenter.Module.SignalR # SignalR Real-time Push  
+|   |-- Ganweisoft.IoTCenter.Module.TimeTask # Scheduled Tasks  
+|-- IoTCenter.WindowsServices # Windows Service Registration Solution  
+|   |-- IoTCenterWeb.Daemon  
+|   |-- IoTCenterWebApi.StartUp  
+|-- IoTCenterWebApi # Web Entry Point  
+|-- Shared # Unified Web Configuration
 ````
 
 Here is the translated English version of your front-end development guide, maintaining the original structure and technical terminology:
