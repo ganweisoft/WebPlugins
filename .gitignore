@@ -42,6 +42,9 @@ bld/
 # plugins
 [p]lugins/
 
+# services
+[s]ervices/
+
 # Visual Studio 2017 auto generated files
 Generated\ Files/
 

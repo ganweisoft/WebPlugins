@@ -7,6 +7,10 @@
 		<Nullable>enable</Nullable>
 		<ApplicationIcon>logo.ico</ApplicationIcon>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<OutputPath>$(SolutionDir)\services</OutputPath>
+		<!-- 禁用 runtimeconfig.json 和 deps.json 生成 -->
+		<GenerateRuntimeConfigurationFiles>false</GenerateRuntimeConfigurationFiles>
+		<GenerateDependencyFile>false</GenerateDependencyFile>
 	</PropertyGroup>
 
 	<ItemGroup>
