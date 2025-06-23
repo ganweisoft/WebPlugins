@@ -1,4 +1,5 @@
-﻿using IoTCenter.Data.Database;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using IoTCenter.Data.Database;
 using IoTCenter.Data.Model;
 using IoTCenter.Utilities;
 using Microsoft.AspNetCore.Builder;

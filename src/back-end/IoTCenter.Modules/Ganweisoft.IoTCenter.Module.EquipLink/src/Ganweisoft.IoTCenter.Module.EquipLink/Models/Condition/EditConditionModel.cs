@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;

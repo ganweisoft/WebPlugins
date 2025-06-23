@@ -1,4 +1,5 @@
-﻿namespace IoTCenterCore.AutoMapper
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+namespace IoTCenterCore.AutoMapper
 {
     public interface IObjectMapping
     {

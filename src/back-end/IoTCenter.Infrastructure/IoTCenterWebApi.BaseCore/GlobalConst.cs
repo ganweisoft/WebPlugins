@@ -1,4 +1,5 @@
-﻿using System.Collections.Concurrent;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 
 namespace System;

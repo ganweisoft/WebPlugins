@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using System;
 using System.Buffers;
 using System.Buffers.Text;
 using System.Text.Json;

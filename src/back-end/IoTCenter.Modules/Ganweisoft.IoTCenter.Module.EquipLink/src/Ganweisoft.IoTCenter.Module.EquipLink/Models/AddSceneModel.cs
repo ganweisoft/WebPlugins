@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
 using System.Collections.Generic;
 
 namespace Ganweisoft.IoTCenter.Module.EquipLink.Models

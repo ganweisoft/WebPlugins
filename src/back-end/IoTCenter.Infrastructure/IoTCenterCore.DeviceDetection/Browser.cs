@@ -1,4 +1,5 @@
-﻿namespace IoTCenterCore.DeviceDetection
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+namespace IoTCenterCore.DeviceDetection
 {
     public enum BrowserType
     {

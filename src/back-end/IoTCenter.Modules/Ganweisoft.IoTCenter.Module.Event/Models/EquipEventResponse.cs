@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using Newtonsoft.Json;
 using System;
 
 namespace Ganweisoft.IoTCenter.Module.Event;

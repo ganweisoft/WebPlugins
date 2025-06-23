@@ -1,4 +1,5 @@
-﻿using IoTCenterWebApi;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using IoTCenterWebApi;
 using Microsoft.AspNetCore.Server.Kestrel.Https;
 using System;
 using System.Collections.Generic;

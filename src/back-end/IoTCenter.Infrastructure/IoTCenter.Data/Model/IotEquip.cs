@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace IoTCenter.Data.Model

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using Microsoft.AspNetCore.Http;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;

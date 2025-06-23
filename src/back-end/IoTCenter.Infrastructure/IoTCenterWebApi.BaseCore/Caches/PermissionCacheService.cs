@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
 using IoTCenter.Data;
 using IoTCenter.Data.Model;
 using Microsoft.EntityFrameworkCore;

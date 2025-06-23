@@ -1,4 +1,5 @@
-﻿namespace System;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+namespace System;
 
 public class UserBaseSession
 {

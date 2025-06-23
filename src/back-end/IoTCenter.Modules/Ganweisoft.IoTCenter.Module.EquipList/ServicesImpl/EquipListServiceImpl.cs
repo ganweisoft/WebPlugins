@@ -1,4 +1,5 @@
-﻿using ICSharpCode.SharpZipLib.Zip;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using ICSharpCode.SharpZipLib.Zip;
 using IoTCenter.Data;
 using IoTCenter.Data.Model;
 using IoTCenter.Utilities;

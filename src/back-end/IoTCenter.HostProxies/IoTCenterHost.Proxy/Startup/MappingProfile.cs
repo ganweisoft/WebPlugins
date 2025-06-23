@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
 using AutoMapper;
 using IoTCenterCore.AutoMapper;
 using IoTCenterHost.Core.Abstraction;

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using Microsoft.AspNetCore.Mvc.Rendering;
 using NPOI.SS.UserModel;
 using System.Collections.Generic;
 using System.Linq;

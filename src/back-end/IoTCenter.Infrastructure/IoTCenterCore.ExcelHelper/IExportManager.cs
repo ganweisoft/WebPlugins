@@ -1,4 +1,5 @@
-﻿using NPOI.SS.UserModel;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using NPOI.SS.UserModel;
 using System.Collections.Generic;
 
 namespace IoTCenterCore.ExcelHelper

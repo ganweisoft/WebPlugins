@@ -1,4 +1,3 @@
-
 namespace IoTCenterCore.Modules.Manifest
 {
     public static class ManifestConstants

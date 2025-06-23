@@ -1,4 +1,5 @@
-﻿using Serilog.Events;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using Serilog.Events;
 using System;
 using System.Threading.Tasks;
 

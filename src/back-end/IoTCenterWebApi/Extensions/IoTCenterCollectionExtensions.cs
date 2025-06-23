@@ -1,4 +1,5 @@
-﻿using IoTCenter.Data.Internal.Extensions;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using IoTCenter.Data.Internal.Extensions;
 using IoTCenter.Data;
 using IoTCenter.Utilities;
 using IoTCenterCore.ExcelHelper;

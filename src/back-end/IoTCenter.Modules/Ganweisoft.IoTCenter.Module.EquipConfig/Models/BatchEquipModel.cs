@@ -1,4 +1,5 @@
-﻿using IoTCenterCore.ExcelHelper;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using IoTCenterCore.ExcelHelper;
 using Newtonsoft.Json;
 
 namespace Ganweisoft.IoTCenter.Module.EquipConfig;

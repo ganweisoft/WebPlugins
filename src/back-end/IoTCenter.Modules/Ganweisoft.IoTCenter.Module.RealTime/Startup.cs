@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
 using IoTCenterCore.Modules;
 using IoTCenterWebApi.Service;
 using Microsoft.AspNetCore.Builder;

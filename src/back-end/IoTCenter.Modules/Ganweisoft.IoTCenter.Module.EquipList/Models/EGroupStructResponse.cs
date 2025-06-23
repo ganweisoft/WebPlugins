@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using System.Collections.Generic;
 
 namespace Ganweisoft.IoTCenter.Module.EquipList;
 

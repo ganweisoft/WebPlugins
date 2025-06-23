@@ -1,4 +1,5 @@
-﻿using IoTCenterCore.DeviceDetection;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using IoTCenterCore.DeviceDetection;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;

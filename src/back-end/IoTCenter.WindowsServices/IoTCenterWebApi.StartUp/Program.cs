@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using System.Diagnostics;
 string url = "https://localhost:44380";
 int pingMax = 10;
 int pingTimeout = 1;

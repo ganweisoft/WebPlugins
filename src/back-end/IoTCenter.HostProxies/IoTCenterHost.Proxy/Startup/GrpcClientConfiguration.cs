@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
 using Grpc.Core;
 using Grpc.Health.V1;
 using IoTCenterHost.Proto;

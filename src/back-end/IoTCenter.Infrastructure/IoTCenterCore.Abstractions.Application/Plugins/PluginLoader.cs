@@ -1,5 +1,4 @@
-﻿
-using IoTCenterCore.Modules.Internal;
+﻿using IoTCenterCore.Modules.Internal;
 using IoTCenterCore.Modules.Loader;
 using Microsoft.Extensions.DependencyInjection;
 using System;

@@ -1,4 +1,5 @@
-﻿using Ganweisoft.IoTCenter.Module.EquipLink.Data;
+// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using Ganweisoft.IoTCenter.Module.EquipLink.Data;
 using Ganweisoft.IoTCenter.Module.EquipLink.Models.Condition;
 using System;
 using System.Text;

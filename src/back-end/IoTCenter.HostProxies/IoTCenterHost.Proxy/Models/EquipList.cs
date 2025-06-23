@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
 namespace IoTCenterHost.Proxy
 {
     public class EquipList

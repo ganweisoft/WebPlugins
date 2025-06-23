@@ -1,4 +1,5 @@
-﻿using IoTCenter.Data.Model;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using IoTCenter.Data.Model;
 using IoTCenter.Utilities;
 using System.Collections.Generic;
 using System.Threading.Tasks;

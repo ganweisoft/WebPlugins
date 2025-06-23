@@ -1,4 +1,5 @@
-﻿using Ganweisoft.IoTCenter.Module.RealTime;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using Ganweisoft.IoTCenter.Module.RealTime;
 using IoTCenter.Data.Model;
 using IoTCenter.Utilities;
 using System.Collections.Generic;

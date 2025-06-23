@@ -1,4 +1,5 @@
-﻿using Microsoft.Net.Http.Headers;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using Microsoft.Net.Http.Headers;
 using System;
 using System.Diagnostics.CodeAnalysis;
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using System;
 
 namespace Ganweisoft.IoTCenter.Module.EquipList;
 

@@ -1,4 +1,5 @@
-﻿namespace IoTCenter.Data.Model
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+namespace IoTCenter.Data.Model
 {
     public  class GwsnapshotConfig
     {

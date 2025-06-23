@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
 using System.ComponentModel;
 
 namespace Ganweisoft.IoTCenter.Module.TimeTask

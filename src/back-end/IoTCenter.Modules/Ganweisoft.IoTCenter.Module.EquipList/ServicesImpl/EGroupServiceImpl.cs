@@ -1,4 +1,5 @@
-﻿using IoTCenter.Data;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using IoTCenter.Data;
 using IoTCenterHost.Core.Abstraction.Services;
 using IoTCenterWebApi.BaseCore;
 using Microsoft.EntityFrameworkCore;

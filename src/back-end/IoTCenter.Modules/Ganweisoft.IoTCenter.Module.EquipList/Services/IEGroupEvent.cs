@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using System.Threading.Tasks;
 
 namespace Ganweisoft.IoTCenter.Module.EquipList;
 

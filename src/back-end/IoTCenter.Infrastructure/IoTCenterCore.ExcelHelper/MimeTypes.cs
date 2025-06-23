@@ -1,4 +1,5 @@
-﻿namespace IoTCenterCore.ExcelHelper
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+namespace IoTCenterCore.ExcelHelper
 {
     public static class MimeTypes
     {

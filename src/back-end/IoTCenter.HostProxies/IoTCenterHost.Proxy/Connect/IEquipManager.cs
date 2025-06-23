@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
 using IoTCenterHost.Core.Abstraction;
 using IoTCenterHost.Core.Abstraction.BaseModels;
 using IoTCenterHost.Core.Abstraction.ProxyModels;

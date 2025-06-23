@@ -1,4 +1,5 @@
-﻿namespace Ganweisoft.IoTCenter.Module.SignalR;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+namespace Ganweisoft.IoTCenter.Module.SignalR;
 
 internal class SignalrPushEquipData
 {

@@ -1,5 +1,4 @@
-﻿
-namespace IoTCenterCore.Modules
+﻿namespace IoTCenterCore.Modules
 {
     internal class RuntimeConfig
     {

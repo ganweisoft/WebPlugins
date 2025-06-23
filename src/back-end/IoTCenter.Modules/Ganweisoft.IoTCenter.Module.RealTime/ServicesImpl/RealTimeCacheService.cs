@@ -1,4 +1,5 @@
-﻿using IoTCenter.Utilities;
+﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+using IoTCenter.Utilities;
 using IoTCenterHost.Core.Abstraction;
 using IoTCenterHost.Core.Abstraction.AppServices;
 using IoTCenterHost.Core.Abstraction.IotModels;
