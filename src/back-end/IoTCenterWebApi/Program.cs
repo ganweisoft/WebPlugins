@@ -4,24 +4,31 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Hosting.WindowsServices;
 using Serilog;
 using System;
 using System.IO;
 
 namespace IoTCenterWebApi;
 
+
 public static class Program
 {
     public static Serilogger ApiLog { get; private set; }
     public static bool SingleAppStart { get; private set; }
     public static bool StartHostApp { get; private set; }
+
+    static Program()
+    {
+        Directory.SetCurrentDirectory(AppContext.BaseDirectory);
+    }
     static void Main(string[] args)
     {
-        if (args.Length > 0 && Directory.Exists(args[0]))
+        var options = new WebApplicationOptions()
         {
-            SingleAppStart = true;
-            Directory.SetCurrentDirectory(args[0]);
-        }
+            Args = args,
+            ContentRootPath = AppContext.BaseDirectory
+        };
 
         ApiLog = new Serilogger();
 
@@ -33,7 +40,7 @@ public static class Program
         {
             StartHostApp = false;
 
-            var host = CreateHostBuilder(args).Build();
+            var host = CreateHostBuilder(options).Build();
 
             ApiLog.Logger.Information("启动web中....");
 
@@ -53,14 +60,15 @@ public static class Program
 
     }
 
-    public static IHostBuilder CreateHostBuilder(string[] args) =>
-        Host.CreateDefaultBuilder(args)
+    public static IHostBuilder CreateHostBuilder(WebApplicationOptions options) =>
+        Host.CreateDefaultBuilder(options.Args)
             .UseWindowsService(opt => opt.ServiceName = "IoTCenterWeb")
             .UseSystemd()
             .UseSerilog()
-            .UseContentRoot(AppContext.BaseDirectory)
+            .UseContentRoot(options.ContentRootPath)
             .ConfigureAppConfiguration((context, builder) =>
             {
+                builder.SetBasePath(options.ContentRootPath);
                 builder.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true).AddJsonFile("logsetting.json", optional: true, reloadOnChange: true);
             })
             .ConfigureWebHostDefaults(webBuilder =>
