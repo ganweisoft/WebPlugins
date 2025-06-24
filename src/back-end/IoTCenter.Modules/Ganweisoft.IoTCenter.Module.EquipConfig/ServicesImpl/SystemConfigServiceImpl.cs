@@ -1884,7 +1884,7 @@ public class SystemConfigServiceImpl : ISystemConfigService
             }
         }
 
-        var ioTEquipNum = _context.Equip.Any() ? _context.Equip.Max(d => d.EquipNo) : 1;
+        var ioTEquipNum = _context.Equip.Any() ? _context.Equip.Max(d => d.EquipNo) : 0;
 
         var ycs = await _context.IotYcp.AsNoTracking().Where(x => x.EquipNo == iEquipNo)
             .ToListAsync();
