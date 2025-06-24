@@ -10,45 +10,6 @@ English | [简体中文](README-CN.md)
 
 WebPlugins is a modular and pluggable application framework based on ASP.NET Core and VUE. Built on the design principles of loose coupling and high cohesion, it provides an extensible and maintainable application framework. By completely decoupling core logic from functional components, it enables secondary development.
 
-# Source Code Structure
-```bash
-|-- IoTCenter.Build # Unified Package Management Solution  
-|-- IoTCenter.HostProxies # Proxy Service Library  
-|   |-- IoTCenterHost.Protos # Proxy Service Interface Definition Library  
-|   |-- IoTCenterHost.Proxy # Proxy Service Interface Invocation  
-|-- IoTCenter.Infrastructure # Infrastructure Service Solution  
-|   |-- IoTCenter.Data # Data Access Layer  
-|   |-- IoTCenter.Utilities # Basic Helper Library  
-|   |-- IoTCenterCore # Modular Core Service Library  
-|   |-- IoTCenterCore.Abstractions # Modular Core Service Abstraction Library  
-|   |-- IoTCenterCore.Abstractions.Application # Modular Core Application Abstraction Library  
-|   |-- IoTCenterCore.AutoMapper # AutoMapper Wrapper Library  
-|   |-- IoTCenterCore.DeviceDetection # Login Device Detection Library  
-|   |-- IoTCenterCore.DynamicCache # Dynamic Cache Service  
-|   |-- IoTCenterCore.DynamicCache.Abstractions # Dynamic Cache Service Abstraction  
-|   |-- IoTCenterCore.ExcelHelper # Excel Import/Export Service Library  
-|   |-- IoTCenterCore.Hei.Captcha # Image CAPTCHA Library  
-|   |-- IoTCenterCore.RsaEncrypt # RSA Encryption/Decryption Library  
-|   |-- IoTCenterCore.SelfSignedCertificate # Linux Self-Signed Certificate Library  
-|   |-- IoTCenterCore.SlideVerificationCode # Slide Verification Code Library  
-|   |-- IoTCenterWebApi.BaseCore  
-|-- IoTCenter.Modules # Plugin Solution  
-|   |-- Ganweisoft.IoTCenter.Module.EquipConfig # Equipment Management  
-|   |-- Ganweisoft.IoTCenter.Module.EquipLink # Equipment Linkage  
-|   |-- Ganweisoft.IoTCenter.Module.EquipList # Equipment List  
-|   |-- Ganweisoft.IoTCenter.Module.Event # Event Query  
-|   |-- Ganweisoft.IoTCenter.Module.LogManage # Log Management  
-|   |-- Ganweisoft.IoTCenter.Module.Login # Login  
-|   |-- Ganweisoft.IoTCenter.Module.RealTime # Real-time Snapshot  
-|   |-- Ganweisoft.IoTCenter.Module.SignalR # SignalR Real-time Push  
-|   |-- Ganweisoft.IoTCenter.Module.TimeTask # Scheduled Tasks  
-|-- IoTCenter.WindowsServices # Windows Service Registration Solution  
-|   |-- IoTCenterWeb.Daemon  
-|   |-- IoTCenterWebApi.StartUp  
-|-- IoTCenterWebApi # Web Entry Point  
-|-- Shared # Unified Web Configuration
-````
-
 Here is the translated English version of your front-end development guide, maintaining the original structure and technical terminology:
 
 # [Front‐End Development Guide](https://github.com/ganweisoft/WebPlugins/wiki/Front%E2%80%90End-Development-Guide)
