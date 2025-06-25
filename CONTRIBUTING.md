@@ -4,7 +4,7 @@ One of the easiest ways to contribute is to participate in discussions on IoTCen
 
 ## General feedback and discussions?
 
-Start a discussion on the [repository issue tracker](https://github.com/ganweisoft/IoTCenterWebAPi/issues)).
+Start a discussion on the [repository issue tracker](https://github.com/ganweisoft/WebPlugins/issues)).
 
 ## Bugs and feature requests?
 
@@ -15,7 +15,7 @@ Before reporting a new issue, try to find an existing issue if one already exist
 
 If you can't find an existing issue, log a new issue in the appropriate GitHub repository. Here are some of the most common repositories:
 
-* [Issues](https://github.com/ganweisoft/IoTCenterWebAPi/issues)
+* [Issues](https://github.com/ganweisoft/WebPlugins/issues)
 
 ## Reporting security issues and bugs
 
@@ -30,7 +30,7 @@ To help you be successful we've put together a few simple rules to follow when y
 
   We've seen PRs, where customers would solve an issue in a way, which either wouldn't fit into the framework because of how it's designed or it would change the framework in a way, which is not something we'd like to do. To avoid these situations and potentially save you a lot of time, we encourage customers to discuss the preferred design with the team first. To do so, file a new `design proposal` issue, link to the issue you'd like to address, and provide detailed information about how you'd like to solve a specific problem. We triage issues periodically and it will not take long for a team member to engage with you on that proposal.
   When you get an agreement from our team members that the design proposal you have is solid, then go ahead and prepare the PR.
-  To file a design proposal, look for the relevant issue in the `New issue` page or simply click [this link](https://github.com/ganweisoft/IoTCenterWebAPi/issues)):
+  To file a design proposal, look for the relevant issue in the `New issue` page or simply click [this link](https://github.com/ganweisoft/WebPlugins/issues)):
   ![image](https://user-images.githubusercontent.com/34246760/107969904-41b9ae80-6f65-11eb-8b84-d15e7d94753b.png)
 
 ### Before submitting the pull request
@@ -61,7 +61,7 @@ If you would like to contribute to one of our repositories, first identify the s
 
 ### Submitting a pull request
 
-If you don't know what a pull request is read this article: <[pull-requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)>. Make sure the repository can build and all tests pass. Familiarize yourself with the project workflow and our coding conventions. The coding, style, and general engineering guidelines are published on the [Engineering guidelines](https://github.com/ganweisoft/IoTCenterWebAPi/wiki/Engineering%E2%80%90guidelines)) page.
+If you don't know what a pull request is read this article: <[pull-requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)>. Make sure the repository can build and all tests pass. Familiarize yourself with the project workflow and our coding conventions. The coding, style, and general engineering guidelines are published on the [Engineering guidelines](https://github.com/ganweisoft/WebPlugins/wiki/Engineering%E2%80%90guidelines)) page.
 
 ### Tests
 
@@ -72,7 +72,7 @@ If you don't know what a pull request is read this article: <[pull-requests](htt
 
 ### Feedback
 
-Your pull request will now go through extensive checks by the subject matter experts on our team. Please be patient; we have hundreds of pull requests across all of our repositories. Update your pull request according to feedback until it is approved by one of the IoTCenterWebAPi team members. After that, one of our team members may adjust the branch you merge into based on the expected release schedule.
+Your pull request will now go through extensive checks by the subject matter experts on our team. Please be patient; we have hundreds of pull requests across all of our repositories. Update your pull request according to feedback until it is approved by one of the WebPlugins team members. After that, one of our team members may adjust the branch you merge into based on the expected release schedule.
 
 ## Merging pull requests
 
