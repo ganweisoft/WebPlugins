@@ -1,8 +1,9 @@
 {
     "name": "IoTCenterWebPlugin",
-    "version": "1.0.0",
+    "version": "6.1.0",
     "description": "物联网综合运营管理平台",
-    "author": "null",
+    "license": "MIT",
+    "author": "敢为软件<ganweisoft@ganweisoft.com>",
     "private": true,
     "scripts": {
         "dev-all": "node copy-public.js & cross-env NODE_ENV_ALL=debugAll webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

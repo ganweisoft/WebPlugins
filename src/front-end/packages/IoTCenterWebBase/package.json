@@ -1,7 +1,10 @@
 {
-    "name": "6.1-vite-cli",
+    "name": "IoTCenterWebBase",
+    "version": "6.1.0",
+    "description": "物联网综合运营管理平台",
+    "license": "MIT",
+    "author": "敢为软件<ganweisoft@ganweisoft.com>",
     "private": true,
-    "version": "0.0.1",
     "type": "module",
     "scripts": {
         "dev": "pnpm -r --parallel  run dev",
