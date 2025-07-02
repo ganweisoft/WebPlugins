@@ -828,7 +828,7 @@ namespace Ganweisoft.IoTCenter.Module.EquipConfig
             var count = query.Count();
             var result = list.Skip((pageNo - 1) * pageSize).Take(pageSize);
 
-            return OperateResult.Successed(PagedResult<IotYxp>.Create(count, result.ToJson()));
+            return OperateResult.Successed(PagedResult<IotYxp>.Create(count, result));
         }
 
         public async Task<OperateResult<IotYxp>> GetYxpDataByEquipYxNo(EquipYcYxSetNoModel equipYcYxSetNoModel)
