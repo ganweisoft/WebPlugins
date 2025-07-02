@@ -1,7 +1,9 @@
 {
-    "name": "6.1-vite-cli",
-    "private": true,
-    "version": "0.0.1",
+    "name": "IoTCenterWebBase",
+    "version": "6.1.0",
+    "license": "MIT",
+    "author": "Shenzhen Ganwei Software<opensource@ganweisoft.com>",
+    "private": false,
     "type": "module",
     "scripts": {
         "dev": "pnpm -r --parallel  run dev",
