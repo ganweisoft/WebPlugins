@@ -55,7 +55,8 @@
     "vue-slicksort": "^2.0.5",
     "vue3-virtual-scroll-list": "^0.2.1",
     "vuedraggable": "^4.1.0",
-    "webrtc-adapter": "^7.7.1"
+    "webrtc-adapter": "^7.7.1",
+    "qs": "^6.14.0"
   },
   "devDependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
