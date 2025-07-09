@@ -19,7 +19,6 @@
     "@vueuse/core": "^10.11.1",
     "acorn": "^8.14.0",
     "axios": "^1.7.9",
-    "barcode-detector": "^1.0.4",
     "browserslist": "^4.24.3",
     "callforth": "^0.4.0",
     "core-js": "^3.39.0",
@@ -28,7 +27,6 @@
     "element-plus": "^2.9.1",
     "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "jquery": "^3.7.1",
     "js-base64": "^2.6.4",
     "js-sha512": "^0.8.0",
     "jsencrypt": "^3.3.2",
@@ -36,15 +34,10 @@
     "lodash": "^4.17.21",
     "lodash-es": "^4.17.21",
     "mitt": "^3.0.1",
-    "moment": "^2.30.1",
     "postcss": "^8.4.49",
     "prettier": "^2.8.8",
     "prompts": "^2.4.2",
-    "sass": "^1.83.0",
-    "sass-loader": "^13.3.3",
     "scss": "^0.2.4",
-    "svelte": "^3.59.2",
-    "svelte-preprocess": "^5.1.4",
     "unplugin-vue-components": "^0.24.1",
     "vite-plugin-compression": "^0.5.1",
     "vite-plugin-eslint": "^1.8.1",
@@ -86,7 +79,6 @@
     "@types/node": "~18.19.68",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
-    "@vitejs/plugin-vue": "~2.3.4",
-    "gw-module-version": "^1.0.1"
+    "@vitejs/plugin-vue": "~2.3.4"
   }
 }

@@ -17,7 +17,6 @@
         "@vue/babel-preset-jsx": "^1.4.0",
         "@vue/composition-api": "^1.7.2",
         "axios": "^1.7.9",
-        "barcode-detector": "^1.0.4",
         "callforth": "^0.4.0",
         "core-js": "^3.39.0",
         "dayjs": "^1.11.13",
@@ -26,19 +25,13 @@
         "element-ui": "2.15.3",
         "eslint-config-prettier": "^8.10.0",
         "eslint-plugin-prettier": "^4.2.1",
-        "jquery": "^3.7.1",
         "js-base64": "^2.6.4",
         "js-sha512": "^0.8.0",
         "jsencrypt": "^3.3.2",
         "less": "^4.2.1",
-        "moment": "^2.30.1",
         "prettier": "^2.8.8",
         "prompts": "^2.4.2",
-        "sass": "^1.83.0",
-        "sass-loader": "^13.3.3",
         "scss": "^0.2.4",
-        "svelte": "^3.59.2",
-        "svelte-preprocess": "^5.1.4",
         "unplugin-vue-components": "^0.24.1",
         "vite-plugin-compression": "^0.5.1",
         "vite-plugin-eslint": "^1.8.1",
@@ -54,7 +47,7 @@
         "@types/node": "^18.11.19",
         "@typescript-eslint/eslint-plugin": "^5.50.0",
         "@typescript-eslint/parser": "^5.62.0",
-        "@vitejs/plugin-vue": "^2.2.0",
+        "@vitejs/plugin-vue": "~2.3.4",
         "@vue/babel-preset-app": "^5.0.8",
         "autoprefixer": "^10.4.20",
         "d": "^1.0.2",
@@ -74,8 +67,6 @@
     "optionalDependencies": {
         "@babel/plugin-syntax-dynamic-import": "~7.8.3",
         "@types/node": "~18.19.68",
-        "@typescript-eslint/eslint-plugin": "^5.62.0",
-        "@typescript-eslint/parser": "^5.62.0",
-        "@vitejs/plugin-vue": "~2.3.4"
+        "@typescript-eslint/eslint-plugin": "^5.62.0"
     }
 }
