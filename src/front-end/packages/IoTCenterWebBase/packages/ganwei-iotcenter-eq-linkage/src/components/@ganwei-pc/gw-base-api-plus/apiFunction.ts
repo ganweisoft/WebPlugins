@@ -2,7 +2,7 @@ import { ElMessageBox } from 'element-plus'
 import i18n from '@components/@ganwei-pc/gw-base-utils-plus/i18n'
 import notification from '@components/@ganwei-pc/gw-base-utils-plus/notification'
 import { AxiosInstance } from 'axios'
-// import qs from 'qs'
+import qs from 'qs'
 
 let axios: AxiosInstance;
 if (window.AxiosBuilder) {
@@ -56,7 +56,7 @@ class BaseService {
                 'Access-Control-Allow-Origin': reqUrl
             },
             paramsSerializer: function (params) {
-                //return qs.stringify(params, { arrayFormat: 'repeat' })
+                return qs.stringify(params, { arrayFormat: 'repeat' })
             }
         });
     }

@@ -72,8 +72,8 @@
                             show-overflow-tooltip fixed="right">
                             <template v-slot="scope">
                                 <i class="iconfont icon-jieguo" @click="showEdit(scope.row,false)" ></i>
-                                <i class="iconfont icon-gw-icon-bianji" @click="showEdit(scope.row, true)" v-if="scope.row.editEnable" ></i>
-                                <i class="iconfont icon-gw-icon-shangchu" @click="delData(scope.row.toggleEqName, scope.row.toggleEq, scope.row.id, scope.row.isConditionLink)" v-if="scope.row.editEnable" ></i>
+                                <i class="iconfont icon-gw-icon-bianji" @click="showEdit(scope.row, true)" ></i>
+                                <i class="iconfont icon-gw-icon-shangchu" @click="delData(scope.row.toggleEqName, scope.row.toggleEq, scope.row.id, scope.row.isConditionLink)" ></i>
                             </template>
                         </el-table-column>
                     </el-table>

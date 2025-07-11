@@ -9,7 +9,6 @@ import App from "./App";
 import router from "./router";
 import api from "./request/api";
 import getCode from "@components/@ganwei-pc/gw-base-api-plus/encrypt.js";
-import moment from "moment";
 import VirtualList from 'vue-virtual-list-v3';
 import mitt from 'mitt'
 import notification from "@components/@ganwei-pc/gw-base-utils-plus/notification";
@@ -49,7 +48,6 @@ app.config.globalProperties.$bus = mitt()
 app.config.globalProperties.Axios = Axios;
 app.config.globalProperties.$store = store
 app.config.globalProperties.i18n = i18n
-app.config.globalProperties.$moment = moment
 app.config.globalProperties.$message = notification
 app.config.globalProperties.$hostMap = hostMap
 app.config.globalProperties.$api = api

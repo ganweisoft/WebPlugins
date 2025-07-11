@@ -22,10 +22,6 @@ export default function (filterValue: FilterValue) {
         initialData: [],
         immediate: true,
         beforeEach() {
-            console.log("-----------------------------------------");
-            console.log(getEquipSetLists(filterValue.linkEquipCommand));
-            console.log(filterValue);
-            console.log("-----------------------------------------");
             const data = {}, osetNoList = getEquipSetLists(filterValue.linkEquipCommand);
             if(equipName.value) data.equipName = equipName.value;
             if(filterValue.triggerEquip) data.iequipNos = filterValue.triggerEquip;
