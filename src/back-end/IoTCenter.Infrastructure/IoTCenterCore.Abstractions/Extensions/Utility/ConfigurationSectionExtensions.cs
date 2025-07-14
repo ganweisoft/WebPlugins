@@ -1,5 +1,4 @@
-﻿// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 
 namespace IoTCenterCore.Environment.Extensions.Utility
 {

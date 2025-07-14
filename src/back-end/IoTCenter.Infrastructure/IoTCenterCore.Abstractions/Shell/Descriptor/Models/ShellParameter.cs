@@ -1,5 +1,4 @@
-﻿// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
-namespace IoTCenterCore.Environment.Shell.Descriptor.Models
+﻿namespace IoTCenterCore.Environment.Shell.Descriptor.Models
 {
     public class ShellParameter
     {

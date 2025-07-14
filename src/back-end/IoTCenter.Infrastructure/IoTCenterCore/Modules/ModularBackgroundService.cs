@@ -1,5 +1,4 @@
-﻿// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
-using IoTCenterCore.BackgroundTasks;
+﻿using IoTCenterCore.BackgroundTasks;
 using IoTCenterCore.Environment.Shell;
 using IoTCenterCore.Environment.Shell.Builders;
 using IoTCenterCore.Environment.Shell.Models;

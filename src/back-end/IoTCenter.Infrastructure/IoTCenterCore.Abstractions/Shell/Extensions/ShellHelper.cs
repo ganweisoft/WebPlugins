@@ -1,4 +1,3 @@
-// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
 using IoTCenterCore.Environment.Shell.Models;
 
 namespace IoTCenterCore.Environment.Shell

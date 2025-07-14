@@ -1,4 +1,3 @@
-// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Options;

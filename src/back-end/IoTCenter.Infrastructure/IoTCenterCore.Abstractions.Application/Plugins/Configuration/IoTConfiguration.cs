@@ -1,5 +1,4 @@
-﻿// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
-using IoTCenterCore.Modules;
+﻿using IoTCenterCore.Modules;
 using Microsoft.Extensions.Primitives;
 using System.Collections.Generic;
 using System.IO;

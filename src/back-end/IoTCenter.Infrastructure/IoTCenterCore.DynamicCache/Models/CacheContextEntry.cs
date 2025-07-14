@@ -1,5 +1,4 @@
-﻿// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
-namespace IoTCenterCore.DynamicCache
+﻿namespace IoTCenterCore.DynamicCache
 {
     public struct CacheContextEntry
     {

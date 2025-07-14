@@ -1,4 +1,3 @@
-// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
 using System.Threading.Tasks;
 using IoTCenterCore.Environment.Shell.Builders.Models;
 using IoTCenterCore.Environment.Shell.Descriptor.Models;

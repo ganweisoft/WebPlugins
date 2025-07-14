@@ -1,5 +1,4 @@
-﻿// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;
