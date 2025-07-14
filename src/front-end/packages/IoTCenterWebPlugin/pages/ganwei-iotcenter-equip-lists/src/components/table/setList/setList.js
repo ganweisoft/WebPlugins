@@ -34,7 +34,7 @@ export default {
             // if (!item.enableSetParm) {
             //     return
             // }
-            if (!this.equipConState && !item.mainInstruction.toUpperCase() == 'ENABLEEQUIP') {
+            if (!this.equipConState && !item?.mainInstruction?.toUpperCase() == 'ENABLEEQUIP') {
                 this.$message.warning(this.$t('equipListsIot.tips.deviceNoConnect'));
                 return;
             }
