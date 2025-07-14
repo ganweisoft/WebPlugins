@@ -1,3 +1,4 @@
+// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
 using IoTCenterCore.Environment.Shell.Builders;
 using IoTCenterCore.Environment.Shell.Scope;
 using Microsoft.AspNetCore.Builder;

@@ -1,3 +1,4 @@
+// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using IoTCenterCore.Environment.Shell.State;

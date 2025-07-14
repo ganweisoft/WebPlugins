@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
+using System.Threading.Tasks;
 using IoTCenterCore.Environment.Shell.State;
 
 namespace IoTCenterCore.Environment.Shell

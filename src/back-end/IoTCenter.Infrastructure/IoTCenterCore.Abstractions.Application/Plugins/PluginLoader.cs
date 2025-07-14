@@ -1,4 +1,5 @@
-﻿using IoTCenterCore.Modules.Internal;
+﻿// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
+using IoTCenterCore.Modules.Internal;
 using IoTCenterCore.Modules.Loader;
 using Microsoft.Extensions.DependencyInjection;
 using System;

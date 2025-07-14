@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Caching.Distributed;
+﻿// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
+using Microsoft.Extensions.Caching.Distributed;
 using System.Threading.Tasks;
 
 namespace IoTCenterCore.DynamicCache.Abstractions

@@ -1,3 +1,4 @@
+// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
 namespace IoTCenterCore.Environment.Extensions.Features
 {
     public interface IFeatureBuilderEvents

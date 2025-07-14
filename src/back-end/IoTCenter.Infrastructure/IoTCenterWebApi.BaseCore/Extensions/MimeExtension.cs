@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2025 Shenzhen Ganwei Software Technology Co., Ltd
+﻿// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.Extensions.Configuration;

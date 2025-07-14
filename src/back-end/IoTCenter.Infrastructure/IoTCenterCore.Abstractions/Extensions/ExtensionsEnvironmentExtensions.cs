@@ -1,3 +1,4 @@
+// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
 using System.IO;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
