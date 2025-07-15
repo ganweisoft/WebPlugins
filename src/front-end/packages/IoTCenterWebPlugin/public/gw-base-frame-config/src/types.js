@@ -1,11 +1,5 @@
 /**
-
- * @file: types.js
-
- * @author: 敢为软件
-
- * @update: 2020-06-30
-
+Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
  */
 export const LOGIN = 'login'
 export const LOGOUT = 'logout'

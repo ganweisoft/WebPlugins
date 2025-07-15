@@ -1,10 +1,5 @@
 /*
- * @Author: 郑堪侠
- * @Date: 2022-09-06 13:47:27
- * @LastEditTime: 2022-09-23 10:44:27
- * @FilePath: \webui-base-ladderd:\3\6.0\webui-base-frame\node_modules\gw-base-utils-plus\speaktts.js
- * @Description: 首先通过 npm install speak-tts 安装该插件包， 再通过minxins引入
- * Copyright (c) 2022 by 敢为软件, All Rights Reserved. 
+Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
  */
 import Speech from 'speak-tts'
 export default {
