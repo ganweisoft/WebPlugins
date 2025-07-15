@@ -1209,10 +1209,12 @@ public class EquipListServiceImpl : IEquipListService
 
         try
         {
+            var values = proxy.GetYXValueDictFromEquip(equipNo);
+            var states = proxy.GetYXAlarmStateDictFromEquip(equipNo);
             foreach (YxpList yxpItem in yxpLists)
             {
-                yxpItem.State = proxy.GetYXAlarmState(yxpItem.EquipNo, yxpItem.YxNo);
-                yxpItem.Value = proxy.GetYXValue(yxpItem.EquipNo, yxpItem.YxNo)?.ToString();
+                yxpItem.State = states.TryGetValue(yxpItem.YxNo, out var sval) ? sval : false;
+                yxpItem.Value = values.TryGetValue(yxpItem.YxNo, out var val) ? val : string.Empty;
             }
         }
         catch (Exception e)

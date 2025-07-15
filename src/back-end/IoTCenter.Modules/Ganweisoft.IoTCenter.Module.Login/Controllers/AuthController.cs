@@ -139,9 +139,10 @@ namespace Ganweisoft.IoTCenter.Module.Login.Controllers
             {
                 return OperateResult.Failed(errorMsg);
             }
+            var userNameAes = EncrypHelper.AESEncrypt(userName);
+            var passwordAes = EncrypHelper.AESEncrypt(password);
 
-            var model = _context.Gwuser
-               .FirstOrDefault(d => d.Name == userName);
+            var model = _context.Gwuser.FirstOrDefault(d => d.Name == userNameAes);
 
             if (model == null)
             {
@@ -162,14 +163,14 @@ namespace Ganweisoft.IoTCenter.Module.Login.Controllers
             var rule = await _userManageService.GetAccountPasswordRule();
             var ruleData = rule.Data;
 
-            var lockResult = await _userManageService.LockUserAccount(model, password, ruleData, userName);
+            var lockResult = await _userManageService.LockUserAccount(model, passwordAes, ruleData, userName);
 
             if (!lockResult.Succeeded)
             {
                 return lockResult;
             }
 
-            var responseModel = _connectService.Login(userName, password, inputModel.SIVC ? GwClientType.Mobile : GwClientType.WebServer)
+            var responseModel = _connectService.Login(userNameAes, passwordAes, inputModel.SIVC ? GwClientType.Mobile : GwClientType.WebServer)
                 .FromJson<ResponseModel>();
             if (responseModel.Code != 200)
             {

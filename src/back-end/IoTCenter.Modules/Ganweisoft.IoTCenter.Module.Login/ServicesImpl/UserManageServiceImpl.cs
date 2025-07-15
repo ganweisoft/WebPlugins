@@ -1178,7 +1178,7 @@ public class UserManageServiceImpl : IUserManageService
     }
 
     public async Task<OperateResult> LockUserAccount(Gwuser user, string userEncryptPassword,
-        AccountPasswordRuleModel rule, string decryptUserName)
+        AccountPasswordRuleModel rule, string userName)
     {
         var failures = rule?.Login?.Failures;
         var lockMinutes = rule?.Login?.Lock;
@@ -1251,13 +1251,13 @@ public class UserManageServiceImpl : IUserManageService
                 }
                 else
                 {
-                    await _apiLog.Audit(new AuditAction(decryptUserName)
+                    await _apiLog.Audit(new AuditAction(userName)
                     {
                         ResourceName = "登录",
                         EventType = "登录事件",
                         Result = new AuditResult()
                         {
-                            Default = $"登录失败({decryptUserName})次，现已被平台锁定，({lockMinutes})分钟后方可再试",
+                            Default = $"登录失败({userName})次，现已被平台锁定，({lockMinutes})分钟后方可再试",
                         }
                     });
 
@@ -1278,7 +1278,7 @@ public class UserManageServiceImpl : IUserManageService
 
                 if (user.LockoutEnabled.HasValue && user.LockoutEnabled.Value && user.LockoutEnd.HasValue)
                 {
-                    await _apiLog.Audit(new AuditAction(decryptUserName)
+                    await _apiLog.Audit(new AuditAction(userName)
                     {
                         ResourceName = "登录",
                         EventType = "登录事件",
