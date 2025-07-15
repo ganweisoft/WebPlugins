@@ -1,4 +1,4 @@
-// Copyright (c) 2020 Shenzhen Ganwei Software Technology Co., Ltd
+// Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
 using Ganweisoft.IoTCenter.Module.EquipLink.Data;
 using Ganweisoft.IoTCenter.Module.EquipLink.Models;
 using Ganweisoft.IoTCenter.Module.EquipLink.Models.Condition;

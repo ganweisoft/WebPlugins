@@ -1,8 +1,6 @@
 import Axios from 'axios';
 /**
-* @Author: 钟镇洲
-* @description: 统一返回配置信息
-* @return {*}
+Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
 */
 
 export function configInfoData (vm) {
