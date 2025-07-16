@@ -2,6 +2,9 @@
 using IoTCenter.Data;
 using IoTCenter.Data.Model;
 using IoTCenter.Utilities;
+using IoTCenter.Utilities.Extensions;
+using IoTCenterHost.Core.Abstraction.AppServices;
+using IoTCenterHost.Core.Abstraction.BaseModels;
 using IoTCenterWebApi.BaseCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -16,6 +19,8 @@ public class EventServiceImpl : IEventService
 {
     private readonly Session _session;
 
+    private readonly IAlarmEventClientAppService _alarmEventClientAppService;
+
     private readonly GWDbContext _context;
     private readonly PermissionCacheService _permissionCacheService;
 
@@ -24,6 +29,7 @@ public class EventServiceImpl : IEventService
     public EventServiceImpl(
         Session session,
         GWDbContext context,
+        IAlarmEventClientAppService alarmEventClientAppService,
         PermissionCacheService permissionCacheService,
         ILoggingService apiLog)
     {
@@ -31,6 +37,7 @@ public class EventServiceImpl : IEventService
         _context = context;
         _apiLog = apiLog;
         _permissionCacheService = permissionCacheService;
+        _alarmEventClientAppService = alarmEventClientAppService;
     }
 
     public async Task<OperateResult> RecordLoginEvent()
@@ -274,5 +281,84 @@ public class EventServiceImpl : IEventService
             case DateType.Day: list.Add(sysEvts.Count(s => s.Time.Year == DateTime.Now.Year && s.Time.Day == DateTime.Now.Day)); break;
         }
         return OperateResult.Successed(list);
+    }
+
+    /// <summary>
+    /// 获取当前条件下的总条数
+    /// </summary>
+    public async Task<OperateResult> GetEquipEvtCounts(EquipEventQueryRequest request)
+    {
+        var response = new EquipEvtCountResponse();
+        try
+        {
+            var eventType = await GetEventTypeValue(request.EventType);
+
+            response.EventMaxCount = 1000;
+
+            string streqNos = String.Join("#", request.EquipNos);
+            //总条数
+            response.Total = await GetGWEventCount(request.BeginTime, request.EndTime, eventType, streqNos);
+        }
+        catch (Exception ex)
+        {
+            _apiLog.Error($"GetEquipEvtCounts 事件查询总条数失败 异常信息：{ex.ToString()}");
+        }
+        return OperateResult.Successed(response);
+    }
+
+    /// <summary>
+    /// 根据传入的时间、设备号查询事件总条数
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="begin">开始时间</param>
+    /// <param name="end">结束时间</param>
+    /// <param name="eqNo">用#分割设备号如：142#144#143</param>
+    /// <returns></returns>
+    public async Task<int> GetGWEventCount(DateTime begin, DateTime end, int eventType, string eqNo = "")
+    {
+        var requestModel = new GrpcGetEventInfo()
+        {
+            bgn = begin,
+            end = end,
+            eqpno = eqNo,
+            GWEventType = eventType,
+            stano = 1,
+            ycyxno = 0
+        };
+
+        //var total = _alarmEventClientAppService.GetGWEventCount(requestModel);
+
+        await Task.CompletedTask;
+
+        return 0;
+    }
+
+    /// <summary>
+    /// 获取事件类型值
+    /// </summary>
+    async Task<int> GetEventTypeValue(string eventType)
+    {
+        await Task.CompletedTask;
+        int evenetValue = -1;
+        var eventTypeUpper = eventType.ToUpperInvariant();
+        switch (eventTypeUpper)
+        {
+            case "C":
+                evenetValue = 0;
+                break;
+            case "X":
+                evenetValue = 1;
+                break;
+            case "E":
+                evenetValue = 2;
+                break;
+            case "S":
+                evenetValue = 3;
+                break;
+            default:
+                break;
+        }
+
+        return evenetValue;
     }
 }

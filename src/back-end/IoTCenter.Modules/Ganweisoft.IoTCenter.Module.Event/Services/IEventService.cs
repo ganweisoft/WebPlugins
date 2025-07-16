@@ -13,4 +13,6 @@ public interface IEventService
     Task<OperateResult<PagedResult<SysEventResonse>>> GetSysEvtByPage(SysEvtModel sysEvtModel);
 
     Task<OperateResult> GetSysEvtCollection(SysEvtType sysEvtType, DateType dateType);
+
+    Task<OperateResult> GetEquipEvtCounts(EquipEventQueryRequest request);
 }

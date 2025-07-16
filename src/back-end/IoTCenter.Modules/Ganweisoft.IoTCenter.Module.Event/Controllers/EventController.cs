@@ -1,5 +1,6 @@
 ﻿// Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
 using IoTCenter.Utilities;
+using IoTCenter.Utilities.Extensions;
 using IoTCenterCore.ExcelHelper;
 using IoTCenterWebApi.BaseCore;
 using Microsoft.AspNetCore.Mvc;
@@ -28,7 +29,7 @@ namespace Ganweisoft.IoTCenter.Module.Event.Controllers
         }
 
         [HttpGet]
-        public async Task<OperateResult<PagedResult<SysEventResonse>>> GetSysEvtByPage([FromQuery]SysEvtModel sysEvtModel)
+        public async Task<OperateResult<PagedResult<SysEventResonse>>> GetSysEvtByPage([FromQuery] SysEvtModel sysEvtModel)
         {
             return await _eventService.GetSysEvtByPage(sysEvtModel);
         }
@@ -37,6 +38,30 @@ namespace Ganweisoft.IoTCenter.Module.Event.Controllers
         public async Task<OperateResult> GetSysEvtByType(DateType dateType)
         {
             return await _eventService.GetSysEvtCollection(SysEvtType.All, dateType);
+        }
+
+        /// <summary>
+        /// 获取设备事件 根据条件查询总条数
+        /// </summary>
+        [HttpPost]
+        public async Task<OperateResult> GetEquipEvtCounts([FromBody] EquipEventQueryRequest request)
+        {
+            if (request == null)
+            {
+                return OperateResult.Failed<PagedResult<string>>("请求参数为空，请检查");
+            }
+
+            if (request.EquipNos.IsEmpty())
+            {
+                return OperateResult.Failed<PagedResult<string>>("请选择设备");
+            }
+
+            if (request.EventType.IsEmpty())
+            {
+                return OperateResult.Failed<PagedResult<string>>("请选择事件类型");
+            }
+
+            return await _eventService.GetEquipEvtCounts(request);
         }
     }
 }
