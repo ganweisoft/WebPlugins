@@ -1,7 +1,7 @@
 import Axios from 'axios';
 
 /**
- * @Author: 钟镇洲
+ * @Author: Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
  * @description: 统一返回配置信息
  * @return {*}
  */

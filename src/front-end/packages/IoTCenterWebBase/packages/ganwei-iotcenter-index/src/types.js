@@ -2,7 +2,7 @@
 
  * @file: types.js
 
- * @author: 敢为软件
+ * @author: TOMs
 
  * @update: 2020-06-30
 

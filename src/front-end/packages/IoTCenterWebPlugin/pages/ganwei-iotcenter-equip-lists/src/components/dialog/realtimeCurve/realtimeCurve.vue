@@ -1,8 +1,6 @@
 <!--
- * @Author: zhongzhenzhou zhongzhenzhou@ganweisoft.com
+ * @Author:Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
  * @Date: 2022-08-16 11:21:48
- * @LastEditors: zhongzhenzhou zhongzhenzhou@ganweisoft.com
- * @LastEditTime: 2022-08-17 14:15:43
  * @FilePath: ganwei-iotcenter-equip-lists\src\components\dialog\realtimeCurve\realtimeCurve.vue
  * @Description: 实时曲线
 -->

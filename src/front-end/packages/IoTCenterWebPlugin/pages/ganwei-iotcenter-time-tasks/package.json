@@ -70,7 +70,7 @@
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^2.9.5"
   },
-  "license": "ISC",
+  "license": "MIT",
   "name": "ganwei-base-time-tasks",
   "scripts": {
     "build": "webpack --display-error-details --config webpack.dev.conf.js",

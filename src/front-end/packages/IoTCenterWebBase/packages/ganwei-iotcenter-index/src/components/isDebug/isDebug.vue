@@ -3,7 +3,7 @@
  * @Version: v1
  * @Author: zkx
  * @LastEditTime: 2023-10-09 13:37:02
- * Copyright (c) 2023 by 敢为软件, All Rights Reserved.
+ * Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
 -->
 <template>
     <div class="top-tip" v-if="showDebugInfo">

@@ -1,11 +1,3 @@
-/*
- * @Author: 郑堪侠
- * @Date: 2022-09-22 11:13:28
- * @LastEditTime: 2022-09-29 18:27:19
- * @FilePath: \webui-base-ladderd:\3\6.0\webui-base-frame\node_modules\gw-base-utils-plus\myUtils.js
- * @Description: 内容描述
- * Copyright (c) 2022 by 敢为软件, All Rights Reserved.
- */
 /**
  * @file Describe the file
  */
@@ -758,7 +750,7 @@ export default class myUtils {
 
 
     /**
-     * @Author: 郑堪侠
+     * @Author: Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
      * @description: 返回输入框过滤后的字符，value为输入框值,str为自定义过滤字符串 
      * @return {string}
      */
@@ -779,7 +771,7 @@ export default class myUtils {
     }
 
     /**
-     * @Author: 郑堪侠
+     * @Author: Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
      * @description: 统一返回配置信息
      * @return {*}
      */
@@ -792,7 +784,7 @@ export default class myUtils {
 
 
     /**
- * @Author: 钟镇洲
+ * @Author: Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
  * @description: 统一返回配置信息
  * @return {*}
  */

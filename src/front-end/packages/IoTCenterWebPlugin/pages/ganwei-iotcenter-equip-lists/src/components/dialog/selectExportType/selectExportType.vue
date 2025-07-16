@@ -1,8 +1,6 @@
 <!--
- * @Author: zhongzhenzhou zhongzhenzhou@ganweisoft.com
+ * @Author: Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
  * @Date: 2022-08-16 13:36:14
- * @LastEditors: zhongzhenzhou zhongzhenzhou@ganweisoft.com
- * @LastEditTime: 2022-08-19 09:15:17
  * @FilePath: ganwei-iotcenter-equip-lists\src\components\dialog\selectExportType\selectExportType.vue
  * @Description: 导出类型选择
 -->

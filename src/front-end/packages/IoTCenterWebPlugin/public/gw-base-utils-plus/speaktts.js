@@ -31,7 +31,7 @@ export default {
         },
 
         /**
-         * @Author: 郑堪侠
+         * @Author: Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
          * @description: 播放按钮 ，txt 为传入文本
          * @return {*}
          */

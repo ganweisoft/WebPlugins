@@ -1,8 +1,6 @@
 <!--
- * @Author: zhongzhenzhou zhongzhenzhou@ganweisoft.com
+ * @Author: Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
  * @Date: 2022-08-16 11:21:19
- * @LastEditors: zhongzhenzhou zhongzhenzhou@ganweisoft.com
- * @LastEditTime: 2022-08-17 19:58:22
  * @FilePath: ganwei-iotcenter-equip-lists\src\components\dialog\historyCurve\historyCurve.vue
  * @Description: 历史曲线
 -->
