@@ -362,12 +362,6 @@ export default {
 
         // 给任务条增加事件
         addEvent () {
-
-
-            console.log('****************************************');
-            console.log(window['Ganweisoft.IoTCenter.Module.TimeTask']['weekTaskNew']);
-            console.log('****************************************');
-
             let _this = this
 
             let length = $('.fc-timeline-event').length
@@ -387,10 +381,6 @@ export default {
             }
 
             setTimeout(() => {
-                let deleteDirection = window['Ganweisoft.IoTCenter.Module.TimeTask']['weekTaskNew'];
-                if(!deleteDirection || !deleteDirection.includes('delete')) {
-                    return;
-                }
                 // 增加删除按钮并隐藏,修改任务条宽度
                 $('.fc-timeline-event').children('.icon-tubiao20_shanchu').remove()
                 $('.fc-timeline-event').prepend(`<i class="iconfont icon-tubiao20_shanchu hidden"></i>`)
