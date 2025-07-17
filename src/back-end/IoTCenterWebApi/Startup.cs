@@ -73,8 +73,6 @@ public class Startup
 
         app.UseResponseCompression();
 
-        app.UseResponseCompression();
-
         app.UseResponseCaching();
 
         app.UseDefaultFiles();
