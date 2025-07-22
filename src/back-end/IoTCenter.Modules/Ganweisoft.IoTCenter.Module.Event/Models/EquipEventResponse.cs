@@ -13,7 +13,7 @@ public class EquipEventResponse
     public string Event { get; set; }
     public DateTime Time { get; set; }
     public string Confirmname { get; set; }
-    public DateTime Confirmtime { get; set; }
+    public DateTime? Confirmtime { get; set; }
     public string ConfirmRemark { get; set; }
     public string AlarmLevel { get; set; }
     [JsonProperty("ycyx_no")]

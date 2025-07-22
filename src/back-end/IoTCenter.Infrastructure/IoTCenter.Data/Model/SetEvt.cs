@@ -15,7 +15,7 @@ namespace IoTCenter.Data.Model
         public DateTime Gwtime { get; set; }
         public string Gwoperator { get; set; }
         public string Confirmremark { get; set; }
-        public DateTime ConfirmTime { get; set; }
+        public DateTime? ConfirmTime { get; set; }
 
         public string ConfirmName { get; set; }
 

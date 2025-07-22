@@ -8,7 +8,7 @@ namespace Ganweisoft.IoTCenter.Module.Event;
 public interface IEventService
 {
     Task<OperateResult> RecordLoginEvent();
-    OperateResult<PagedResult<string>> GetEquipEvtByPage(EquipEvtModel equipEvtModel);
+    OperateResult<PagedResult<EquipEventResponse>> GetEquipEvtByPage(EquipEvtModel equipEvtModel);
 
     Task<OperateResult<PagedResult<SysEventResonse>>> GetSysEvtByPage(SysEvtModel sysEvtModel);
 

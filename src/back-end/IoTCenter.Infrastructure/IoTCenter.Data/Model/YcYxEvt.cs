@@ -26,7 +26,7 @@ namespace IoTCenter.Data.Model
         public DateTime Time { get; set; }
         public string ProcRec { get; set; }
         public string Confirmname { get; set; }
-        public DateTime Confirmtime { get; set; }
+        public DateTime? Confirmtime { get; set; }
         public bool WuBao { get; set; }
         public int Alarmlevel { get; set; }
         public string Confirmremark { get; set; }

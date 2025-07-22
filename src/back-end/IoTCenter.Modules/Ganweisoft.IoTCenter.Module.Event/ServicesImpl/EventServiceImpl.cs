@@ -7,6 +7,7 @@ using IoTCenterHost.Core.Abstraction.AppServices;
 using IoTCenterHost.Core.Abstraction.BaseModels;
 using IoTCenterWebApi.BaseCore;
 using Microsoft.EntityFrameworkCore;
+using NPOI.SS.Formula.Functions;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlTypes;
@@ -60,11 +61,11 @@ public class EventServiceImpl : IEventService
         return OperateResult.Success;
     }
 
-    public OperateResult<PagedResult<string>> GetEquipEvtByPage(EquipEvtModel equipEvtModel)
+    public OperateResult<PagedResult<EquipEventResponse>> GetEquipEvtByPage(EquipEvtModel equipEvtModel)
     {
         if (equipEvtModel == null)
         {
-            return OperateResult.Failed<PagedResult<string>>("请求参数为空");
+            return OperateResult.Failed<PagedResult<EquipEventResponse>>("请求参数为空");
         }
 
         DateTime beginTime;
@@ -75,7 +76,7 @@ public class EventServiceImpl : IEventService
         }
         else if (!DateTime.TryParse(equipEvtModel.BeginTime, out var parseBeginTime))
         {
-            return OperateResult.Failed<PagedResult<string>>("开始时间格式错误");
+            return OperateResult.Failed<PagedResult<EquipEventResponse>>("开始时间格式错误");
         }
         else
         {
@@ -90,7 +91,7 @@ public class EventServiceImpl : IEventService
         }
         else if (!DateTime.TryParse(equipEvtModel.EndTime, out var parseEndTime))
         {
-            return OperateResult.Failed<PagedResult<string>>("结束时间格式错误");
+            return OperateResult.Failed<PagedResult<EquipEventResponse>>("结束时间格式错误");
         }
         else
         {
@@ -110,13 +111,13 @@ public class EventServiceImpl : IEventService
             var strSort = sort.ToUpperInvariant();
             if (strSort != "ASC" && strSort != "DESC")
             {
-                return OperateResult.Failed<PagedResult<string>>("请求参数错误");
+                return OperateResult.Failed<PagedResult<EquipEventResponse>>("请求参数错误");
             }
         }
 
         if (string.IsNullOrEmpty(equipNos) || string.IsNullOrWhiteSpace(eventType))
         {
-            return OperateResult.Failed<PagedResult<string>>("请求参数为空");
+            return OperateResult.Failed<PagedResult<EquipEventResponse>>("请求参数为空");
         }
 
         var currentRolePermissionInfos = _permissionCacheService.GetPermissionObj(_session.RoleName);
@@ -125,7 +126,7 @@ public class EventServiceImpl : IEventService
 
         if (!_session.IsAdmin && !browseEquips.Any())
         {
-            return OperateResult.Successed(PagedResult<string>.Create());
+            return OperateResult.Successed(PagedResult<EquipEventResponse>.Create());
         }
 
         var equipEvents = new List<EquipEventResponse>();
@@ -204,8 +205,8 @@ public class EventServiceImpl : IEventService
         var total = equipEvents.Count;
 
         var result = equipEvents.Skip((equipEvtModel.PageNo.Value - 1) * equipEvtModel.PageSize.Value).Take(equipEvtModel.PageSize.Value).ToList();
-
-        return OperateResult.Successed(PagedResult<string>.Create(total, result.ToJson()));
+        var data = PagedResult<EquipEventResponse>.Create(total, result);
+        return OperateResult.Successed(data);
     }
 
     public async Task<OperateResult<PagedResult<SysEventResonse>>> GetSysEvtByPage(SysEvtModel sysEvtModel)

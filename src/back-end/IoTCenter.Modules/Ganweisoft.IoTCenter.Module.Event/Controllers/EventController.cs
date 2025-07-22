@@ -23,7 +23,7 @@ namespace Ganweisoft.IoTCenter.Module.Event.Controllers
         }
 
         [HttpPost]
-        public OperateResult<PagedResult<string>> GetEquipEvtByPage(EquipEvtModel equipEvtModel)
+        public OperateResult<PagedResult<EquipEventResponse>> GetEquipEvtByPage(EquipEvtModel equipEvtModel)
         {
             return _eventService.GetEquipEvtByPage(equipEvtModel);
         }
