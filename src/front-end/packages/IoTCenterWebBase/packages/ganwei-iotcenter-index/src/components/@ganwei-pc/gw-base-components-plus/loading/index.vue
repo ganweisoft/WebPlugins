@@ -3,7 +3,7 @@
     <div id="menu-loading-center">
         <div>
             <div id="loading-center-absolute">
-                <div class="object"><img src="/static/images/index-loading.png" /></div>
+                <div class="object"><img src="./index-loading.png" /></div>
             </div>
             <p class="menu-loading-text">{{ $t('login.tips.loading') }}…</p>
         </div>
