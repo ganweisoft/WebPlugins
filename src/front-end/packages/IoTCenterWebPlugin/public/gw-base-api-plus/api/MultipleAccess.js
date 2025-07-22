@@ -10,7 +10,7 @@ const MultipleAccess = {
 
     // 删除插件
     delGWAssembly(data) {
-        console.log('data', data);
+
         return this.postUrl('/IoT/api/v3/GWAssembly/DelGWAssembly', data);
     },
 

@@ -203,12 +203,6 @@ export default {
                     },
                     xAxis: {
                         type: 'datetime',
-                        // plotBands: [{
-                        //     id: 'mask-before',
-                        //     from: data[0][0],
-                        //     to: data[data.length - 1][0],
-                        //     color: maskFill
-                        // }],
                         title: {
                             text: null
                         },
@@ -275,14 +269,6 @@ export default {
                     if (newFrom < xAxis.min || newTo > xAxis.max) {
                         return
                     }
-                    // xAxis.removePlotBand('mask-before');
-                    // xAxis.addPlotBand({
-                    //     id: 'mask-before',
-                    //     from: newFrom,
-                    //     to: newTo,
-                    //     color: maskFill
-                    // });
-                    // detailsChart.xAxis[0].setExtremes(newFrom, newTo);
                 }
 
             })

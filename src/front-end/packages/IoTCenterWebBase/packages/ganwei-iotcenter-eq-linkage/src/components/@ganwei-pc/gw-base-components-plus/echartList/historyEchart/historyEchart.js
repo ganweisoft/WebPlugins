@@ -48,7 +48,6 @@ export default {
             }
         },
         reflesh: function (newVal) {
-            console.log(newVal);
             this.onInquire()
         },
         resize () {
@@ -182,7 +181,6 @@ export default {
                                 start: 0,
                                 end: 100,
                                 yAxisIndex: [3],
-                                // minSpan: 5,
 
                                 fillerColor: 'transparent',
                                 textStyle: {
@@ -213,47 +211,6 @@ export default {
                                 }
                             }
                         ],
-
-                        // dataZoom: [
-                        //     {
-                        //         show: true,
-                        //         type: 'slider',
-                        //         top: '90%',
-                        //         start: 0,
-                        //         end: 10,
-                        //         textStyle: {
-                        //             color: (window.localStorage.getItem('theme') && window.localStorage.getItem('theme') == 'light') ? '#595959' : '#d3d8e2',
-                        //             fontSize: '10'
-                        //         },
-
-                        //         labelFormatter: function (value, time) {
-                        //             return time.split(' ')[0] + '\n' + time.split(' ')[1];
-                        //         },
-
-                        //         handleSize: 20,
-                        //         fillerColor: 'transparent',
-                        //         // backgroundColor: '#8fdffe99',
-                        //         handleStyle: {
-
-                        //             // borderColor: 'red',
-
-                        //             shadowBlur: 4,
-
-                        //             shadowOffsetX: 1,
-
-                        //             shadowOffsetY: 1,
-
-                        //             // shadowColor: 'red',
-                        //             opacity: 0.5
-
-                        //         },
-                        //         dataBackground: {
-                        //             areaStyle: {
-                        //                 // color: 'red'
-                        //             }
-                        //         }
-                        //     }
-                        // ],
                         series: [
                             {
                                 data: this.historyValue,

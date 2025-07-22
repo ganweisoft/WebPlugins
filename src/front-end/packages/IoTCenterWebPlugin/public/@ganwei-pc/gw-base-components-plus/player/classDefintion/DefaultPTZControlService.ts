@@ -145,14 +145,10 @@ export class DefaultPTZControlService implements PTZControlService {
             nvrChannelId: this.nvrChannelId
         }
         const data = this.strategies[cmd]?.doPTZControl(cmd, _args) || _args
-        // if (!data) {
-        //     throw new Error(`No strategy found for PTZCommandEnum ${cmd}`)
-        // } else {
         const task = new PTZSuspenseTask(id, 2, this.timeout, onMessage)
         this.suspenseTaskQueue.addSuspenseTask(task)
         this.asyncPTZSignalRController.invokePTZControl(data)
         return task.promise
-        // }
     }
 
     doPresetQuery() {

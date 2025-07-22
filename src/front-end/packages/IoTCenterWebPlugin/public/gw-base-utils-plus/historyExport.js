@@ -12,9 +12,6 @@ export default {
     },
     mounted () {
         // let that = this
-        // window.onmessage = function (e) {
-        //     that.curveSignalR(e)
-        // }
     },
     methods: {
         getCommand (existIframe) {
@@ -139,9 +136,6 @@ export default {
                         }
                     });
                 }
-                //  else {
-                //     this.$message.warning(this.$t('login.framePro.tips.historyData'))
-                // }
 
             }
         },

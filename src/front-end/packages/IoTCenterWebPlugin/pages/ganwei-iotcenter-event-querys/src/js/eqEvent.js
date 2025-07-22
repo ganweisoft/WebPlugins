@@ -256,7 +256,7 @@ export default {
                 pageSize: this.recordPage.pageSize,
                 beginTime: this.$moment(this.beginTime).format('YYYY-MM-DD HH:mm:ss'),
                 endTime: this.$moment(this.endTime).format('YYYY-MM-DD HH:mm:ss'),
-                equipNos: this.eqChoice,
+                equipNos: this.eqChoice.join(','),
                 eventType: this.eventType,
                 sort: 'desc',
                 eventName: this.eventName
@@ -266,23 +266,7 @@ export default {
             this.evtSum = 0;
 
             if (isButton) {
-                this.$api.evtCounts(requestData).then(res => {
-                    const { code, data, message } = res?.data || {}
-                    // this.tbLoad = false;
-                    if (code == 200) {
-                        if (data.total == 0) {
-                            return;
-                        }
-                        this.getEventList(requestData);
-                    } else {
-                        this.$message.error(message);
-                    }
-                }).catch((err) => {
-                    // this.tbLoad = false;
-                    this.$message.error(err?.data, err);
-                }).finally(() => {
-                    this.tbLoad = false;
-                })
+                this.getEventList(requestData);
             } else {
                 this.getEventList(requestData);
             }
@@ -300,7 +284,7 @@ export default {
                     eventType: data.eventType
                 }
                 this.$api.deleteQueryCache(delelteData).then(res => {
-                    console.log(res)
+                   // console.log(res)
                 }).catch(err => {
                     console.log(err)
                 })
@@ -337,7 +321,6 @@ export default {
                 })
                 .catch((err) => {
                     this.$message.error(err?.data, err);
-                    console.log(err);
                 }).finally(() => {
                     this.tbLoad = false;
                 });
@@ -345,13 +328,6 @@ export default {
 
         // 根据日期查找设备事件
         searchEvt (type) {
-            // if (this.searchTime === '') {
-            //     this.$message({
-            //         title: this.$t('eqEvent.tips.empty'),
-            //         type: 'warning'
-            //     });
-            //     return;
-            // }
             this.drawerAppHeader = false;
             this.recordPage.pageNo = 1;
             this.recordPage.total = 0;

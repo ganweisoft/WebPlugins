@@ -45,8 +45,6 @@ export class H265WebPlayer implements AbstractPlayer {
 
     init(url: string) {
         this.performance = performance.now()
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-ignore
         const result = window.new265webjs ? window.new265webjs : window.top.new265webjs
         this.instance = result(url, this.config);
     }

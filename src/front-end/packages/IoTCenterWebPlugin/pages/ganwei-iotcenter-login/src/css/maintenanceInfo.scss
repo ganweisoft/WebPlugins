@@ -33,16 +33,7 @@
             transform: translate(50%, 50%);
         }
 
-        /*加滤镜*/
-        /*filter: blur(15px); //背景模糊设置 */
-        /*-webkit-filter: grayscale(100%);*/
-        /*filter:grayscale(100%); //背景灰度设置*/
-        // z-index: -11 source {
-        //     min-width: 100%;
-        //     min-height: 100%;
-        //     height: auto;
-        //     width: auto;
-        // }
+
     }
 
     h3 {
@@ -84,8 +75,6 @@
 
         /deep/ .el-form {
             width: 472px;
-            // background: $n-frondColor;
-            // @include background_color("con-bgColor4");
             padding: 40px 56px;
             background: rgba(60,70,89,0.5);
 

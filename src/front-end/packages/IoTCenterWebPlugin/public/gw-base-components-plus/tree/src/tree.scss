@@ -82,10 +82,6 @@
 
             .el-tree-node__content {
                 background: transparent !important;
-
-                // .nodeContent {
-                //     background-color: var(--tree-bgColor5);
-                // }
             }
 
         }
@@ -147,9 +143,6 @@
 
             .nodeContent {
                 padding-right: 8px;
-                // background-color: #252833;
-                // background-color: var(--tree-bgColor1);
-                // border: 0.5px solid rgba(240, 244, 255, 0.16);
             }
 
             .arrow {
@@ -177,11 +170,7 @@
                 }
             }
 
-            // &>label{margin: 0 0 0 10px;}
             .icondian {
-                // float: left;
-                // margin: 0 3px 0 0px;
-                // width: 15px;
                 font-size: 0.8rem;
                 color: #8c8c8c;
                 pointer-events: none;
@@ -243,12 +232,6 @@
             .selectedColor {
                 // background-color: #3b4357;
                 background-color: var(--tree-selBgColor);
-
-                // &>.el-tree-node__content {
-                //     &>.nodeContent {
-                //         background-color: var(--tree-selBgColor);
-                //     }
-                // }
             }
         }
     }
@@ -343,12 +326,6 @@
         margin: 10px;
     }
 
-    // .child_tags:hover {
-    //   .nodeContent {
-    //     transition: 0.3s;
-    //     background-color: #485065;
-    //   }
-    // }
     .child_tags {
         position: relative;
         //   margin: 4px 0 0 2.3rem;
@@ -368,11 +345,6 @@
         border-left: 4px solid transparent;
 
         .el-tree__indent {
-            // height: 100%;
-            // background-image: linear-gradient(to bottom, #979797 0%, #979797 50%, transparent 50%);
-            // background-size: 1px 7px;
-            // background-repeat: repeat-y;
-            // background-position: right;
         }
 
         .nodeContent {
@@ -400,36 +372,11 @@
             // margin: 4px 0 0 3.3rem;
         }
 
-        //   &:after {
-        //     position: absolute;
-        //     content: '';
-        //     left: -20px;
-        //     top: 50%;
-        //     transform: translateY(-50%);
-        //     display: block;
-        //     width: 1rem;
-        //     height: 1px;
-        //     border: 1px dashed #8c8c8c;
-        //   }
-
-        //   &:before {
-        //     position: absolute;
-        //     content: '';
-        //     left: -22px;
-        //     top: -4px;
-        //     display: block;
-        //     height: 28px;
-        //     border: 1px dashed #8c8c8c;
-        //   }
-
         &>label {
             margin-left: 10px;
         }
 
         .icondian {
-            // float: left;
-            // margin: 0 3px 0 5px;
-            // width: 15px;
             font-size: 0.8rem;
             color: #8c8c8c;
             pointer-events: none;

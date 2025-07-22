@@ -149,11 +149,6 @@ export default {
       type: Boolean,
       default: false,
     },
-    // showNumber: {
-    //   //页面最多展示节点数
-    //   type: Number,
-    //   default: 20,
-    // },
     showStatus: {
       //是否展示设备状态
       type: Boolean,
@@ -257,7 +252,6 @@ export default {
         !this.expandKeys.includes(this.data[0][this.nodeKey])
       ) {
         this.expandKeys.push(this.data[0][this.nodeKey])
-        console.log(this.expandKeys)
       }
       this.formateEquips(this.data)
       this.store.setData(newVal)
@@ -792,14 +786,6 @@ export default {
     this.formateEquips(this.data)
     this.initTabIndex()
     this.$el.addEventListener('keydown', this.handleKeydown)
-    // setTimeout(() => {
-    //   this.setClass()
-    // }, 5000)
-
-    // console.log(888)
-    // window.onresize = () => {
-    //   this.setClass()
-    // }
   },
 
   updated() {

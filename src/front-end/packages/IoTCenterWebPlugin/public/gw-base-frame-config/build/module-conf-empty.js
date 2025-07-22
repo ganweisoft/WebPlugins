@@ -15,16 +15,12 @@ async function main() {
         fs.mkdirSync('./build/dev-entries')
     }
     Object.keys(baseWebpackConfigEntry).forEach(key => {
-        // if (key.indexOf("ganwei") != -1) {
         pages[key] = {}
         const entry = `./build/dev-entries/${key}.js`
         pages[key].tempEntry = `../${process.env.PAGES_ENV}/${key}/index.js` // 暂存真正的入口文件地址
 
         pages[key].entry = entry
         tasks.push(outputFile(entry, ''))
-        // } else {
-        //     pages[key] = baseWebpackConfigEntry[key];
-        // }
     })
     await Promise.all(tasks)
 }

@@ -24,25 +24,6 @@ export default {
     },
     mounted () {
         this.passwordPolicy = sessionStorage.passwordPolicy || ''
-        // this.$api.getUserInfo().then(res => {
-        //     const { code, data, message } = res?.data || {}
-        //     if(code == -99999) {
-        //         this.openDialog('showPWEditDialog')
-        //         return
-        //     }
-        //     if (code == 200) {
-        //         this.loginUsername = sessionStorage.userName = data?.userName
-        //         sessionStorage.passwordPolicy = this.passwordPolicy = data?.passwordPolicy?.passwordPolicy
-        //         this.isAdmin = data?.role == 'ADMIN'
-        //         if (data?.passwordPolicy?.passwordPolicy == 1) {
-        //             this.openDialog('showPWEditDialog')
-        //         }
-        //         this.organizationName = data?.organizationName
-        //         this.$bus.emit('organizationName', this.organizationName)
-        //     } else {
-        //         this.$message.warning(message)
-        //     }
-        // })
     },
     methods: {
         openDialog (dialog) {

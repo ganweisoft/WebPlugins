@@ -20,11 +20,6 @@
         z-index: 1;
         border: 1px solid;
         border-color: #5E6576;
-
-        // .el-input {
-        //     width: 150px;
-        // }
-
         .el-input__inner {
             border: none !important;
             padding-left: 45px;
@@ -71,16 +66,6 @@
             transform: translate(50%, 50%);
         }
 
-        /*加滤镜*/
-        /*filter: blur(15px); //背景模糊设置 */
-        /*-webkit-filter: grayscale(100%);*/
-        /*filter:grayscale(100%); //背景灰度设置*/
-        // z-index: -11 source {
-        //     min-width: 100%;
-        //     min-height: 100%;
-        //     height: auto;
-        //     width: auto;
-        // }
     }
 
     >header {
@@ -202,13 +187,7 @@
                     span {
                         color: var(--con-textColor2);
                     }
-
-                    // &:first-child {
-                    //     height: 40px;
-                    //     line-height: 30px;
-                    //     color: var(--con-textColor2);
-                    // }
-
+                    
                     i {
                         margin: 0 5px;
                         float: left;

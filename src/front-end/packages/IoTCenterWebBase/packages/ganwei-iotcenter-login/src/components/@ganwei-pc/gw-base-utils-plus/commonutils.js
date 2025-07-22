@@ -558,10 +558,6 @@ export function move (e, element) {
         let left = e.clientX - disX;
         let top = e.clientY - disY;
 
-        // 绑定元素位置到positionX和positionY上面
-        // this.positionX = top;
-        // this.positionY = left;
-
         // 移动当前元素
         odiv.style.left = left + 'px';
         odiv.style.top = top + 'px';

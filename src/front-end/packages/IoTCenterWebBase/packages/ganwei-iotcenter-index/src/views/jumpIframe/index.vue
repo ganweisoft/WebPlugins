@@ -74,9 +74,6 @@ export default {
                 console.log(error)
             }
 
-            // 获取翻译文件
-           // await this.languageChangeFun(packageName, menuName, packageId)
-
             // 传递应用参数
             this.queryParser.addQuery({
                 packageId,
@@ -148,7 +145,7 @@ export default {
                             iframe.contentWindow.document.documentElement.setAttribute('data-theme', sessionStorage.theme)
                             iframe.contentWindow.postMessage({ theme: sessionStorage.theme })
                         }
-                        // if(this.name.indexOf("ai") != -1) { iframe?.contentWindow?.postMessage({ theme: sessionStorage.theme }, "https://ai.ganweicloud.com/"); }
+                        
                     } catch (error) {
                         console.log(error)
                     }
@@ -167,7 +164,7 @@ export default {
                 try {
                     isError = dom.contentWindow.document.querySelector('body>pre')?.innerHTML.includes(this.pageNofound)
                 } catch (error) {
-                    console.log("")
+                    console.log(error)
                 }
             }
             if (isError) {

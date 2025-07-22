@@ -334,16 +334,4 @@ function navigatorHandle (
         ['M', 2, 45],
         ['H', 10]
     ]
-
-    // return [
-    //     ['M', -halfWidth - 1, 0.5],
-    //     ['L', halfWidth, 0.5],
-    //     ['L', halfWidth, height + 0.5],
-    //     ['L', -halfWidth - 1, height + 0.5],
-    //     ['L', -halfWidth - 1, 0.5],
-    //     ['M', -markerPosition, 4],
-    //     ['L', -markerPosition, height - 3],
-    //     ['M', markerPosition - 1, 4],
-    //     ['L', markerPosition - 1, height - 3]
-    // ];
 }

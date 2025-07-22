@@ -40,9 +40,6 @@ export default {
                         this.resolveData()
                     }
 
-                    // for (let item in this.nodeObject) {
-                    //   this.nodeObject[Number(item)].groupUpdate = true
-                    // }
                     if (this.signalREquip) {
                         let timeout = setTimeout(() => {
                             if (this.signalREquip) {

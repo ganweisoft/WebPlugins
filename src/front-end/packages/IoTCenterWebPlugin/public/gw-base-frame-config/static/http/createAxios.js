@@ -31,7 +31,7 @@
         }
 
         if (alreadyGetLanguage) {
-            console.log(currentAxiosBuilder.i18n.tc(msg), 333)
+
             currentAxiosBuilder.notification.error(currentAxiosBuilder.i18n.tc(msg))
         }
     }

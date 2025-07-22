@@ -52,7 +52,63 @@ const modifyNextStep = ()=>{
 </script>
 
 <style lang="scss">
-    @import "@/assets/css/dialogStyle.scss","@/assets/css/inputStyle.scss";
+    @mixin el-dialog {
+        background-color: var(--dialog-bgColor);
+
+        .el-dialog__header {
+            height: 64px;
+            padding: 23px 20px;
+            // @include border_bottom(1px, "bor-default");
+            text-align: left;
+
+            .el-dialog__title,
+            .dialogTitle span {
+                font-size: 16px;
+                font-family: "Microsoft YaHei";
+            }
+        }
+
+        .el-dialog__body {
+            font-size: 14px;
+            font-family: "Microsoft YaHei";
+            padding: 0px 20px !important;
+        }
+
+        .el-dialog__footer {
+            height: 72px;
+            border: none;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            .dialog-footer {
+                .el-button {
+                    min-width: 92px;
+                    height: 32px !important;
+                    line-height: 32px;
+                    font-size: 14px;
+                    font-family: "Microsoft YaHei";
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+    // 搜索框
+    @mixin searchInput {
+        .el-input {
+            width: 287px;
+
+            .el-input__inner {
+                height: 32px;
+                background-color: var(--input-bgColor4);
+
+                &::-webkit-input-placeholder {
+                    font-size: 14px;
+                }
+
+            }
+        }
+    }
     .modalContainer{
         background-color: transparent;
     }

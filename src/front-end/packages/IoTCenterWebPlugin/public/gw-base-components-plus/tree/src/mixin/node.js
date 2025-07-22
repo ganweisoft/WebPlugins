@@ -57,9 +57,6 @@ export default {
             store.setCurrentNode(node);
             this.tree.$emit('current-change', store.currentNode ? store.currentNode : null, store.currentNode);
             this.tree.currentNode = this;
-            // if (node.data.isEquip) {
-            //     node.loading = true
-            // }
             if (this.tree.expandOnClickNode) {
                 this.handleExpandIconClick();
             }
@@ -67,12 +64,6 @@ export default {
             if (node.data && !node.data.isGroup) {
                 this.tree.currentSelect = node.data.key;
             }
-
-            // if (this.tree.checkOnClickNode && !node.disabled) {
-            //     this.handleCheckChange(null, {
-            //         target: { checked: !node.checked }
-            //     });
-            // }
 
             this.tree.$emit('saveOpenStatus', node);
             this.tree.$emit('node-click', node.data, node, this);

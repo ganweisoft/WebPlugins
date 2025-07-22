@@ -106,7 +106,7 @@ function downDependencies (dependencies, obj, type, registry) {
     if (dependencies) {
         let dependenciesUrl = ''
         Object.keys(dependencies).forEach(item => {
-            // 如果外框不存在该依赖包或外框的依赖包版本与配置的依赖包版本不一致，则用依赖包的版本
+
             if (!framePackageConfig[obj]) {
                 framePackageConfig[obj] = {}
             }

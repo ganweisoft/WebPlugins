@@ -158,7 +158,6 @@ export default {
             window.i18n = this.$i18n
             let iframe = document.getElementsByClassName("jumpIframe");
             for (let item of iframe) {
-                console.log(item)
                 item.contentWindow.document.documentElement.setAttribute("data-languagetype", languageType);
                 item.contentWindow.postMessage({ languageChange: true })
             }

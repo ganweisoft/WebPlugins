@@ -74,7 +74,6 @@ const overTimeList = [
             if (!sessionStorage.languageType) { sessionStorage.languageType = localStorage.languageType }
             if (currentAxiosBuilder.i18n && currentAxiosBuilder.i18n.global && currentAxiosBuilder.i18n.global.messages) {
                 currentAxiosBuilder.i18n.global.messages.value[sessionStorage.languageType][menuName] = res
-                console.log(currentAxiosBuilder.i18n.global.messages.value[sessionStorage.languageType][menuName])
             }
         }).catch(err => {
             console.log(err)

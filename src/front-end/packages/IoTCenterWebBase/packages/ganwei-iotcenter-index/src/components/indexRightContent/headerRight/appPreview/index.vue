@@ -121,14 +121,8 @@ function doCopy (str) {
     $message.success(t('login.framePro.tips.copySuccess'))
 }
 
-function checkAppModule (path) {
-    return api.checkAppModule({ path }).then(() => true).catch(() => false)
-}
-
 onMounted(() => {
-    Promise.all([checkAppModule('/APP/index.html'), checkAppModule('/APP/ganwei-app-login/index.html'), checkAppModule('/APP/ganwei-app-home/index.html')]).then(res => {
-        showApp.value = res.every(item => item)
-    })
+
     QRCodeLib.toDataURL(AppUrl).then(url => {
         QRcode.app = url
     })

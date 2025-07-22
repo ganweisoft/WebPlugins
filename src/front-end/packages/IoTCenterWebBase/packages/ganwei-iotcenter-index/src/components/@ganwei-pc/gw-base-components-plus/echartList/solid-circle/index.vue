@@ -361,34 +361,6 @@ export default {
             let that = this;
             let selectedIndex = '';
             let hoveredIndex = '';
-            // 监听点击事件，实现选中效果（单选）
-            // myChart.on('click', function (params) {
-            //     // 从 option.series 中读取重新渲染扇形所需的参数，将是否选中取反。
-            //     let isSelected = !that.option.series[params.seriesIndex].pieStatus.selected;
-            //     let isHovered = that.option.series[params.seriesIndex].pieStatus.hovered;
-            //     let k = that.option.series[params.seriesIndex].pieStatus.k;
-            //     let startRatio = that.option.series[params.seriesIndex].pieData.startRatio;
-            //     let endRatio = that.option.series[params.seriesIndex].pieData.endRatio;
-            //     // 如果之前选中过其他扇形，将其取消选中（对 option 更新）
-            //     if (selectedIndex !== '' && selectedIndex !== params.seriesIndex) {
-            //         that.option.series[selectedIndex].parametricEquation = that.getParametricEquation(that.option.series[
-            //             selectedIndex].pieData
-            //             .startRatio, that.option.series[selectedIndex].pieData.endRatio, false, false, k, that.option.series[
-            //                 selectedIndex].pieData
-            //             .value);
-            //         that.option.series[selectedIndex].pieStatus.selected = false;
-            //     }
-            //     // 对当前点击的扇形，执行选中/取消选中操作（对 option 更新）
-            //     that.option.series[params.seriesIndex].parametricEquation = that.getParametricEquation(startRatio, endRatio,
-            //         isSelected,
-            //         isHovered, k, that.option.series[params.seriesIndex].pieData.value);
-            //     that.option.series[params.seriesIndex].pieStatus.selected = isSelected;
-            //     // 如果本次是选中操作，记录上次选中的扇形对应的系列号 seriesIndex
-            //     isSelected ? selectedIndex = params.seriesIndex : null;
-            //     // 使用更新后的 option，渲染图表
-            //     myChart.setOption(that.option);
-            // });
-            // 监听 mouseover，近似实现高亮（放大）效果
             myChart.on('mouseover', function (params) {
                 // 准备重新渲染扇形所需的参数
                 let isSelected;

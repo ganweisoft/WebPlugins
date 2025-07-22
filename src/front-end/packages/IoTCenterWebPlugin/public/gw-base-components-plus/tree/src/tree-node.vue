@@ -120,7 +120,7 @@
 
     methods: {
         test(){
-            console.log('test')
+         
         },
       handleDragStart(event) {
         if (!this.tree.draggable) return;
@@ -146,7 +146,6 @@
     created() {
       const parent = this.$parent;
       this.creator(parent, 'node');
-      console.log(88886666)
       this.$on('addEquip', (val) => {
             console.log(val);
         })

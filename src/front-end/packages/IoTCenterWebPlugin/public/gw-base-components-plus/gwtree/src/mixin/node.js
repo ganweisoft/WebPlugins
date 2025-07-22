@@ -28,11 +28,6 @@ export default {
             const props = tree.props || {};
             const childrenKey = props['children'] || 'children';
 
-            // 由于insert数据出现卡顿问题注释掉
-            // this.unwatch = this.$watch(`${nodeTag}.data.${childrenKey}`, () => {
-            //     node.updateChildren();
-            // });
-
             if (node.expanded) {
                 this.expanded = true;
                 this.childNodeRendered = true;
@@ -67,9 +62,6 @@ export default {
         
             // this.tree.$emit('current-change', this.equipData(store.currentNode,true), store.currentNode);
             this.tree.currentNode = this;
-            // if (node.data.isEquip) {
-            //     node.loading = true
-            // }
             if (this.tree.expandOnClickNode) {
                 this.handleExpandIconClick();
             }
@@ -77,12 +69,6 @@ export default {
             if (node.data && !node.data.isGroup) {
                 this.tree.currentSelect = node.data.key;
             }
-
-            // if (this.tree.checkOnClickNode && !node.disabled) {
-            //     this.handleCheckChange(null, {
-            //         target: { checked: !node.checked }
-            //     });
-            // }
 
             this.tree.$emit('saveOpenStatus', node);
             this.tree.$emit('node-click', this.equipData(node.data,false), node, this);

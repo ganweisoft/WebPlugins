@@ -114,12 +114,6 @@ export default {
                     this.pageNo = 1
                     let times = data?.times || [];
                     let values = data?.values || [];
-                    // let timeList = []
-                    // let valueList = []
-                    // times.forEach((item, index) => {
-                    //     timeList.push(...item)
-                    //     valueList.push(...values[index])
-                    // })
 
                     this.total = values.length;
                     times.forEach((item, index) => {

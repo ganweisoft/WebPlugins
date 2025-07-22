@@ -35,37 +35,6 @@ window.getElementLanguages = async () => {
 window.requestLanguage = async (pluginName, menuName, packageId, vm) => {
     return new Promise((resolve, reject) => {
         resolve({})
-        // let data = {
-        //     packageId,
-        //     pluginName,
-        //     menuName
-        // }
-        // window.AxiosBuilder.axios && window.AxiosBuilder.axios({
-        //     method: 'get',
-        //     url: '/api/localization/getjsontranslationfile',
-        //     params: data,
-        //     headers: {
-        //         'Content-Type': 'application/json;charset=UTF-8',
-        //         'Accept-Language': window.localStorage.languageType || 'zh-CN'
-        //     }
-        // }).then(res => {
-        //     const { code, data, message } = res ? (res.data || {}) : {}
-        //     if (code == 200) {
-        //         try {
-        //             resolve(data ? JSON.parse(data) : {})
-        //         } catch (error) {
-        //             console.log(error)
-        //             resolve({})
-        //         }
-        //     } else {
-        //         vm && vm.$message.error(message || '')
-        //         resolve({})
-        //     }
-        // }).catch(err => {
-        //     vm && vm.$message.error(err.data, err)
-        //     resolve({})
-        // })
-
     })
 }
 window.updateLanguage = (vm, i18n) => {

@@ -261,15 +261,12 @@ export default {
                             if (code == 200) {
                                 this.isLogin = true
                                 this.loginData = data || {}
-                                // window.sessionStorage.setItem('CSRF_TOKEN', '')//this.loginData.token ||
-                                // if (!data?.userTermsService) {
-                                //     this.showDeclare = true
-                                // } else {
+               
                                     if(this.verificationType == 1 && !this.IsIgnoreFalidateCode) {
                                         window.slideAuthSuccess()
                                     }
                                     this.afterLogin()
-                                // }
+                         
                             } else {
                                 this.isLogin = false
                                 if(!this.IsIgnoreFalidateCode) {   // 未关闭验证码
@@ -380,7 +377,7 @@ export default {
         },
 
         showImg () {
-            if (process.env.NODE_ENV === "development") { this.mainImg = `/static/images/${localStorage.theme == 'dark' ? 'index-logo-src' : 'index-logo-src-light'}.svg` }
+            if (process.env.NODE_ENV === "development") { this.mainImg = `/static/images/index-logo-src.png` }
         },
 
         showBgImg(){

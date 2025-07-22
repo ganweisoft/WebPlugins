@@ -80,7 +80,7 @@
                     range.setStart(text, 0);
                     range.setEnd(text, text.childNodes.length);
                     let RealWidth = range.getBoundingClientRect().width;
-                    console.log(this.$t(this.data.name), text.getBoundingClientRect().width, RealWidth);
+
                     if (text.getBoundingClientRect().width < RealWidth) {
                         this.showToolTip = false;
                     }

@@ -22,15 +22,6 @@
                 this.$forceUpdate()
             },
         },
-
-        // computed: {
-        //     loading () {
-        //         return this.$store.state.noAccessLoading
-        //     },
-        //     network () {
-        //         return this.$store.state.network
-        //     }
-        // },
         mounted () {
             let name = this.$route.query.name
             switch (name) {

@@ -281,8 +281,6 @@ hr {
 
     &:focus {
         border-color: var(--con-themeColor) !important;
-        // box-shadow: 0 0 6px 2px rgba(24, 144, 255, .2);
-        // font-size: 14px;
     }
 }
 
@@ -612,24 +610,6 @@ hr {
         }
     }
 
-    // thead th:nth-last-child(n + 3):hover {
-    //     &::after {
-    //         content: '||';
-    //         position: absolute;
-    //         top: 50%;
-    //         right: 0;
-    //         transform: translateY(-50%);
-    //     }
-    // }
-
-    // thead th:nth-last-child(n + 3):after {
-    //     content: '||';
-    //     position: absolute;
-    //     top: 50%;
-    //     right: 0;
-    //     transform: translateY(-50%);
-    // }
-
     .is-sortable {
         .cell {
             display: inline-block;
@@ -662,8 +642,7 @@ select:-webkit-autofill {
     background-color: transparent !important;
     background-image: none;
     transition: background-color 50000s ease-in-out 0s; //背景色透明  生效时长  过渡效果  启用时延迟的时间
-    // -webkit-text-fill-color: #fff !important;
-    // -webkit-box-shadow: 0 0 0px 1000px red inset;
+
     text-fill-color: var(--input-txColor1);
     -webkit-text-fill-color: var(--input-txColor1);
     box-shadow: 0 0 0px 1000px var(--input-bgColor4) inset;
@@ -767,9 +746,6 @@ select:-webkit-autofill {
     }
 
     .el-button {
-        // width: 64px;
-        // padding-left: 0;
-        // padding-right: 0;
         margin: 0;
         text-align: center;
         border: none;
@@ -784,9 +760,6 @@ select:-webkit-autofill {
             margin-right: 10px;
         }
 
-        // &:hover {
-        //     background-color: var(--btn-hoverBgColor);
-        // }
     }
 
     .el-button--text {
@@ -835,26 +808,16 @@ select:-webkit-autofill {
     background-color: var(--con-bgColor5-1) !important;
     color: var(--con-textColor1) !important;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
-    // border: 0.5px solid;
-    // border-color: var(--popover-borderColor);
     line-height: 28px !important;
     font-size: 14px !important;
 
     .popper__arrow {
-        &::after {
-            // border-color: var(--popover-bgColor);
-            // border-right-color: var(--popover-borderColor2);
-        }
-
         border-color: transparent !important;
     }
 }
 
 .el-tooltip__popper[x-placement^=bottom] {
 
-    // .popper__arrow {
-    //     border-bottom-color: var(--popover-borderColor);
-    // }
     >div.popper__arrow::after {
         border-top-left-radius: 1px;
         border-bottom-color: var(--popover-bgColor3);
@@ -863,9 +826,6 @@ select:-webkit-autofill {
 
 .el-tooltip__popper[x-placement^=top] {
 
-    // .popper__arrow {
-    //     border-top-color: var(--popover-borderColor);
-    // }
     >div.popper__arrow::after {
         bottom: 1px;
         border-top-color: var(--popover-bgColor3);
@@ -874,9 +834,6 @@ select:-webkit-autofill {
 
 .el-tooltip__popper[x-placement^=left] {
 
-    // .popper__arrow {
-    // border-left-color: var(--popover-borderColor);
-    // }
     >div.popper__arrow::after {
         right: 1px;
         border-left-color: var(--popover-bgColor3);
@@ -885,9 +842,6 @@ select:-webkit-autofill {
 
 .el-tooltip__popper[x-placement^=right] {
 
-    // .popper__arrow {
-    // border-right-color: var(--popover-borderColor);
-    // }
     >div.popper__arrow::after {
         left: 1px;
         border-right-color: var(--con-bgColor5-1);
@@ -928,9 +882,6 @@ select:-webkit-autofill {
             color: var(--con-textColor2);
         }
 
-        // .el-picker-panel__icon-btn {
-        //     color: var(--con-textColor1);
-        // }
 
         .el-date-range-picker__time-header .el-icon-arrow-right {
             // color: #F0F4FF;
@@ -1368,26 +1319,6 @@ select:-webkit-autofill {
     color: var(--notifytitle);
 }
 
-// .el-notification.alarm {
-//     border-left: 8px solid #f22433;
-// }
-
-// .el-notification.warning {
-//     border-left: 8px solid #f5bb36;
-// }
-
-// .el-notification.info {
-//     border-left: 8px solid #3875ff;
-// }
-
-// .el-notification.set {
-//     border-left: 8px solid #d6d6d6;
-// }
-
-// .el-notification.ziChan {
-//     border-left: 8px solid #63e03f;
-// }
-
 .el-message-box {
     border: unset;
     padding-bottom: 0;
@@ -1767,8 +1698,6 @@ select:-webkit-autofill {
     }
 
     .icon-caidan_xiala {
-        // position: absolute;
-        // right: 20px;
         transition: 0.3s transform;
         margin-right: 0px !important;
     }

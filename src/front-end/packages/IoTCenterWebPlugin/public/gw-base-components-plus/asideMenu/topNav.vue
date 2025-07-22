@@ -111,23 +111,6 @@ export default {
         left: 0;
         transform: rotateY(180deg);
     }
-
-    // &.arrow:hover:before {
-    //     content: '<';
-    //     font-size: 24px;
-    //     color: white;
-    //     position: absolute;
-    //     cursor: pointer;
-    // }
-
-    // &.arrow:hover::after {
-    //     content: '>';
-    //     font-size: 24px;
-    //     color: white;
-    //     position: absolute;
-    //     right: 0px;
-    //     cursor: pointer;
-    // }
 }
 
 .top-nav-container {

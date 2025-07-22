@@ -125,14 +125,6 @@ export default {
                         trigger: "blur"
                     }
                 ],
-                // localAddr: [
-                //     {
-                //         required: true,
-                //         message: this.$tt("equipRule.inputCommunicationPort"
-                //         ),
-                //         trigger: "blur"
-                //     }
-                // ],
                 communicationTimeParam: [
                     {
                         required: true,

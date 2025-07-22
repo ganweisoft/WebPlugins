@@ -107,9 +107,13 @@
                 animation: enter-x-animation .3s ease-in-out .3s;
                 animation-fill-mode: forwards;
                 margin-bottom: 40px;
-
+                height: 69px;
+                text-align: center;
+                overflow: hidden;
                 img {
-                    height: 64px;
+                    height: 150px;
+                    position: relative;
+                    top: -26px;
                 }
             }
 

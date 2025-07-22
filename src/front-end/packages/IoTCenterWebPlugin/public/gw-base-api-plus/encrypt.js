@@ -114,28 +114,6 @@ const encrypt = {
         return data;
     },
 
-    // rsa加密
-    // RSAEncrypt (strPassword) {
-    //     if (!myKey) {
-    //         // if (!myKey && !isFirst) {
-    //         // isFirst = true;
-    //         var ajax = new XMLHttpRequest();
-    //         ajax.onreadystatechange = function () {
-    //             if (ajax.readyState == 4 && ajax.status == 200) {
-    //                 let datas = JSON.parse(ajax.responseText);
-    //                 myKey = decodeURIComponent(datas.data)
-    //             }
-    //         }
-    //         ajax.open('get', '/IoT/api/v3/auth/GetString', false);
-    //         ajax.send();
-    //     }
-    //     let pubkey = myKey;
-    //     let encrypt = new JsEncrypt();
-    //     encrypt.setPublicKey(pubkey);
-    //     let data = encrypt.encrypt(strPassword);
-    //     return data;
-    // },
-
     clearMyKey () {
         myKey = '';
     }

@@ -301,9 +301,6 @@ export default {
         }
     },
     computed: {
-        // isLargeScreen: function () {
-        //     return this.clientWidth > 768
-        // },
         rules: function () {
             return {
                 dateName: [
@@ -335,10 +332,6 @@ export default {
             that.clientWidth = document.body.clientWidth
             that.clientHeight = document.body.clientHeight
         }
-
-        // if (!this.isLargeScreen) {
-        //     this.changeTabs('list');
-        // }
     },
     mounted () {
         this.getDivideTask()
@@ -362,8 +355,6 @@ export default {
     },
     updated () {
         // 表格自适应
-        // let eqTable = document.getElementById('eqTable');
-        // this.tableHeight = eqTable.offsetHeight;
     },
     methods: {
         // 根据开始时间改变结束时间范围

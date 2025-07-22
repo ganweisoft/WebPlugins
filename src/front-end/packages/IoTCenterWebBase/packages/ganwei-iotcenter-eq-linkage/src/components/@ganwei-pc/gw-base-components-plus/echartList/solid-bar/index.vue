@@ -114,7 +114,6 @@ export default {
                     axisLabel: {
                         fontSize: 14,
                     },
-                    // boundaryGap: ['20%', '20%'],
                 },
                 legend: {
                     orient: 'horizontal',

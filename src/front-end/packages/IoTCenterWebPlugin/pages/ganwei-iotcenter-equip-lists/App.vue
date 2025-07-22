@@ -5,12 +5,9 @@
 </template>
 
 <script>
-//  import muduleObserve from 'gw-base-utils-plus/moduleObserve'
 export default {
-    // mixins: [muduleObserve],
     name: 'App',
     mounted () {
-        // this.$i18n.locale = 'en-US'
         let style = window.localStorage.theme
         window.document.documentElement.setAttribute('data-theme', style || 'dark')
     }
@@ -107,9 +104,6 @@ html body div {
     line-height: 28px !important;
     cursor: pointer !important;
     text-align: center;
-    // border: 0.5px solid rgba(240, 244, 255, 0.16);
-    // border: unset !important;
-    // background-color: var(--btn-bgColor9);
 }
 
 .el-popover .el-button-group {

@@ -1,7 +1,7 @@
 /*
  * @Author: Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
  * @Date: 2022-08-16 13:14:43
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置:
  */
 export default {
     props: {
@@ -84,9 +84,6 @@ export default {
                 .catch((err) => {
                     console.log(err);
                     this.exportLoading = false
-                    // if (err.status == 403) {
-                    //     return;
-                    // }
                     let reader = new FileReader()
                     reader.readAsText(err.data, 'utf-8')
                     reader.onload =  (e)=> {

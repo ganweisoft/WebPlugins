@@ -249,12 +249,6 @@
                     img: {
                         indexSmallImg: ''
                     },
-
-                    // frameIcon: {
-                    //     outFullScreeen: '../../static/Images/gw-icon-tuchuquanping.svg',
-                    //     skin: '../../static/Images/skin.svg',
-                    //     skinLight: '../../static/Images/skinlight.svg'
-                    // },
                     theme: {
                         default: '',
                         supportThemes: []
@@ -398,9 +392,6 @@
         },
 
         computed: {
-            // language () {
-            //     return window.sessionStorage.languageType;
-            // },
             rules () {
                 return {
                     oldPwd: [
@@ -434,10 +425,6 @@
                     ]
                 }
             }
-
-            // theme () {
-            //     return this.config.theme.supportThemes.find(item => item.value === this.config.theme.default)
-            // }
         },
 
         created () {
@@ -639,7 +626,7 @@
                             name: 'closeOther',
                             label: this.$t('login.contextMenu.closeOther'),
                             onclick: () => {
-                                console.log(this.editableTabs)
+
                                 this.editableTabsValue = targetName
                                 let toBeCloses = this.editableTabs.filter(i => i.name != targetName).map(i => i.name)
                                 toBeCloses.forEach(i => {
@@ -652,7 +639,6 @@
                             name: 'closeLeft',
                             label: this.$t('login.contextMenu.closeLeft'),
                             onclick: () => {
-                                console.log(this.editableTabs)
                                 this.editableTabsValue = targetName
                                 let toBeCloses = this.editableTabs.slice(0, startIndex).map(i => i.name)
                                 toBeCloses.forEach(i => {
@@ -665,7 +651,7 @@
                             name: 'closeRight',
                             label: this.$t('login.contextMenu.closeRight'),
                             onclick: () => {
-                                console.log(this.editableTabs)
+
                                 this.editableTabsValue = targetName
                                 let toBeCloses = this.editableTabs.slice(startIndex + 1).map(i => i.name)
                                 toBeCloses.forEach(i => {
@@ -737,9 +723,6 @@
                 let isHave = this.editableTabs.some(item => {
                     return item.route == this.$route.fullPath
                 })
-
-                // console.log(this.editableTabs, isHave);
-                // console.log(this.$route.fullPath);
 
                 // 如果不存在则增加一项进数组，存在则只做标签页选中
                 if (!isHave) {
@@ -954,31 +937,20 @@
 
             // 菜单点击事件
             onRouters (type, data, el) {
-                // console.log(1111);
-                // this.breadcrumbList = [
-                //     {
-                //         title: el.$el.innerText,
-                //         path: data.pop()
-                //     }
-                // ];
-                // localStorage.breadcrumbList = JSON.stringify(this.breadcrumbList);
+
             },
 
             getName (name) {
                 sessionStorage.menuActiveName = name
-
-                // console.log(name, 3333);
             },
 
             handleOpen (key, keyPath) {
-                console.log(key, keyPath)
+
             },
 
             handleClose (key, keyPath) {
                 // 禁止折叠菜单
                 this.$refs.menus.open(keyPath)
-
-                // console.log(key, keyPath);
             },
 
             toRouter () {
@@ -1066,18 +1038,6 @@
                             }, that.delayTime)
                         }
 
-                        // let data = '';
-                        // data = [{ 'RelatedVideo': '', 'ZiChanID': '', 'PlanNo': '', 'Level': 3, 'EventMsg': '温湿度#11156-遥信1:报警', 'ProcAdviceMsg': '请处理', 'RelatedPic': '', 'Wavefile': 'YX62_1_1.wav', 'Equipno': 11156, 'Type': 'X', 'Ycyxno': 1, 'Time': '2023-06-06T03:32:08', 'bConfirmed': false, 'UserConfirm': null, 'DTConfirm': '1970-01-01T00:00:00', 'GUID': 'dbcb947f-7201-426b-b9f4-5a22219a1040' }]
-                        // data.forEach(item => {
-                        //     let eventType = this.getEventType(item.Level)
-                        //     item.snapshotName = eventType.snapshotName;
-                        //     item.iconRes = eventType.iconRes
-                        //     item.Time = this.$moment(item.Time).format('YYYY-MM-DD HH:mm:ss')
-                        //     item.className = this.getSnapshotColorClass(item.iconRes)
-                        // })
-
-                        // this.messageList = [...this.messageList, ...data]
-
                         if (res.data.code == 200) {
                             let data = res.data.data.Result
 
@@ -1100,11 +1060,6 @@
                                     } else {
                                         this.closeSpeak()
                                     }
-
-                                    // if (this.noFirst) {
-                                    //     this.speechPlay('即将进行语音播报', false)
-                                    // }
-                                    // this.speechPlay(item.EventMsg, false)
 
                                     this.noFirst = false
                                 }
@@ -1150,8 +1105,6 @@
 
             topNavClick (index) {
                 this.navTopActive = index
-
-                // this.menu = [...this.allMenu[this.navTopActive].children];
             },
 
             traverse (data, index) {
@@ -1172,11 +1125,6 @@
             },
 
             getUserInfo () {
-                // getMenuesList
-                // this.$api
-                //     .GetMenus()
-                //     .then(res => {
-                //         if (res.data.code === 200) {
                 let res = getMenuesList;
                             this.isError = false
                             let withoutGroup = []
@@ -1219,19 +1167,6 @@
                                     this.editableTabsValue = '1'
                                 }
                             }
-                    //     } else {
-                    //         window.localStorage.clear()
-                    //         window.sessionStorage.clear()
-                    //         this.$message({
-                    //             type: 'error',
-                    //             title: res.data.message
-                    //         })
-                    //         this.$router.replace('/Login')
-                    //     }
-                    // })
-                    // .catch(er => {
-                    //     this.isError = true
-                    // })
             },
 
             // 系统运行信息
@@ -1249,23 +1184,10 @@
                 this.$api.getSystemInfo().then(rt => {
                     if (rt.status == 200) {
                         let infoList = [
-                            // {
-                            //     title: JSON.parse(rt.data.data.applicationRunInfo)
-                            //         .Item1,
-                            //     value: JSON.parse(rt.data.data.applicationRunInfo)
-                            //         .Item2
-                            // },
                             {
                                 title: JSON.parse(rt.data.data.systemPlatformInfo).Item1,
                                 value: JSON.parse(rt.data.data.systemPlatformInfo).Item2.slice(-2)
                             }
-
-                            // {
-                            //     title: JSON.parse(rt.data.data.systemRunEvnInfo)
-                            //         .Item1,
-                            //     value: JSON.parse(rt.data.data.systemRunEvnInfo)
-                            //         .Item2
-                            // }
                         ]
                         this.infoList = infoList
                     }
@@ -1276,9 +1198,6 @@
                 if (window.sessionStorage.passwordPolicy && window.sessionStorage.passwordPolicy == 1) {
                     this.modal1 = true
                 }
-
-                // window.document.documentElement.setAttribute('data-theme', this.theme.value)
-
                 window.addEventListener('message', e => {
                     // 设备列表历史曲线导出
                     this.curveSignalR(e, true)
@@ -1288,8 +1207,6 @@
                         this.resetMenu({ route: e.data.route, setMenu: e.data.setMenu })
                     }
                 })
-
-                // new equipCache().Init();
 
                 document.onkeyup = this.keyEvent
             },
@@ -1354,8 +1271,6 @@
                             } else {
                                 this.$message.error(
                                     rt.data.message
-
-                                    // this.$t("publics.tips.editFail")
                                 )
                             }
                         })

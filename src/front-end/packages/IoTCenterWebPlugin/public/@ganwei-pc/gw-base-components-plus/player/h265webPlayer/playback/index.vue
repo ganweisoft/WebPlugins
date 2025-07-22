@@ -125,7 +125,7 @@ async function recordPlay(startTime: string, endTime: string) {
     }, ShowLog)
     _id.value += 1
     url.value = res.responseData.playInfos?.[0].url || ''
-    console.log(url.value);
+
     streamId = res.responseData.streamId
 }
 

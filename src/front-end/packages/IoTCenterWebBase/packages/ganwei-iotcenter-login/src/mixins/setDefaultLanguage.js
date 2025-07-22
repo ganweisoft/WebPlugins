@@ -34,13 +34,8 @@ export default {
             })
         },
         getAuthName (platName) {
-            // this.$api.getAuthName().then(res => {
                 window.document.title = platName;
                 sessionStorage.setItem('platName', platName)
-            // }).catch(err => {
-            //     console.log(err)
-            //     window.document.title = platName
-            // })
         },
         getsupportedcultures () {
 

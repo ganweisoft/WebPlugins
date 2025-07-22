@@ -156,10 +156,6 @@ export default {
                     case 's': str = Math.floor(val % 60) === 0 ? 0 : Math.floor(val % 60); break;
                     default: break;
                 }
-                // str += Math.floor(val / (24 * 3600)) === 0 ? '' : Math.floor(val / (24 * 3600)) + 'd '
-                // str += Math.floor((val % (24 * 3600)) / 3600) === 0 ? '' : Math.floor((val % (24 * 3600)) / 3600) + 'h '
-                // str += Math.floor((val % 3600) / 60) === 0 ? '' : Math.floor((val % 3600) / 60) + 'm '
-                // str += Math.floor(val % 60) === 0 ? '' : Math.floor(val % 60) + 's'
                 return Number(str)
             }
         },
@@ -450,20 +446,6 @@ export default {
                     this.confirmTree()
                 }
 
-                // if (this.ptTaskDetail) {
-                //     this.treeData.noEdit = data.setType !== 'V'
-                //     // 保存树状结构数据
-                //     this.treeData.value = this.treeData.noEdit ? (data.setValue || '') : '0'
-                //     this.treeData.equipSetValue = [data.equipNo, data.setNo]
-                //     this.treeData.defaultValue = data.value || ''
-                //     this.treeData.equipSetName = data.equipName + '-' + data.title
-                // } else if (this.xhTaskDetail) {
-                //     this.treeData.noEdit = data.setType !== 'V'
-                //     // 保存树状结构数据
-                //     this.treeData.value = this.treeData.noEdit ? data.setValue : '0'
-                //     this.treeData.equipSetValue = [data.equipNo, data.setNo]
-                //     this.treeData.equipSetName = data.equipName + '-' + data.title
-                // }
             } else {
                 this.treeData.noEdit = true
                 this.treeData.value = ''
@@ -473,10 +455,6 @@ export default {
 
         cancelTree () {
             this.searchTreeName = ''
-            // this.treeData.noEdit = true
-            // this.treeData.value = ''
-            // this.treeData.equipSetValue = []
-            // this.treeData.equipSetName = ''
             this.eqpTreeList = []
             this.treeLoading = false
         },
@@ -516,16 +494,6 @@ export default {
             this.treeLoading = true
             this.treeRefs = ref || this.treeRefs
         },
-
-        // 选择遥信时disabled为true
-        // changePtCascader (ref) {
-        //     let noEdit = this.$refs[ref].getCheckedNodes()[0].data.setType !== 'V';
-        //     this.$set(this.cascaderPtArr, ref - 1, noEdit);
-        //     this.ptForm.procTaskSys[ref - 1].value = noEdit ? this.$refs[ref].getCheckedNodes()[0].data.value : 0;
-        //     console.log(ref - 1, 'ref - 1');
-        //     // setTimeout(() => { this.ptForm.procTaskSys[ref - 1].equipSetValue = [11138, 2] }, 3000)
-        //     //     ;
-        // },
 
         searchList (e, change) {
             this.searchName = this.searchName.trim()

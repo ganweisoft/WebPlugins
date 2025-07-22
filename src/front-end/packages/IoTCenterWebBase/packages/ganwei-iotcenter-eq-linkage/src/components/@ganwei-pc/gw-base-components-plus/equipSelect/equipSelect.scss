@@ -82,35 +82,3 @@
 
 }
 
-// @media (max-width: $screen-xs-max) {
-//     .menuDialog {
-//         .equipSelect {
-//             width: 100% !important;
-//             height: 100% !important;
-//             margin: 0 !important;
-//             transform: translateY(0%) !important;
-
-//             .el-dialog__header {
-//                 @include mobileAlertHeader;
-//             }
-
-//             .el-dialog__body {
-//                 @include mobileAlertBody;
-//             }
-
-//             .el-dialog__footer {
-//                 @include mobileAlertFooter;
-
-//                 span.dialog-footer {
-//                     height: 100%;
-
-//                     .bottomBtn {
-//                         height: 100%;
-//                         line-height: 64px;
-//                     }
-//                 }
-
-//             }
-//         }
-//     }
-// }

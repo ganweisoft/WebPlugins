@@ -141,9 +141,6 @@
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    // margin-bottom: 8px;
-                    //   border-color: var(--input-borderColor1);
-                    // border: 1px solid !important;
                     line-height: 32px;
 
 
@@ -182,13 +179,10 @@
                         .point {
                             width: 100%;
                             height: 32px;
-                            // border: 1px solid;
-                            // background-color: #252833;
-                            // background-color: var(--tree-bgColor1);
+
                             display: flex;
                             justify-content: flex-start;
                             align-items: center;
-                            // padding-left: 12px;
                             box-sizing: border-box;
                             border-radius: 2px;
                             cursor: pointer;
@@ -198,7 +192,6 @@
                                 margin-right: 8px;
                             }
 
-                            // border-color: var(--tree-borderColor);
                         }
 
                         .point:not(:first-child) {
@@ -221,11 +214,6 @@
                                 font-size: 12px
                             }
                         }
-
-                        // .point:hover {
-                        //     transition: 0.3s;
-                        //     background-color: #485065 !important;
-                        // }
 
                         .point.pointSelect {
                             background-color: var(--tree-node-background_select);
@@ -305,7 +293,6 @@
             right: auto;
             bottom: 2px;
             background-color: #eeeddd;
-            // border: 0px solid transparent;
             border-radius: 0px;
             -webkit-border-radius: 0px;
             transform: scale(0.5); //缩放宽度，达到0.5px的效果

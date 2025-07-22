@@ -81,11 +81,7 @@ export default ({ mode }) => {
                 ]
             },
             preprocessorOptions: {
-                // 全局样式引入
-                // scss: {
-                //     additionalData: '@use "./src/assets/css/style.scss" as *;',
-                //     javascriptEnabled: true
-                // }
+
             }
         },
         server: {

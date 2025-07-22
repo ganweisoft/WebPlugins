@@ -245,7 +245,6 @@ export default class Node {
         if (!(child instanceof Node)) {
             if (!batch) {
                 const children = this.getChildren(true);
-                // console.log(children,'children')
                 if (children.indexOf(child.data) === -1) {
                     if (typeof index === 'undefined' || index < 0) {
                         children.push(child.data);
@@ -256,10 +255,6 @@ export default class Node {
             }
             child.parent=this;
             child.store=this.store
-            // objectAssign(child, {
-            //     parent: this,
-            //     store: this.store
-            // });
             child = new Node(child);
         }
 

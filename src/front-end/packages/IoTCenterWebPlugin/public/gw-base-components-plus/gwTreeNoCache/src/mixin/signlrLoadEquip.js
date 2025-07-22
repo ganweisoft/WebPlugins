@@ -55,43 +55,6 @@ export default {
                     })
                 }
             })
-            // if (this.needSignalRLoad && !this.signalREquip) {
-            //     if (this.signalREquip) {
-            //         this.signalREquip.stop()
-            //         this.signalREquip = null;
-            //     }
-
-            //     this.signalREquip = new signalR.HubConnectionBuilder()
-            //         .withUrl(this.$api.getSignalrHttp() + '/eGroupNotify', {})
-            //         .build();
-            //     this.signalREquip.serverTimeoutInMilliseconds = 500000000;
-            //     this.signalREquip.keepaliveintervalinmilliseconds = 500000000
-            //     this.signalREquip
-            //         .start();
-
-            //     // 判断连接状态
-            //     this.signalREquip.off('eGroup');
-            //     this.signalREquip.on('eGroup', (res) => {
-            //         if (res) {
-            //             if (res.key && this.nodeObject[res.key]) {
-            //                 if (!this.nodeObject[res.key].computedNum) {
-            //                     this.updateEquips(res.key, res.children, false)
-            //                 }
-            //             }
-            //         }
-            //     })
-
-            //     this.signalREquip.onclose(async (error) => {
-            //         let timeout = setTimeout(() => {
-            //             if (!this.aleadyLoadAll && !this.destory) {
-            //                 this.SignalREquipConnect()
-            //             }
-            //             clearTimeout(timeout)
-            //             timeout = null
-
-            //         }, 2000)
-            //     })
-            // }
 
         }
     }

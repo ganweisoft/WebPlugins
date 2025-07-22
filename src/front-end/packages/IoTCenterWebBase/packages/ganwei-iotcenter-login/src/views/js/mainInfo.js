@@ -283,11 +283,7 @@ export default {
                 this.$api
                     .InitService()
                     .then(res => {
-                        // const { code, message } = res?.data || {};
-                        // if (code !== 200) {
-                        //     this.loadingDialogVisible = false;
-                        //     this.$message.error(message);
-                        // }
+
                     })
                     .catch(error => {
                         this.loadingDialogVisible = false;

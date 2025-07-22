@@ -118,19 +118,6 @@ export default{
             this.append(insertData, groupId)
           }
 
-          // this.equipObject[`${groupId}-${item.equipNo}`] = {
-          //   key: `${groupId}-${item.equipNo}`,
-          //   title: item.equipName,
-          //   staNo: item.staNo,
-          //   status: 1,
-          //   isGroup: false,
-          //   groupId: groupId,
-          //   procAdvice: item.procAdvice,
-          //   relatedView: item.relatedView,
-          //   isEquip: true,
-          //   parentKey: groupId,
-          // }
-
         })
 
         this.statisticsNum = Number(this.statisticsNum) + Number(data.length)
@@ -227,10 +214,8 @@ export default{
         let cacheGroupName = groupName + "-" + groupNo;
         if (window.top.storage[cacheGroupName]) {
           let arr = window.top.storage[cacheGroupName];
-          console.log(this.originEquipMap[equipNo],66666)
           for (let i = 0, length = arr.length; i < length; i++) {
             if (arr[i].key == this.originEquipMap[equipNo]) {
-              console.log('找到了，删除')
               arr.splice(i, 1);
               if (!this.searchName) {
                 // 非搜索状态下删除
@@ -246,7 +231,6 @@ export default{
                     break;
                   }
                 }
-                // this.updateKeyChildren(groupNo, [...children])
               }
               break;
             }

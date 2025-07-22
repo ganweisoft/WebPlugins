@@ -28,7 +28,6 @@ export default {
             window.document.documentElement.classList.add(style || 'dark')
         }
         sessionStorage.restarting = false;
-        console.log(zhCn)
     }
 }
 </script>
