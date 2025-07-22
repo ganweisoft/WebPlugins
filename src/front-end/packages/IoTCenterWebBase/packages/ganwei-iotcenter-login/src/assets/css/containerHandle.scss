@@ -36,20 +36,6 @@
         justify-content: space-between;
     }
 
-    // .el-input {
-    //     // margin-left: 16px;
-
-    //     .el-input__inner {
-    //         height: 32px;
-    //         background-color: var(--input-bgColor);
-    //         &::-webkit-input-placeholder {
-    //             font-size: 14px;
-    //         }
-
-    //     }
-    // }
-
-
     @include searchInput;
 
     .el-select {
@@ -192,14 +178,7 @@
                     background-image: linear-gradient(59deg, #3875FF 84%, transparent 85%, transparent);
                 }
             }
-
-            // .el-tabs__item:hover {
-            //     color: #3875ff;
-            //     transition: 0.3s;
-            // }
-
             .is-active {
-                // background-color: var(--tab-selBgColor);
                 color: var(--tab-selTXColor1);
                 background-image: linear-gradient(52deg, #3875FF 79%, transparent 80%, transparent);
             }

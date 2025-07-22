@@ -91,7 +91,7 @@ const EquipList = {
         return this.post('/IoT/api/v3/EquipList/GetEquipYcpState', data);
     },
 
-    // 获取历史曲线---水务总览
+    // 获取历史曲线
     getYcpHistroyChartByTime (data) {
         return this.post('/IoT/api/v3/EquipList/GetYcpHistroyChartByTime', data);
     },

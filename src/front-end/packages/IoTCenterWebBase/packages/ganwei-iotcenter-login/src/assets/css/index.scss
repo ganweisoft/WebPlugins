@@ -274,18 +274,6 @@ body {
                     width: 100%;
                     height: calc(100% - 50px);
 
-                    // &::after {
-                    //     position: absolute;
-                    //     content: "";
-                    //     top: 0;
-                    //     left: 50%;
-                    //     transform: translateX(-50%);
-                    //     display: block;
-                    //     width: 0.5px;
-                    //     height: 100%;
-                    //     background-color: var(--btn-borderColor1);
-                    // }
-
                     >div {
                         margin-bottom: 16px;
                         position: relative;
@@ -1332,27 +1320,3 @@ body {
 .appShow {
     display: none !important;
 }
-
-// @media (max-width: $screen-xs-max) {
-//   .pcShow {
-//     display: none !important;
-//   }
-// }
-
-// @media (min-width: $screen-sm-min) and (max-width: $screen-md-min) {
-//   .appShow {
-//     display: none !important;
-//   }
-// }
-
-// @media (min-width: $screen-md-min) and (max-width: $screen-lg-min) {
-//   .appShow {
-//     display: none !important;
-//   }
-// }
-
-// @media (min-width: $screen-lg-min) {
-//   .appShow {
-//     display: none !important;
-//   }
-// }

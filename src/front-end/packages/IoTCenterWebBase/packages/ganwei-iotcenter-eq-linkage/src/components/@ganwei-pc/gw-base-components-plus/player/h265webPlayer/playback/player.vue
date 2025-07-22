@@ -74,7 +74,6 @@ function getEventListenerFunction(){
             isPlay.value = state
         },
         onPlayFinish: ()=> {
-            console.log('finished')
             destroyAll()
         },
         onPerformance: (time: number) => {
@@ -92,9 +91,6 @@ function getEventListenerFunction(){
             } else {
                 console.log("\r\nonLoadFinish is HEVC/H.265");
             }
-            console.log("\r\nonLoadFinish media Codec:" + codecName);
-            console.log("\r\nonLoadFinish media FPS:" + mediaInfo?.meta?.fps);
-            console.log("\r\nonLoadFinish media size:" + mediaInfo?.meta?.size?.width + "x" + mediaInfo?.meta?.size?.height);
         }
     }
 }

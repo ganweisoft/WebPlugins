@@ -82,9 +82,6 @@ audio,
 video {
     margin: 0;
     padding: 0;
-    // border-color: var(--bor-default);
-    // border: 0;
-    // border-color: var(--bor-default);
     outline: 0;
     font-size: 100%;
     vertical-align: baseline;
@@ -664,8 +661,7 @@ select:-webkit-autofill {
     background-color: transparent !important;
     background-image: none;
     transition: background-color 50000s ease-in-out 0s; //背景色透明  生效时长  过渡效果  启用时延迟的时间
-    // -webkit-text-fill-color: #fff !important;
-    // -webkit-box-shadow: 0 0 0px 1000px red inset;
+
     text-fill-color: var(--input-autofill-color);
     -webkit-text-fill-color: var(--input-autofill-color);
     box-shadow: 0 0 0px 1000px var(--input-autofill-shadow) inset;
@@ -691,71 +687,7 @@ select:-webkit-autofill {
     }
 }
 
-// .el-popper {
-//     border: 1px solid;
-//     border-color: var(--poper-border) !important;
-//     background-color: var(--popper-background) !important;
 
-//     .el-time-panel__content::after,
-//     .el-time-panel__content::before {
-//         border-top: 1px solid #888;
-//         border-bottom: 1px solid #888;
-//     }
-
-//     button {
-//         border: unset;
-//     }
-
-//     .popper__arrow {
-//         border-color: transparent !important;
-//     }
-
-//     .el-time-range-picker__body {
-//         border-color: var(--poper-border);
-//     }
-// }
-
-// .el-popper[data-popper-placement^=bottom] .popper__arrow {
-//     top: -7px;
-
-//     &::before {
-//         top: -1px;
-//         border-color: var(--poper-border);
-//         background: var(--popper-tooltip-background);
-//     }
-
-//     &::after {
-//         border-bottom-color: var(--popper-tooltip-background);
-//     }
-// }
-
-// .el-popper[data-popper-placement^=top] .popper__arrow {
-//     bottom: -7px;
-
-//     &::before {
-//         top: -6px;
-//         border-top-color: var(--poper-border) !important;
-//     }
-
-//     &::after {
-//         border-top-color: var(--popper-tooltip-background);
-//     }
-// }
-
-// .el-popper[data-popper-placement^=right] .popper__arrow {
-//     bottom: -7px;
-
-//     &::before {
-//         border-color: transparent transparent transparent transparent;
-//         border-top-width: 7px;
-//         top: -6px;
-//         border-right-color: var(--poper-border) !important;
-//     }
-
-//     &::after {
-//         border-right-color: var(--popper-tooltip-background);
-//     }
-// }
 
 // Popover组件
 .el-popover {

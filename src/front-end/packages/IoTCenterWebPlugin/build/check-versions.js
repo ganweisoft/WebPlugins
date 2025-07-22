@@ -34,7 +34,6 @@ const versionRequirements = [
     }
 ]
 
-/*shell.which('npm')  返回：C:\PROGRAM FILES\NODEJS\NPM.CMD 返回绝对路径，否则返回null*/
 if (shell.which('npm')) {
     versionRequirements.push({
         name: 'npm',

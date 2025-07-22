@@ -24,7 +24,7 @@ fs.readFile(MODULEPATH + 'moduleConfiguration.json', 'utf-8', (err, data) => {
                         cwd: PACKAGEPATH
                     })
                 } catch (e) {
-                    console.log(key + " 已存在!")
+                    
                 }
             })
         } else {
@@ -35,7 +35,7 @@ fs.readFile(MODULEPATH + 'moduleConfiguration.json', 'utf-8', (err, data) => {
                             cwd: PACKAGEPATH
                         })
                     } catch (e) {
-                        console.log(key + " 已存在!")
+                        
                     }
                 }
             })

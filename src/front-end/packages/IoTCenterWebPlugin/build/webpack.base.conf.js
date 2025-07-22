@@ -73,16 +73,6 @@ const copyPlugins = new CopyWebpackPlugin([
         from: path.resolve(__dirname, '../node_modules/jquery/dist/jquery.slim.min.js'),
         to: path.resolve(__dirname, '../dist/static/js')
     }
-
-    // {
-    //     from: path.resolve(__dirname, "../node_modules/gw-base-font-plus/iconfont.css"),
-    //     to: path.resolve(__dirname, "../dist/static/css/"),
-    // },
-    // {
-    //     from: path.resolve(__dirname, "../node_modules/gw-base-font-plus/*"),
-    //     to: path.resolve(__dirname, "../dist/static/fonts/[name].[ext]"),
-    //     ignore: ['*.js', '*.css', '*.json']
-    // }
 ])
 
 const moduleList = require('./module-conf')

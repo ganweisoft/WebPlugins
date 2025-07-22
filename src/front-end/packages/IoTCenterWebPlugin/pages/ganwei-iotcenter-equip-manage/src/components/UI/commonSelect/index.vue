@@ -134,16 +134,13 @@ export default {
                         this.renderList = [...this.renderList, ...resolveData];
                         this.list = JSON.parse(JSON.stringify(this.renderList))
                         this.isSearched = true;
-                        // this.filterCurrent(this.renderList, this.currentSelect[0] ? this.currentSelect[0][this.props.label] : '')
-                        console.log(this.renderList)
                     })
                     .catch(err => {
                         this.$message.error(err?.data, err);
                     });
             } else if (keyword) {
-                console.log(this.list)
                 this.renderList = JSON.parse(JSON.stringify(this.list.filter(item => item[this.props.label].includes(keyword))))
-                console.log(this.renderList)
+
             } else {
                 this.renderList = JSON.parse(JSON.stringify(this.list))
             }

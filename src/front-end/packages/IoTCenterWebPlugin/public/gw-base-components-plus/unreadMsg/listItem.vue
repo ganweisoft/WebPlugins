@@ -57,15 +57,10 @@ export default {
 .message-content-item {
     width: 100%;
     line-height: 38px;
-    // border-bottom: 1px solid var(--notifytext);
-
-    // @include font_color("con-textColor1");
     color: var(--con-textColor1);
     cursor: pointer;
 
     padding: 0;
-    // display: flex;
-    // justify-content: space-between;
 
     .message-content-line {
         width: 100%;

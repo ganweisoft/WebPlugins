@@ -57,7 +57,6 @@ export default {
                             if (index > 0) {
                                 url += '&'
                             }
-                            console.log(item, this.camel2UnderLine(item));
                             url += `${this.camel2UnderLine(item)}=${queryData[item]}`
                         })
                         url = url.replace(/\#/g, '%23');

@@ -85,7 +85,7 @@ export default {
             verificationKey: '',
             showDeclare: false,
             footer: '',
-            mainImg: '/static/images/index-logo-src.svg',
+            mainImg: '/static/images/logo.png',
             errorLoading: true,
             groupLoad: true,
             showMaintain: false,
@@ -254,11 +254,7 @@ export default {
                     let data = rt.data
                     if (data.code == 200) {
                         this.loginData = data
-                        // if (!data.data.userTermsService) {
-                        //     this.showDeclare = true
-                        // } else {
                             this.afterLogin()
-                        // }
                     } else {
                         this.drawCode()
                         this.$message.error(rt.data.message, rt)

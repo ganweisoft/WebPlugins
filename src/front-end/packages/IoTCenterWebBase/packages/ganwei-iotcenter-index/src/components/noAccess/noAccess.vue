@@ -47,8 +47,6 @@ export default {
                 myJavaFun.OpenLocalUrl('login')
             } catch (e) {
                 if (code == null || code == undefined || code == '') {
-                    // this.$router.replace('/Login');
-                    // this.$router.replace('/')
                     window.location.href = window.location.origin + '/'
                 } else {
                     window.location.href = '/loginOut.html'

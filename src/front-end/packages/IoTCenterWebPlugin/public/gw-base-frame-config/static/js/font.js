@@ -1,18 +1,8 @@
 ; ((_this) => {
     _this.isGetIconfontList = _this.isGetIconfontList || false
     function setIcon () {
-        // let iconfontList = _this.iconfontList || []
-        // iconfontList.forEach(item => {
-        //     let style = document.createElement('link')
-        //     style.rel = 'stylesheet'
-        //     // style.href = `/static/fonts/${item}/iconfont.css`
-        //     style.href = `/static/fonts/font/iconfont.css`
-        //     document.head.prepend(style)
-        // })
-
         let style = document.createElement('link')
         style.rel = 'stylesheet'
-        // style.href = `/static/fonts/${item}/iconfont.css`
         style.href = `/static/fonts/font/iconfont.css`
         document.head.prepend(style)
     }

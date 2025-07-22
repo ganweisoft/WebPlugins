@@ -101,21 +101,24 @@
     background-color: var(--frame-left-background);
 
     .aside-header {
+        height:69px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
 
         .aside-header-box {
+            height: 100%;
+            margin-top: 30px;
             display: flex;
             justify-content: center;
             white-space: nowrap;
-            height: 100%;
             overflow: hidden;
 
             img {
-                height: 44px;
-                margin-top: 25px;
+                position: relative;
+                top: 22px;
+                height: 150px;
             }
 
             a {

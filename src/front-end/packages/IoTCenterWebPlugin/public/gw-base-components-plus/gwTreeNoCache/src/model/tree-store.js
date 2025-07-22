@@ -102,7 +102,6 @@ export default class TreeStore {
         const parentNode = parentData ? this.getNode(parentData) : this.root;
        
         if (parentNode) {
-            // console.log({ data },'{ data }')
             parentNode.insertChild({ data });
         }
     }
@@ -296,7 +295,6 @@ export default class TreeStore {
                 }
                 continue;
             } else {
-                // console.log(node.parent);
                 if (node.parent && !(node.parent.data instanceof Array) && !nodeObeject[node.parent.data.key.toString()]) {
                     nodeObeject[node.parent.data.key.toString()] = {}
                     nodeObeject[node.parent.data.key.toString()].parent = node.parent
@@ -332,7 +330,6 @@ export default class TreeStore {
             }
         }
         for (const key in nodeObeject) {
-            // console.log(nodeObeject[key]);
             Node.reInitChecked(nodeObeject[key].parent, nodeObeject[key].halfCheck)
         }
     }

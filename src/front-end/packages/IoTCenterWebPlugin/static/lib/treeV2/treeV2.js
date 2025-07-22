@@ -311,7 +311,6 @@ module.exports = _typeof, module.exports.__esModule = true, module.exports["defa
 var runtime = __webpack_require__(24)();
 module.exports = runtime;
 
-// Copied from https://github.com/facebook/regenerator/blob/main/packages/runtime/runtime.js#L736=
 try {
   regeneratorRuntime = runtime;
 } catch (accidentalStrictMode) {
@@ -1803,7 +1802,7 @@ module.exports = _nonIterableSpread, module.exports.__esModule = true, module.ex
 
 var _typeof = __webpack_require__(6)["default"];
 function _regeneratorRuntime() {
-  "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+  "use strict";
   module.exports = _regeneratorRuntime = function _regeneratorRuntime() {
     return e;
   }, module.exports.__esModule = true, module.exports["default"] = module.exports;

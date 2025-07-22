@@ -40,15 +40,6 @@ const router = new Router({
             path: '/Index',
             component: INDEX,
             children: [
-                // {
-                //     path: "",
-                //     redirect: 'ganwei-iotcenter-login/Login'
-                // },
-                // {
-                //     path: "ganwei-iotcenter-login/Login",
-                //     name: "jumpIframeLogin",
-                //     component: JUMPiFRAMEDLOGIN
-                // },
                 {
                     path: 'noAccess',
                     name: 'noAccess',

@@ -1,14 +1,6 @@
 
 export default {
     created () {
-        // this.$api.getSystemInfo().then(res => {
-        //     if (res?.data?.code != 200 && res?.data?.code != -99999) {
-        //         this.jumpLogin()
-        //     }
-        // }).catch(err => {
-        //     console.log(err)
-        //     this.jumpLogin()
-        // })
         let map = window?.getParameterMap() || {}
         if (process.env.NODE_ENV == "development" && map) {
             sessionStorage.languageType = localStorage.languageType = map.get("languageType")

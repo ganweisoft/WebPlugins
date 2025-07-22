@@ -185,8 +185,7 @@ export default {
         },
         // 关闭标签页
         removeTab (targetName) {
-            console.log('removeTab', targetName);
-            
+
             if (this.editableTabs.length == 1) return;
             let tabs = JSON.parse(JSON.stringify(this.editableTabs))
             let activeNameIndex = this.editableTabsValue

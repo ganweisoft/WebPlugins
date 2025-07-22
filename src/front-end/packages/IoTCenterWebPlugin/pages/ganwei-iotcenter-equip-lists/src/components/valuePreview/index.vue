@@ -20,11 +20,8 @@
 </template>
 
 <script>
-// import h265webContainer from 'gw-base-components-plus/player/h265webContainer.vue'
 export default {
-    // components: {
-    //     h265webContainer
-    // },
+
     props: {
         data: {
             type: Object,

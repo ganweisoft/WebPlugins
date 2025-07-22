@@ -1,8 +1,6 @@
 /* eslint-disable */
 import Vue from 'vue'
 import Element from 'element-ui'
-// import 'element-ui/lib/theme-chalk/index.css';
-// import 'element-ui/lib/theme-chalk/display.css';
 
 import loading from 'gw-base-components-plus/loading'
 import { PartialNotify } from 'gw-base-utils-plus/notification'

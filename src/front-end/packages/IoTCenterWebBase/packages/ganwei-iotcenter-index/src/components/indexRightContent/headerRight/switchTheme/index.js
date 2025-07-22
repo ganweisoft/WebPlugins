@@ -43,14 +43,6 @@ export default {
             localStorage.setItem('theme', this.selectedTheme)
                 // this.sendAiTheme()
             this.dialogVisible = false
-        },
-        sendAiTheme () {
-            // 向AI发送通知 start
-            let iframes = document.getElementsByTagName("iframe");
-            for (let i = 0; i < iframes.length; i++) {
-                if(iframes[i]?.src?.indexOf("ai") != -1) { iframes?.contentWindow?.postMessage({ theme: sessionStorage.theme }, "https://ai.ganweicloud.com/"); }
-            }
-            // 向AI发送通知 end
         }
     }
 }

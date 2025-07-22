@@ -141,26 +141,6 @@ const webpackConfig = merge(baseWebpackConfig, {
             cssProcessorOptions: config.build.productionSourceMap ? { safe: true, map: { inline: false } } : { safe: true }
         }),
         // 创建一个html文件
-        // new HtmlWebpackPlugin({
-        //     // 生成的文件的名称
-        //     filename: config.build.index,
-        //     // 使用的模板的名称
-        //     template: config.build.indexRoute,
-        //     // 把script和link标签放在body底部
-        //     inject: true,
-        //     // 配置html的压缩行为
-        //     minify: {
-        //         // 移除注释
-        //         removeComments: true,
-        //         // 去除空格和换行
-        //         collapseWhitespace: true,
-        //         // 尽可能移除属性中的引号和空属性
-        //         removeAttributeQuotes: true
-        //     },
-        //     // 控制chunks的顺序，这里表示按照依赖关系进行排序
-        //     // 也可以是一个函数，自己定义排序规则
-        //     chunksSortMode: 'dependency'
-        // }),
         ...arr,
         // 根据模块的相对路径生成一个四位数的hash作为模块id
         new webpack.HashedModuleIdsPlugin(),

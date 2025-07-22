@@ -31,7 +31,7 @@ export default {
             if (ssoLogOut.status == 200 && ssoLogOut.data && ssoLogOut.data.data) {
                 this.ssoLogOutConfig = ssoLogOut.data.data;
                 let { serviceurl, ...queryData } = this.ssoLogOutConfig;
-                console.log(ssoLogOut, this.ssoLogOutConfig);
+
                 let url = `${serviceurl}?`
                 Object.keys(queryData).forEach((item, index) => {
                     if (index > 0) {

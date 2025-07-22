@@ -68,7 +68,7 @@ export default {
             if (elemCenter.y < 0) return false;
             if (elemCenter.y > (document.documentElement.clientHeight || window.innerHeight)) return false;
             let pointContainer = document.elementFromPoint(elemCenter.x, elemCenter.y);
-            console.log(pointContainer);
+
             while (pointContainer && pointContainer !== document.body) {
                 if (pointContainer === elem) return true;
                 pointContainer = pointContainer.parentNode;

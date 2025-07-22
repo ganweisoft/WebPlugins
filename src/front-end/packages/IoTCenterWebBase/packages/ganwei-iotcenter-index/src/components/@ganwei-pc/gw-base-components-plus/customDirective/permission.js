@@ -29,12 +29,7 @@ export function createPermissionDirective(arry) {
             const hasPermissions = initHasPermission(arry);
             checkPermission(el, binding, hasPermissions);
         },
-        // async update(el, binding) { // vue2
-        //     // 元素插入父节点时执行的逻辑
-        //     el.style.display = 'none';
-        //     const hasPermissions = initHasPermission(arry);
-        //     checkPermission(el, binding, hasPermissions);
-        // },
+
         async bind(el, binding, vnode) { // vue2
             // 元素插入父节点时执行的逻辑
             el.style.display = 'none';

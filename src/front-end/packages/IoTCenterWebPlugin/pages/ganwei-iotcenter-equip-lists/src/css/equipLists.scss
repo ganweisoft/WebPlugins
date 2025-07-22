@@ -199,9 +199,6 @@
         overflow: hidden; // 弹出框
         padding: 0px 20px;
         width: calc(100% - 370px);
-        // padding-left: 0px !important;
-        // @include main-container;
-        // @include background-color('con-bgColor8');
 
 
         .equipCon_nav {
@@ -222,8 +219,6 @@
                 -o-text-overflow: ellipsis;
                 white-space: nowrap;
                 overflow: hidden;
-                // max-width: 292px;
-                // min-width: 200px;
                 width: 100%;
                 height: 70px;
 

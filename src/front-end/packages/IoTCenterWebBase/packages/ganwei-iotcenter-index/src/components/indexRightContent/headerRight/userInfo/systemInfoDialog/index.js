@@ -19,19 +19,6 @@ export default {
                     "grpcVersionInfo": "",
                     "webVersionInfo": ""
                 },
-                // "licensingAndUsage": {
-                //     "liscenseEquipTotal": 0,
-                //     "equipTotal": 0,
-                //     "equipPercentage": 0,
-                //     "liscensePointTotal": 0,
-                //     "pointTotal": 0,
-                //     "pointPercentage": 0
-                // },
-                // "pointUsageDistribute": {
-                //     "ycpTotal": 0,
-                //     "yxpTotal": 0,
-                //     "setparmTotal": 0
-                // }
             },
             echartsList: [],
             dialogVisible: false

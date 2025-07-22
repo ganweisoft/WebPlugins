@@ -81,10 +81,6 @@ export default{
             })
           }
 
-          // if(isCurrent){
-          //   this.preNode = this.store.getCurrentNode()
-          // }
-
           this.nodeObject[key].children.length = 0
           // 清空当前key分组设备节点
           this.updateWithEquips(key, [])

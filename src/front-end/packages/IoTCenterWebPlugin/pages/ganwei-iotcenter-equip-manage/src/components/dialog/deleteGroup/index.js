@@ -41,8 +41,6 @@ export default {
                     if (code === 200) {
                         this.$message.success(this.$t('equipInfo.publics.tips.deleteSuccess'));
                         this.closeDialog('showDeleteGroup')
-                        // this.$parent.$refs.myTree.deleteGroup(this.info.groupId, this.info.deleteChild)
-                        // this.$parent.getEqList(true, this.info.groupId);
                         this.callback(true)
                     } else {
                         this.$message.error(message);

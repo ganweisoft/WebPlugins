@@ -136,10 +136,6 @@ const devWebpackConfig = merge(baseWebpackConfig, {
                         }
                     } else {
                         // 没这个入口
-                        // res.writeHead(200, {
-                        //     "content-type": "text/html; charset=utf-8"
-                        // });
-                        // res.end('<p style="font-size: 50px;">不存在的入口</p>');
                     }
                 }
                 next()

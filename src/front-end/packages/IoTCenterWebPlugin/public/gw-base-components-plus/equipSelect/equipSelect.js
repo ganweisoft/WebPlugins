@@ -55,21 +55,6 @@ export default {
 
         // 缓存 ，搜索用API请求
         this.equipLoading = true;
-        // if (this.globalVariable.initsEquipAList.groups && !this.globalVariable.search) {
-        //     setTimeout(() => {
-        //         this.equipLoading = false;
-        //         this.equipList = this.globalVariable.initsEquipAList.groups;
-        //     }, 500);
-        // } else {
-        //     this.searchEquips();
-        // }
-
-        // this.searchEquips();
-
-        // if (this.showSetParm) {
-        //     $('.menuDialog .equipSelect').addClass('showSetParm');
-        // }
-
     },
     watch: {
         searchName (val) {
@@ -107,43 +92,7 @@ export default {
         },
         sendData () {
             let equipNoList = this.selectedList;
-            // if (this.selectedMode === 0) {
-            //     let dataList = $('.child_tags');
-            //     dataList.each((item) => {
-            //         if (
-            //             $($('.child_tags')[item])
-            //                 .children('label')
-            //                 .hasClass('checkInput-active')
-            //         ) {
-            //             if (
-            //                 $($('.child_tags')[item])
-            //                     .children('label')
-            //                     .attr('no') !== 0
-            //             ) {
-            //                 equipNoList.push({
-            //                     equipNo: parseInt(
-            //                         $($('.child_tags')[item])
-            //                             .children('label')
-            //                             .attr('no'),
-            //                         10
-            //                     ),
-            //                     equipName: $($('.child_tags')[item])
-            //                         .children('a')
-            //                         .text()
-            //                 });
-            //             }
-            //         }
-            //     });
-            // } else if ($('.selectedColor')) {
-            //     if ($('.selectedColor').length > 0) {
-            //         equipNoList.push({
-            //             equipName: $('.selectedColor')
-            //                 .children('a')
-            //                 .text().trim(),
-            //             equipNo: parseInt($('.selectedColor').attr('equipno'), 10)
-            //         });
-            //     }
-            // }
+       
             if (equipNoList.length === 0) {
                 this.$message({
                     title: this.$t('login.framePro.tips.selEquip'),
@@ -182,9 +131,6 @@ export default {
             // this.onSearch();
         },
         onSearch () {
-            // this.searchEquips();
-            // this.globalVariable.search = true;
-            // this.searchEquipName = this.searchName
             this.searchName = this.searchName.trim()
             this.$refs.treeV2.filterMethod(this.searchName)
         },
@@ -203,15 +149,7 @@ export default {
                         return;
                     }
                     if (rt.data.code === 200) {
-                        // this.equipList = rt.data.data.groups;
                         this.equipList = rt.data.data
-                        // this.total = rt.data.data.groups.length;
-                        // if (!this.globalVariable.search) {
-                        //     this.globalVariable.initsEquipAList = rt.data.data;
-                        // }
-                        // if (this.searchName.length === 0) {
-                        //     this.globalVariable.search = false;
-                        // }
                     }
                     this.equipLoading = false;
                 })

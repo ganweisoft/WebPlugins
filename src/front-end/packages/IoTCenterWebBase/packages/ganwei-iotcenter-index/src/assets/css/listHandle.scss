@@ -28,17 +28,9 @@
     }
 
     svg g {
-        // @include stroke-color('con-textColor1');
         fill: var(--frame-main-color);
     }
 
-    // border-bottom: 1px solid #232833;
-
-    // /deep/ .el-input {
-    //     .el-input__inner {
-    //         background-color: #161a26 !important;
-    //     }
-    // }
 
     >div {
         width: 100%;
@@ -46,10 +38,6 @@
         &:first-of-type {
             height: 110px;
             padding-right: 16px;
-            // display: flex;
-            // justify-content: space-between;
-            // align-items: center;
-
             p {
                 height: 70x;
                 line-height: 70px;
@@ -93,21 +81,5 @@
 
     /deep/ .el-input {
         width: calc(100% - 8px);
-
-        // .el-input__inner {
-        //     height: 32px;
-        // @include background_color('input-bgColor');
-        // background-color: #161a26 !important;
-        // border: .5px solid;
-        //     color: var(--input-txColor1);
-
-        //     &::placeholder {
-        //         color: var(--input-plaColor1);
-        //     }
-
-        //     &::-webkit-input-placeholder {
-        //         color: var(--input-plaColor1);
-        //     }
-        // }
     }
 }

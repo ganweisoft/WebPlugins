@@ -434,7 +434,6 @@ function AddLinking() {
     })
 
     function resetAdd() {
-        console.log(addForm)
         for (const key in addForm) {
             addForm[key] = ''
             addForm['conditionRelation'] = false

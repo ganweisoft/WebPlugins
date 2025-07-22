@@ -34,7 +34,6 @@ const versionRequirements = [
     }
 ]
 
-/*shell.which('npm')  返回：C:\PROGRAM FILES\NODEJS\NPM.CMD 返回绝对路径，否则返回null*/
 if (shell.which('npm')) {
     versionRequirements.push({
         name: 'npm',
@@ -47,12 +46,9 @@ if (shell.which('npm')) {
 
 module.exports = function () {
     const warnings = []
-
     for (let i = 0; i < versionRequirements.length; i++) {
         const mod = versionRequirements[i]
-        //上面这个判断就是如果版本号不符合package.json文件中指定的版本号，就执行下面的代码
         if (!semver.satisfies(mod.currentVersion, mod.versionRequirement)) {
-            // 把当前版本号用红色字体 符合要求的版本号用绿色字体 给用户提示具体合适的版本
             warnings.push(mod.name + ': ' + chalk.red(mod.currentVersion) + ' should be ' + chalk.green(mod.versionRequirement))
         }
     }

@@ -1,5 +1,4 @@
-// import GWVideoPlaybackCom from '../components/videoPlaybackCom/videoPlaybackCom.vue'
-// import Speaktts from 'gw-base-utils-plus/speaktts.js'
+
 export default {
     name: 'systemSnapshot',
     // mixins: [Speaktts],
@@ -231,13 +230,6 @@ export default {
             this.getRealTimeEventTypeConfig()
             this.popType = this.popType.split(' ')[0] + ' ' + this.$t('systemSnapshot.tips.details')
         },
-        // allSnapshoot () {
-        //     let container = document.getElementById('container')
-        //     let containerHeader = document.getElementById('containerHeader')
-        //     if (containerHeader) {
-        //         this.tableHeight = container.offsetHeight - containerHeader.offsetHeight - 20 - 68 - 30
-        //     }
-        // },
         pageNo (val) {
             if (val == 1 && !this.timeInterval) {
                 this.timeInterval = setInterval(() => {
@@ -400,10 +392,6 @@ export default {
                     this.videoValue = docData[0]
                 })
                 .catch(err => {
-                    console.log('err---', err)
-                    // if (err.status == 403) {
-                    //     return;
-                    // }
                     this.$message({
                         title: this.$t('systemSnapshot.messageType.searchFailed'),
                         type: 'warning'
@@ -922,10 +910,6 @@ export default {
                             excelName += item.querySelector('.tab_btn_title .title').innerHTML
                         })
 
-                        // $('.containerHeader .aside_top_nav_active').each(function (e) {
-                        //     excelName += ('-' + $(this).find('.tab_btn_title>.title').html());
-                        // });
-
                         // let excelName = $(".aside_top_nav_active>.tab_btn_title>.title").html();//this.$t('systemSnapshot.excelName');
                         link.setAttribute('download', dateStr + '-' + excelName + '.xlsx')
                         document.body.appendChild(link)
@@ -937,9 +921,6 @@ export default {
                 })
                 .catch(err => {
                     this.exportDialog = false
-                    // if (err.status == 403) {
-                    //     return;
-                    // }
                     let reader = new FileReader()
                     reader.readAsText(err?.data, 'utf-8')
                     reader.onload = function (e) {

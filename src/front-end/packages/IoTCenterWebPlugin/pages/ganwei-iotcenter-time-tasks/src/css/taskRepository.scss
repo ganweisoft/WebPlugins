@@ -17,15 +17,6 @@
         padding-left: 0;
     }
 
-    // .el-button.is-circle {
-    //     border-radius: 3px;
-    //     padding: 0;
-    //     position: inherit;
-    //     top: -2px;
-    //     font-size: 1.5rem;
-    //     background-color: transparent !important;
-    //     border-color: transparent !important;
-    // }
 
     .el-header {
         padding-right: 0;
@@ -201,9 +192,6 @@
             }
 
             .dialog-body {
-                // display: flex;
-                // height: 100%;
-
                 .el-form-item {
                     .el-form-item__label {
                         line-height: 35px;
@@ -211,10 +199,6 @@
 
                     .el-form-item__content {
                         line-height: 32px;
-
-                        //   .el-input{
-                        //     width: auto;
-                        //   }
 
                         .el-input__inner {
                             font-size: 14px;
@@ -247,10 +231,6 @@
                     .el-form-item__error {
                         padding-top: 2px;
                     }
-
-                    // .el-row {
-                    //     width: calc(100% - 144px);
-                    // }
                 }
 
                 .el-button {
@@ -856,10 +836,6 @@
                             }
 
                             .el-radio-group {
-                                // width: 100%;
-                                // display: flex;
-                                // align-items: center;
-
                                 .el-radio {
                                     margin-right: 32px;
                                     display: block;

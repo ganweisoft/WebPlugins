@@ -119,19 +119,6 @@ export default {
                         this.append(insertData, groupId)
                     }
 
-                    // this.equipObject[`${groupId}-${item.equipNo}`] = {
-                    //   key: `${groupId}-${item.equipNo}`,
-                    //   title: item.equipName,
-                    //   staNo: item.staNo,
-                    //   status: 1,
-                    //   isGroup: false,
-                    //   groupId: groupId,
-                    //   procAdvice: item.procAdvice,
-                    //   relatedView: item.relatedView,
-                    //   isEquip: true,
-                    //   parentKey: groupId,
-                    // }
-
                 })
 
                 this.statisticsNum = Number(this.statisticsNum) + Number(data.length)

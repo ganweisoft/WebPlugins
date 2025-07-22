@@ -213,47 +213,6 @@ export default {
                                 }
                             }
                         ],
-
-                        // dataZoom: [
-                        //     {
-                        //         show: true,
-                        //         type: 'slider',
-                        //         top: '90%',
-                        //         start: 0,
-                        //         end: 10,
-                        //         textStyle: {
-                        //             color: (window.localStorage.getItem('theme') && window.localStorage.getItem('theme') == 'light') ? '#595959' : '#d3d8e2',
-                        //             fontSize: '10'
-                        //         },
-
-                        //         labelFormatter: function (value, time) {
-                        //             return time.split(' ')[0] + '\n' + time.split(' ')[1];
-                        //         },
-
-                        //         handleSize: 20,
-                        //         fillerColor: 'transparent',
-                        //         // backgroundColor: '#8fdffe99',
-                        //         handleStyle: {
-
-                        //             // borderColor: 'red',
-
-                        //             shadowBlur: 4,
-
-                        //             shadowOffsetX: 1,
-
-                        //             shadowOffsetY: 1,
-
-                        //             // shadowColor: 'red',
-                        //             opacity: 0.5
-
-                        //         },
-                        //         dataBackground: {
-                        //             areaStyle: {
-                        //                 // color: 'red'
-                        //             }
-                        //         }
-                        //     }
-                        // ],
                         series: [
                             {
                                 data: this.historyValue,
@@ -296,9 +255,6 @@ export default {
                             let startIndex = data.dataZoom[0].startValue
                             let endIndex = data.dataZoom[0].endValue
                             this.refleshExtream(startIndex, endIndex)
-                            // option.dataZoom[0].start = start;
-                            // option.dataZoom[0].end = end;
-                            // this.echart.setOption(option);
                             return this.echart;
                         })
 

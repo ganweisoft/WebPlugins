@@ -1,18 +1,13 @@
 /* eslint-disable */
 import Vue from "vue";
 import Element from "element-ui";
-// import "element-ui/lib/theme-chalk/index.css";
-// import "element-ui/lib/theme-chalk/display.css";
 import Axios from "axios";
 import App from "./App";
 import router from "./router";
 import { configInfoData,getCurrentDate } from 'gw-base-utils-plus/commonutils'
 import api from "gw-base-api-plus/api";
 import getCode from "gw-base-api-plus/encrypt.js";
-// import "gw-base-style-plus/elementStyleReset/index.css";
-// import "gw-base-style-plus/elementStyleReset/reset.scss";
 import "gw-base-style-plus/style.scss";
-// import "gw-base-font-plus/iconfont.css";
 import loadMore from "gw-base-components-plus/loadMore/loadMore";
 
 import loading from "gw-base-components-plus/loading";

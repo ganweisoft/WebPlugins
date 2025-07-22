@@ -11,10 +11,7 @@ export default {
         }
     },
     mounted () {
-        // let that = this
-        // window.onmessage = function (e) {
-        //     that.curveSignalR(e)
-        // }
+ 
     },
     methods: {
         getCommand (existIframe) {

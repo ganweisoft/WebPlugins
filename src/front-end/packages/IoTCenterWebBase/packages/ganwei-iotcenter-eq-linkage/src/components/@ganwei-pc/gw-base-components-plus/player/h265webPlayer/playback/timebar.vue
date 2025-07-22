@@ -69,12 +69,11 @@ function onSelectChange(context:{
     widthPercent: number
 }) {
     const fixPosition = getTimeRangeFromPosition(context.leftPercent, context.widthPercent)
-    console.log(fixPosition);
 
     if(fixPosition) {
         const total = 24 * 60 * 60
         const nptTime = Math.floor((fixPosition.left - _ranges.value[0].left) * total / 100)
-        console.log('nptTime: ' + nptTime);
+
         recordPlayService.doRandomDragDropPlay({time: nptTime}).catch(reason => {
             !SuspenseTask.isCanceled(reason) && $message.error(reason)
         })

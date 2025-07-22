@@ -107,16 +107,7 @@ export default {
                     }
                     // // 使用个性主题替换配置默认主题
                     let result = data
-                    // if(sessionStorage.getItem('theme') && sessionStorage.getItem('theme') != 'null' && sessionStorage.getItem('theme') != 'undefined') {
-                    //     result.theme.default = sessionStorage.getItem('theme')
-                    // }
-                    //result.showTopNav = false
                     this.config = result
-                    // // 个性化主题为空，使用默认主题
-                    // if (!sessionStorage.theme || sessionStorage.getItem('theme') == 'null' || sessionStorage.getItem('theme') == 'undefined') {
-                    //     sessionStorage.setItem('theme', this?.config?.theme?.default)
-                    // }
-                    // window.document.documentElement.setAttribute('data-theme', sessionStorage.theme)
                     this.theme = JSON.parse(JSON.stringify(this?.config?.theme?.supportThemes.find(item => item.value === sessionStorage.theme)))
                 })
                 .catch(err => {
@@ -206,9 +197,6 @@ export default {
                         let keyVal = route + (parameter ? '&' + parameter : '');
                         this.outerLinkMap[keyVal] = data.route;
                         data.route = keyVal; //作为URL传输，通过this.$route.fullPath获取
-                        //  结果是outerLinkMap键值为 /Index/jumpIframe/custom/敢为云?outerLink=true&isHideMenu=true
-                        //  结果是outerLinkMap值为 https://www.ganweicloud.com/?isHideMenu=true（菜单管理配置URL）
-                        //  data.route值为 /Index/jumpIframe/custom/敢为云?outerLink=true&isHideMenu=true
                     }
                 }
                 if (data.route) {

@@ -157,7 +157,6 @@
         countdownStopped() // 倒计时停止播放
         loading.value = true // 开启缓冲
         startTime = performance.now(); // 计时开始
-        console.log(props.id);
 
         playerContext.player = createPlayer(SupportPlayerEnum.H265WebPlayer, {
             player: 'glplayer' + props.id

@@ -1,4 +1,0 @@
-[submodule "static/themes"]
-	path = static/themes
-	url = https://gitee.com/dareweb_group/ganwei-iotcenter-theme.git
-	branch = RefactorUI-6.1

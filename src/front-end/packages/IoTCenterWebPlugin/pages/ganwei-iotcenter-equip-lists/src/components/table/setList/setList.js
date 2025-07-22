@@ -31,9 +31,6 @@ export default {
     methods: {
         // 设备发送控制操作命令
         onSetOperate (type, item) {
-            // if (!item.enableSetParm) {
-            //     return
-            // }
             if (!this.equipConState && !item?.mainInstruction?.toUpperCase() == 'ENABLEEQUIP') {
                 this.$message.warning(this.$t('equipListsIot.tips.deviceNoConnect'));
                 return;
