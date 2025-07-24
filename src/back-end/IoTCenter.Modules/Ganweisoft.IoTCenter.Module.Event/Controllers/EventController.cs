@@ -39,29 +39,5 @@ namespace Ganweisoft.IoTCenter.Module.Event.Controllers
         {
             return await _eventService.GetSysEvtCollection(SysEvtType.All, dateType);
         }
-
-        /// <summary>
-        /// 获取设备事件 根据条件查询总条数
-        /// </summary>
-        [HttpPost]
-        public async Task<OperateResult> GetEquipEvtCounts([FromBody] EquipEventQueryRequest request)
-        {
-            if (request == null)
-            {
-                return OperateResult.Failed<PagedResult<string>>("请求参数为空，请检查");
-            }
-
-            if (request.EquipNos.IsEmpty())
-            {
-                return OperateResult.Failed<PagedResult<string>>("请选择设备");
-            }
-
-            if (request.EventType.IsEmpty())
-            {
-                return OperateResult.Failed<PagedResult<string>>("请选择事件类型");
-            }
-
-            return await _eventService.GetEquipEvtCounts(request);
-        }
     }
 }
