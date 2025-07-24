@@ -377,7 +377,7 @@ export default {
         },
 
         showImg () {
-            if (process.env.NODE_ENV === "development") { this.mainImg = `/static/images/index-logo-src.png` }
+            if (process.env.NODE_ENV === "development") { this.mainImg = `/static/images/index-logo-src.svg` }
         },
 
         showBgImg(){

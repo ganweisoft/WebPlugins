@@ -188,7 +188,7 @@ export default {
         })
 
         const showImg = () => {
-            if (process.env.NODE_ENV === "development") { theme.value.logo = `/static/images/${localStorage.theme == 'dark' ? 'index-logo-src' : 'index-logo-src-light'}.svg` }
+            if (process.env.NODE_ENV === "development") { theme.value.logo = `/static/images/${localStorage.theme == 'dark' ? 'index-logo-src-dark' : 'index-logo-src-light'}.svg` }
         }
 
         return {

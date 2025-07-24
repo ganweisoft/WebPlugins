@@ -85,7 +85,7 @@ export default {
             verificationKey: '',
             showDeclare: false,
             footer: '',
-            mainImg: '/static/images/logo.png',
+            mainImg: '/static/images/index-logo-src.png',
             errorLoading: true,
             groupLoad: true,
             showMaintain: false,
