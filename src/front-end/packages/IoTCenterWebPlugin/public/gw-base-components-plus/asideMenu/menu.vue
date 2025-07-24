@@ -29,7 +29,8 @@
 
             </template>
             <template v-else>
-                <span v-show="showIcon"></span>
+                <!-- <span v-show="showIcon"></span> -->
+                <i class="iconfont" :class="data.icon" style="margin-right: 16px;"></i>
                 <el-tooltip :disabled="showToolTip" class="item" effect="dark" ref="tooltip" :content="$t(data.name)"
                     placement="right" popper-class="menuOverflowPoper">
                     <span @mouseenter="handleMouseEnter">{{ $t(data.name) }}</span>

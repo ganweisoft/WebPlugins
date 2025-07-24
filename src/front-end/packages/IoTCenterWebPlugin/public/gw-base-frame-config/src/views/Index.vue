@@ -61,9 +61,6 @@
                         </el-row>
                         <div class="fold">
                             <div @click.stop.prevent="onAsideListShow()" :class="menuOverflow">
-                                <!-- <el-tooltip class="item" effect="dark" :content="
-                                        $t('menuJson.collapseNavigationBar')
-                                    " placement="right"> -->
                                 <el-button>
                                     <i
                                         :class="isCollapse ? 'iconfont icon-caidan_zhankai cacelmargin' : 'iconfont icon-caidan_zhankai isopen'"></i>
