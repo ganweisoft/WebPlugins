@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
+﻿// Copyright (c) 2020-2025 Beijing TOMs Software Technology Co., Ltd
 using IoTCenter.Data.Database;
 using IoTCenter.Data.Model;
 using IoTCenter.Utilities;

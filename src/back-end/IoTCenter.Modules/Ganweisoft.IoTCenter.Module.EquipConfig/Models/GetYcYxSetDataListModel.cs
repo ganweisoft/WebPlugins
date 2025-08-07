@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2020-2025 Shenzhen Ganwei Software Technology Co., Ltd
+﻿// Copyright (c) 2020-2025 Beijing TOMs Software Technology Co., Ltd
 namespace Ganweisoft.IoTCenter.Module.EquipConfig;
 
 public class GetYcYxSetDataListModel
